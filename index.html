@@ -108,6 +108,28 @@
   .devnotes code { background:#F3F4F6; padding:2px 6px; border-radius:5px; font-size:13.5px; }
   .devnotes ol { padding-left:22px; }
   .devnotes li { margin:7px 0; }
+  .devnotes ul { padding-left:22px; }
+  .devnotes table { width:100%; border-collapse:collapse; margin:12px 0 18px; font-size:13.5px; }
+  .devnotes th { text-align:left; color:#6B7280; font-size:12px; text-transform:uppercase; letter-spacing:.04em; border-bottom:2px solid #E5E7EB; padding:8px 10px; }
+  .devnotes td { border-bottom:1px solid #E5E7EB; padding:8px 10px; vertical-align:top; }
+  .devnotes pre { background:#0F172A; color:#E2E8F0; border-radius:10px; padding:16px 18px; overflow-x:auto; font-size:12.5px; line-height:1.55; margin:10px 0 20px; }
+  .devnotes pre code { background:none; padding:0; color:inherit; }
+  .devnotes h1 { font-size:22px; color:#111827; margin:6px 0 10px; }
+  .devnotes h2 { font-size:18px; color:#111827; margin:26px 0 8px; }
+  .devnotes hr { border:none; border-top:1px solid #E5E7EB; margin:24px 0; }
+  details.seo { background:#F8FAFC; border-bottom:1px solid #E5E7EB; }
+  details.seo summary { list-style:none; cursor:pointer; padding:13px 22px; display:flex; align-items:center; gap:12px; }
+  details.seo summary::-webkit-details-marker { display:none; }
+  details.seo summary .arrow { color:#6B7280; font-size:11px; transition:transform .15s; }
+  details.seo[open] summary .arrow { transform:rotate(90deg); }
+  details.seo summary .t { font-size:13.5px; font-weight:700; color:#0F766E; letter-spacing:.01em; }
+  .seonotes { padding:6px 28px 24px; font-size:14.5px; color:#374151; }
+  .seonotes h3 { color:#111827; margin:18px 0 6px; font-size:15px; }
+  .seonotes code { background:#EEF2F7; padding:2px 6px; border-radius:5px; font-size:13px; }
+  .seonotes ol, .seonotes ul { padding-left:22px; }
+  .seonotes li { margin:6px 0; }
+  .seonotes pre { background:#0F172A; color:#E2E8F0; border-radius:10px; padding:14px 16px; overflow-x:auto; font-size:12px; line-height:1.55; margin:8px 0 16px; }
+  .seonotes pre code { background:none; padding:0; color:inherit; }
 </style></head>
 <body>
 <header class="site"><div class="logo">JobFairX</div><nav>Blog Review Hub — internal</nav></header>
@@ -115,7 +137,7 @@
 <div class="hub-list">
 
 <details class="post">
-  <summary><span class="arrow">&#9654;</span><span class="t">Developer instructions — read first</span><span class="meta">setup + per-post workflow</span><span class="badge dev">DEV SETUP</span></summary>
+  <summary><span class="arrow">&#9654;</span><span class="t">Developer instructions — read first</span><span class="meta">setup + SEO site-wide (once)</span><span class="badge dev">DEV SETUP</span></summary>
   <div class="inner"><div class="devnotes">
 <p>This page holds every JobFairX employer blog draft. Each toggle below is one post, rendered exactly as it should look live. Source markdown + component code are in this repo.</p>
 <h3>One-time setup</h3>
@@ -129,7 +151,15 @@
 <li>Charts: upload the <code>.png</code> chart files from this repo as normal images.</li>
 <li>Meta + slug: in the PUBLISHING NOTES section at the bottom of each <code>.md</code>.</li>
 <li>Schema: add <code>FAQPage</code> markup for the FAQ section and <code>Article</code> markup (author: Scott Lobenberg, visible publish/updated dates).</li>
-<li>Internal links: the cross-link list in the publishing notes includes 2–3 links to add <b>from existing posts to the new one</b> on publish day.</li>
+<li><b>SEO per post:</b> every blog toggle below has its own "SEO — before &amp; after publish" panel at the top — slug, title/meta, image specs, ready-to-paste schema, and its backlink list. That panel is the complete per-post checklist; nothing else to hunt for.</li>
+</ol>
+<h3>SEO — site-wide, one time</h3>
+<ol>
+<li><b>Author page:</b> create <code>/employer/resources/authors/scott-lobenberg</code> (photo, short bio, LinkedIn). Link every byline to it — this is the E-E-A-T entity Google and LLMs attach credibility to.</li>
+<li><b>Image pipeline:</b> serve WebP, always set <code>width</code>/<code>height</code>, <code>loading="lazy"</code> below-fold only (never the first image), <code>decoding="async"</code>.</li>
+<li><b>OG tags per post</b> (og:title / og:description / og:image = the post's chart) and self-referencing canonicals.</li>
+<li><b>Refresh cadence:</b> quarterly 30-min stats refresh on every benchmarks post; bump dateModified. Stale stats fall out of AI Overviews.</li>
+<li>Why this works: Google reads images via alt text + filename + surrounding copy; 78% of AI Overviews contain lists (our posts are list-built); FAQ schema + answer-first openings are the lifted pattern.</li>
 </ol>
 <h3>Publish schedule</h3>
 <ol>
@@ -144,7 +174,100 @@
 
 <details class="post">
   <summary><span class="arrow">&#9654;</span><span class="t">Cost Per Hire: 2026 Benchmarks by Industry, and How to Lower It</span><span class="meta">publish Tue · /cost-per-hire</span><span class="badge draft">DRAFT</span></summary>
-  <div class="inner"><main>
+  <div class="inner">
+<details class="seo"><summary><span class="arrow">&#9654;</span><span class="t">SEO — before &amp; after publish (everything for this post)</span></summary>
+<div class="seonotes">
+<h3>Before publish</h3>
+<ol>
+<li><b>Slug:</b> <code>/employer/resources/cost-per-hire</code></li>
+<li><b>Title tag:</b> Cost Per Hire: 2026 Benchmarks by Industry &amp; How to Lower It</li>
+<li><b>Meta description:</b> Average cost per hire is $5,475 in 2026 (SHRM) — $9,000+ in healthcare. See benchmarks by industry, the SHRM formula, and 6 ways to bring your number down.</li>
+<li><b>Images:</b><ul><li><b>Rename to:</b> <code>cost-per-hire-by-industry-2026.webp</code><br><b>Alt text:</b> Bar chart of 2026 U.S. cost per hire by industry, from $2,700 in retail to $16,000-$20,000 in legal, with healthcare highlighted at $9,000-$12,000<br><b>Handling:</b> repo file: chart-cost-per-hire-by-industry.png — convert to WebP, set width/height, do NOT lazy-load (first image), set as og:image</li></ul></li>
+<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
+<li><b>Verify outbound links resolve:</b> time-to-fill (x2), recruiting-roi, high-volume-hiring, virtual-hiring-events, hiring-event-pricing</li>
+<li>Byline links to the author page; published date visible on page.</li>
+</ol>
+<h3>After publish (same day, ~10 min)</h3>
+<ol>
+<li><b>Backlink pass — add links TO this post from:</b><ul><li>time-to-fill — add a sentence citing the $5,475 average, anchor "cost per hire"</li><li>recruiting-roi — same anchor</li><li>high-volume-hiring — same anchor</li></ul></li>
+<li>GSC → URL Inspection → Request indexing.</li>
+<li>Confirm the post is in the sitemap with today's lastmod.</li>
+</ol>
+<h3>Article schema</h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;Article&quot;,
+  &quot;headline&quot;: &quot;Cost Per Hire: What It Is, 2026 Benchmarks by Industry, and How to Lower It&quot;,
+  &quot;description&quot;: &quot;Average cost per hire is $5,475 in 2026 (SHRM) \u2014 $9,000+ in healthcare. See benchmarks by industry, the SHRM formula, and 6 ways to bring your number down.&quot;,
+  &quot;author&quot;: {
+    &quot;@type&quot;: &quot;Person&quot;,
+    &quot;name&quot;: &quot;Scott Lobenberg&quot;,
+    &quot;jobTitle&quot;: &quot;Founder&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com/about-us&quot;,
+    &quot;worksFor&quot;: {
+      &quot;@type&quot;: &quot;Organization&quot;,
+      &quot;name&quot;: &quot;JobFairX&quot;,
+      &quot;url&quot;: &quot;https://jobfairx.com&quot;
+    }
+  },
+  &quot;publisher&quot;: {
+    &quot;@type&quot;: &quot;Organization&quot;,
+    &quot;name&quot;: &quot;JobFairX&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com&quot;,
+    &quot;logo&quot;: {
+      &quot;@type&quot;: &quot;ImageObject&quot;,
+      &quot;url&quot;: &quot;https://jobfairx.com/logo.png&quot;
+    }
+  },
+  &quot;mainEntityOfPage&quot;: {
+    &quot;@type&quot;: &quot;WebPage&quot;,
+    &quot;@id&quot;: &quot;https://jobfairx.com/employer/resources/cost-per-hire&quot;
+  },
+  &quot;datePublished&quot;: &quot;2026-07-XX&quot;,
+  &quot;dateModified&quot;: &quot;2026-07-XX&quot;,
+  &quot;image&quot;: &quot;https://jobfairx.com/employer/resources/images/chart-cost-per-hire-by-industry.webp&quot;
+}</code></pre>
+<h3>FAQPage schema</h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;FAQPage&quot;,
+  &quot;mainEntity&quot;: [
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;What is a good cost per hire?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Below your industry benchmark, trending down. For hourly and entry-level roles, under $3,000. Against the $5,475 U.S. average, anything under roughly $2,000 is strong \u2014 but read it together with time to fill.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;What should be included in cost per hire?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Everything recruiting touches: recruiter and sourcer compensation (allocated), job boards, advertising, agencies, software, background checks, referral bonuses, interviewer time, and events. SHRM&#x27;s formula: total internal + external recruiting costs divided by total hires.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;Why is healthcare cost per hire so high?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Credentialing, licensure verification, a shrinking candidate pool, and competition. Healthcare hires cost $9,000-$12,000 and health services roles take the longest to fill of any industry at 49 days (Workable). NSI puts one RN turnover at $60,090.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;Does cost per hire include onboarding?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Under the SHRM standard, no \u2014 it stops at the accepted offer. Some teams separately track cost per productive hire including onboarding and ramp; keep it separate so benchmark comparisons stay apples-to-apples.&quot;
+      }
+    }
+  ]
+}</code></pre>
+</div>
+</details><main>
 <div class="kicker">Recruiting Metrics &amp; ROI</div>
 <h1>Cost Per Hire: What It Is, 2026 Benchmarks by Industry, and How to Lower It</h1>
 <div class="byline">By <b>Scott Lobenberg</b>, Founder, JobFairX &nbsp;·&nbsp; Published July 2026</div>
@@ -290,7 +413,100 @@
 
 <details class="post">
   <summary><span class="arrow">&#9654;</span><span class="t">Why Hospitals Struggle to Fill Entry-Level Clinical Roles</span><span class="meta">publish Thu · /why-hospitals-struggle…</span><span class="badge draft">DRAFT</span></summary>
-  <div class="inner"><main>
+  <div class="inner">
+<details class="seo"><summary><span class="arrow">&#9654;</span><span class="t">SEO — before &amp; after publish (everything for this post)</span></summary>
+<div class="seonotes">
+<h3>Before publish</h3>
+<ol>
+<li><b>Slug:</b> <code>/employer/resources/why-hospitals-struggle-entry-level-clinical-hiring</code></li>
+<li><b>Title tag:</b> Why Hospitals Struggle to Fill Entry-Level Clinical Roles (2026)</li>
+<li><b>Meta description:</b> Hospitals take 49 days to fill roles while entry-level candidates decide in days. The 7 reasons clinical hiring stalls — and what actually fixes each one.</li>
+<li><b>Images:</b><ul><li><b>Rename to:</b> <code>healthcare-time-to-fill-by-industry-2026.webp</code><br><b>Alt text:</b> Time to fill by industry: logistics 12 days, retail 24.6, IT 30, health services 49 days, and 78 days to recruit an experienced RN<br><b>Handling:</b> repo file: chart-time-to-fill-by-industry.png — WebP, width/height, no lazy-load, og:image</li></ul></li>
+<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
+<li><b>Verify outbound links resolve:</b> virtual-hiring-events (pillar), how-to-interview-candidates-at-a-virtual-hiring-event, cost-per-hire (must be live first!), virtual-vs-in-person-hiring-event, NYC healthcare event CTA</li>
+<li>Byline links to the author page; published date visible on page.</li>
+</ol>
+<h3>After publish (same day, ~10 min)</h3>
+<ol>
+<li><b>Backlink pass — add links TO this post from:</b><ul><li>virtual-hiring-events pillar — healthcare paragraph, anchor "entry-level clinical hiring"</li><li>high-volume-hiring — anchor "why hospitals struggle to fill entry-level clinical roles"</li><li>how-to-interview-candidates — anchor "entry-level clinical hiring"</li></ul></li>
+<li>GSC → URL Inspection → Request indexing.</li>
+<li>Confirm the post is in the sitemap with today's lastmod.</li>
+</ol>
+<h3>Article schema</h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;Article&quot;,
+  &quot;headline&quot;: &quot;Why Hospitals Struggle to Fill Entry-Level Clinical Roles \u2014 and What Actually Works&quot;,
+  &quot;description&quot;: &quot;Hospitals take 49 days to fill roles while entry-level candidates decide in days. The 7 reasons clinical hiring stalls \u2014 and what actually fixes each one.&quot;,
+  &quot;author&quot;: {
+    &quot;@type&quot;: &quot;Person&quot;,
+    &quot;name&quot;: &quot;Scott Lobenberg&quot;,
+    &quot;jobTitle&quot;: &quot;Founder&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com/about-us&quot;,
+    &quot;worksFor&quot;: {
+      &quot;@type&quot;: &quot;Organization&quot;,
+      &quot;name&quot;: &quot;JobFairX&quot;,
+      &quot;url&quot;: &quot;https://jobfairx.com&quot;
+    }
+  },
+  &quot;publisher&quot;: {
+    &quot;@type&quot;: &quot;Organization&quot;,
+    &quot;name&quot;: &quot;JobFairX&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com&quot;,
+    &quot;logo&quot;: {
+      &quot;@type&quot;: &quot;ImageObject&quot;,
+      &quot;url&quot;: &quot;https://jobfairx.com/logo.png&quot;
+    }
+  },
+  &quot;mainEntityOfPage&quot;: {
+    &quot;@type&quot;: &quot;WebPage&quot;,
+    &quot;@id&quot;: &quot;https://jobfairx.com/employer/resources/why-hospitals-struggle-entry-level-clinical-hiring&quot;
+  },
+  &quot;datePublished&quot;: &quot;2026-07-XX&quot;,
+  &quot;dateModified&quot;: &quot;2026-07-XX&quot;,
+  &quot;image&quot;: &quot;https://jobfairx.com/employer/resources/images/chart-time-to-fill-by-industry.webp&quot;
+}</code></pre>
+<h3>FAQPage schema</h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;FAQPage&quot;,
+  &quot;mainEntity&quot;: [
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;Why do hospitals struggle with virtual job fairs?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Usually because they run them like virtual versions of the booth-and-banner fair: a lobby, some chat, no scheduled interviews. The format isn&#x27;t the problem \u2014 the missing interview structure is. Virtual events work when every attendee is matched, screened, and booked into a time slot.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;What makes it hard to fill clinical roles through job fairs?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Three things: generic audiences (a general job fair delivers few credentialed clinical candidates), no pre-screening (managers interview unqualified walk-ins), and no same-day interviews (resumes go in a pile and momentum dies). Fix those three and the format works.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;How much does an unfilled nursing position cost?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;NSI&#x27;s 2026 report puts RN turnover cost at $60,090 per nurse, with the average hospital losing $4.2-6.2 million annually. Every 1-point change in RN turnover costs or saves about $295,000 a year.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;What&#x27;s the fastest way to hire entry-level clinical staff?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Compress screening and interviewing into a single event day. Candidates matched to your roles self-schedule interviews, your team meets 20-100+ pre-qualified candidates in one day, and offers go out while candidates are still engaged.&quot;
+      }
+    }
+  ]
+}</code></pre>
+</div>
+</details><main>
 <div class="kicker">Healthcare Hiring</div>
 <h1>Why Hospitals Struggle to Fill Entry-Level Clinical Roles — and What Actually Works</h1>
 <div class="byline">By <b>Scott Lobenberg</b>, Founder, JobFairX &nbsp;·&nbsp; Published July 2026</div>
@@ -378,7 +594,99 @@
 
 <details class="post">
   <summary><span class="arrow">&#9654;</span><span class="t">How to Choose a Nurse Job Fair: A Hospital Hiring Guide</span><span class="meta">publish Tue · /how-to-choose-a-nurse-job-fair</span><span class="badge draft">DRAFT</span></summary>
-  <div class="inner"><main>
+  <div class="inner">
+<details class="seo"><summary><span class="arrow">&#9654;</span><span class="t">SEO — before &amp; after publish (everything for this post)</span></summary>
+<div class="seonotes">
+<h3>Before publish</h3>
+<ol>
+<li><b>Slug:</b> <code>/employer/resources/how-to-choose-a-nurse-job-fair</code></li>
+<li><b>Title tag:</b> How to Choose a Nurse Job Fair: A Hospital Hiring Guide (2026)</li>
+<li><b>Meta description:</b> 7 criteria for picking a nurse job fair that produces hires, an honest comparison of event types, and what large hospital systems do differently.</li>
+<li><b>Images:</b><ul><li>No chart images in this post — the coded components carry the visuals (that's intentional; they're crawlable HTML).</li></ul></li>
+<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
+<li><b>Verify outbound links resolve:</b> cost-per-hire, virtual-vs-in-person-hiring-event, recruiting-roi, why-hospitals-struggle, healthcare calendar CTA. Components: healthcare candidates widget (#6), evergreen calendar card (#7) — no screenshots.</li>
+<li>Byline links to the author page; published date visible on page.</li>
+</ol>
+<h3>After publish (same day, ~10 min)</h3>
+<ol>
+<li><b>Backlink pass — add links TO this post from:</b><ul><li>why-hospitals-struggle — career fair section, anchor "how to choose a nurse job fair"</li><li>best-virtual-hiring-event-platforms — healthcare paragraph, same anchor</li><li>high-volume-hiring — same anchor</li></ul></li>
+<li>GSC → URL Inspection → Request indexing.</li>
+<li>Confirm the post is in the sitemap with today's lastmod.</li>
+</ol>
+<h3>Article schema</h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;Article&quot;,
+  &quot;headline&quot;: &quot;How to Choose a Nurse Job Fair: A Hospital Hiring Guide&quot;,
+  &quot;description&quot;: &quot;7 criteria for picking a nurse job fair that produces hires, an honest comparison of event types, and what large hospital systems do differently.&quot;,
+  &quot;author&quot;: {
+    &quot;@type&quot;: &quot;Person&quot;,
+    &quot;name&quot;: &quot;Scott Lobenberg&quot;,
+    &quot;jobTitle&quot;: &quot;Founder&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com/about-us&quot;,
+    &quot;worksFor&quot;: {
+      &quot;@type&quot;: &quot;Organization&quot;,
+      &quot;name&quot;: &quot;JobFairX&quot;,
+      &quot;url&quot;: &quot;https://jobfairx.com&quot;
+    }
+  },
+  &quot;publisher&quot;: {
+    &quot;@type&quot;: &quot;Organization&quot;,
+    &quot;name&quot;: &quot;JobFairX&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com&quot;,
+    &quot;logo&quot;: {
+      &quot;@type&quot;: &quot;ImageObject&quot;,
+      &quot;url&quot;: &quot;https://jobfairx.com/logo.png&quot;
+    }
+  },
+  &quot;mainEntityOfPage&quot;: {
+    &quot;@type&quot;: &quot;WebPage&quot;,
+    &quot;@id&quot;: &quot;https://jobfairx.com/employer/resources/how-to-choose-a-nurse-job-fair&quot;
+  },
+  &quot;datePublished&quot;: &quot;2026-07-XX&quot;,
+  &quot;dateModified&quot;: &quot;2026-07-XX&quot;
+}</code></pre>
+<h3>FAQPage schema</h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;FAQPage&quot;,
+  &quot;mainEntity&quot;: [
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;What is the best entry-level job fair service for nurses?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;The one that delivers pre-screened, scheduled interviews rather than booth traffic. Evaluate any service on seven criteria: pre-screening, scheduled interviews, clinical audience, show rate, multi-location support, flat pricing, and same-day reporting.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;Which job fairs do large hospital systems use?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Typically a mix: their own open houses for brand, school fairs for new grad pipeline, and recurring healthcare-specific virtual events for volume interviewing \u2014 run on a standing monthly or bi-monthly cadence per region rather than as one-offs.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;How much does a nurse job fair cost for employers?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Hosting your own runs $800-$3,000+ in hard costs plus weeks of staff time. Specialty virtual events run a few hundred to a few thousand dollars flat \u2014 JobFairX events start at $495 with 20+ scheduled interviews included. Compare everything on cost per scheduled interview, then cost per hire.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;Are virtual job fairs effective for nurse recruiting?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Yes, when they&#x27;re interview-structured: pre-screened clinical candidates, self-scheduled slots, same-day decisions. They&#x27;re weak when they replicate the booth model on a screen. The format isn&#x27;t the variable \u2014 the interview structure is.&quot;
+      }
+    }
+  ]
+}</code></pre>
+</div>
+</details><main>
 <div class="kicker">Healthcare Hiring</div>
 <h1>How to Choose a Nurse Job Fair: A Hospital Hiring Guide</h1>
 <div class="byline">By <b>Scott Lobenberg</b>, Founder, JobFairX &nbsp;·&nbsp; Published July 2026</div>
@@ -460,7 +768,100 @@
 
 <details class="post">
   <summary><span class="arrow">&#9654;</span><span class="t">10 Recruiting Metrics That Actually Matter in 2026</span><span class="meta">publish Thu · /recruiting-metrics · METRICS HUB</span><span class="badge draft">DRAFT</span></summary>
-  <div class="inner"><main>
+  <div class="inner">
+<details class="seo"><summary><span class="arrow">&#9654;</span><span class="t">SEO — before &amp; after publish (everything for this post)</span></summary>
+<div class="seonotes">
+<h3>Before publish</h3>
+<ol>
+<li><b>Slug:</b> <code>/employer/resources/recruiting-metrics</code></li>
+<li><b>Title tag:</b> 10 Recruiting Metrics That Actually Matter in 2026 (With Benchmarks)</li>
+<li><b>Meta description:</b> Only 3% of applicants reach an interview and 1 in 180 gets hired. The 10 recruiting metrics worth tracking, with formulas and 2026 benchmarks for each.</li>
+<li><b>Images:</b><ul><li><b>Rename to:</b> <code>recruiting-funnel-benchmarks-2026.webp</code><br><b>Alt text:</b> Recruiting funnel: of 180 applicants, about 5 reach an interview and 1 is hired, per CareerPlug 2025 data<br><b>Handling:</b> repo file: chart-recruiting-funnel.png — WebP, width/height, no lazy-load, og:image</li></ul></li>
+<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
+<li><b>Verify outbound links resolve:</b> time-to-fill, cost-per-hire, recruiting-roi, virtual-hiring-events CTA. Component: job-board comparison (#1).</li>
+<li>Byline links to the author page; published date visible on page.</li>
+</ol>
+<h3>After publish (same day, ~10 min)</h3>
+<ol>
+<li><b>Backlink pass — add links TO this post from:</b><ul><li>THIS IS THE METRICS HUB — backlink pass matters most here.</li><li>time-to-fill — anchor "recruiting metrics"</li><li>cost-per-hire — same anchor</li><li>recruiting-roi — same anchor</li><li>high-volume-hiring — same anchor</li></ul></li>
+<li>GSC → URL Inspection → Request indexing.</li>
+<li>Confirm the post is in the sitemap with today's lastmod.</li>
+</ol>
+<h3>Article schema</h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;Article&quot;,
+  &quot;headline&quot;: &quot;10 Recruiting Metrics That Actually Matter in 2026&quot;,
+  &quot;description&quot;: &quot;Only 3% of applicants reach an interview and 1 in 180 gets hired. The 10 recruiting metrics worth tracking, with formulas and 2026 benchmarks for each.&quot;,
+  &quot;author&quot;: {
+    &quot;@type&quot;: &quot;Person&quot;,
+    &quot;name&quot;: &quot;Scott Lobenberg&quot;,
+    &quot;jobTitle&quot;: &quot;Founder&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com/about-us&quot;,
+    &quot;worksFor&quot;: {
+      &quot;@type&quot;: &quot;Organization&quot;,
+      &quot;name&quot;: &quot;JobFairX&quot;,
+      &quot;url&quot;: &quot;https://jobfairx.com&quot;
+    }
+  },
+  &quot;publisher&quot;: {
+    &quot;@type&quot;: &quot;Organization&quot;,
+    &quot;name&quot;: &quot;JobFairX&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com&quot;,
+    &quot;logo&quot;: {
+      &quot;@type&quot;: &quot;ImageObject&quot;,
+      &quot;url&quot;: &quot;https://jobfairx.com/logo.png&quot;
+    }
+  },
+  &quot;mainEntityOfPage&quot;: {
+    &quot;@type&quot;: &quot;WebPage&quot;,
+    &quot;@id&quot;: &quot;https://jobfairx.com/employer/resources/recruiting-metrics&quot;
+  },
+  &quot;datePublished&quot;: &quot;2026-07-XX&quot;,
+  &quot;dateModified&quot;: &quot;2026-07-XX&quot;,
+  &quot;image&quot;: &quot;https://jobfairx.com/employer/resources/images/chart-recruiting-funnel.webp&quot;
+}</code></pre>
+<h3>FAQPage schema</h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;FAQPage&quot;,
+  &quot;mainEntity&quot;: [
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;What are the most important recruiting metrics?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;If you can only track three: cost per interview, interview show rate, and time to fill. They expose channel waste, scheduling failure, and process speed \u2014 the three places most recruiting budgets leak.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;What is a good application-to-interview rate?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;The cross-industry benchmark is 3% (CareerPlug, 10M+ applications). Well below that suggests screening bottlenecks or mistargeted postings; well above it with poor interview outcomes suggests screening that&#x27;s too loose.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;How do you measure recruiting effectiveness?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Per channel, per quarter: spend divided by interviews (cost per interview), interviews divided by hires, and 90-day retention of those hires. Effectiveness is a channel property, not a team property \u2014 measure it where the money goes.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;What is a good offer acceptance rate?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;85%+ is strong. The 2026 range runs 69-92% by sector, with healthcare near 77%. Below 80%, look at process speed first \u2014 most declined offers were accepted somewhere faster.&quot;
+      }
+    }
+  ]
+}</code></pre>
+</div>
+</details><main>
 <div class="kicker">Recruiting Metrics &amp; ROI</div>
 <h1>10 Recruiting Metrics That Actually Matter in 2026</h1>
 <div class="byline">By <b>Scott Lobenberg</b>, Founder, JobFairX &nbsp;·&nbsp; Published July 2026</div>
