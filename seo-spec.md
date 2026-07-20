@@ -341,7 +341,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
       "name": "What are the most important recruiting metrics?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If you can only track three: cost per interview, interview show rate, and time to fill. They expose channel waste, scheduling failure, and process speed \u2014 the three places most recruiting budgets leak."
+        "text": "If you can only track three: cost per interview, interview show rate, and time to fill. They expose channel waste, scheduling failure, and process speed: the three places most recruiting budgets leak."
       }
     },
     {
@@ -357,7 +357,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
       "name": "How do you measure recruiting effectiveness?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Per channel, per quarter: spend divided by interviews (cost per interview), interviews divided by hires, and 90-day retention of those hires. Effectiveness is a channel property, not a team property \u2014 measure it where the money goes."
+        "text": "Per channel, per quarter: spend \u00f7 interviews (cost per interview), interviews \u00f7 hires, and 90-day retention of those hires. Effectiveness is a channel property, not a team property. Measure it where the money goes."
       }
     },
     {
@@ -365,7 +365,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
       "name": "What is a good offer acceptance rate?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "85%+ is strong. The 2026 range runs 69-92% by sector, with healthcare near 77%. Below 80%, look at process speed first \u2014 most declined offers were accepted somewhere faster."
+        "text": "85%+ is strong. The 2026 range runs 69\u201392% by sector, with healthcare near 77%. Below 80%, look at process speed first; most declined offers were accepted somewhere faster."
       }
     }
   ]
