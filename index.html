@@ -153,14 +153,18 @@
 <li>Schema: add <code>FAQPage</code> markup for the FAQ section and <code>Article</code> markup (author: Scott Lobenberg, visible publish/updated dates).</li>
 <li><b>SEO per post:</b> every blog toggle below has its own "SEO — before &amp; after publish" panel at the top — slug, title/meta, image specs, ready-to-paste schema, and its backlink list. That panel is the complete per-post checklist; nothing else to hunt for.</li>
 </ol>
-<h3>SEO — site-wide, one time</h3>
+<h3>SEO — verified audit of the live blog template (inspected /employer/resources/recruiting-roi, July 20, 2026)</h3>
+<p><b>Already correct — do NOT redo:</b> title tag, meta description, self-canonical, BlogPosting schema (with author + dates), FAQPage schema, BreadcrumbList schema, visible Published/Updated labels, author page at <code>/employer/resources/author</code> (bio + LinkedIn present).</p>
+<p><b>Confirmed gaps — fix these in the blog template (each verified by DOM inspection, not guessed):</b></p>
 <ol>
-<li><b>Author page:</b> create <code>/employer/resources/authors/scott-lobenberg</code> (photo, short bio, LinkedIn). Link every byline to it — this is the E-E-A-T entity Google and LLMs attach credibility to.</li>
-<li><b>Image pipeline:</b> serve WebP, always set <code>width</code>/<code>height</code>, <code>loading="lazy"</code> below-fold only (never the first image), <code>decoding="async"</code>.</li>
-<li><b>OG tags per post</b> (og:title / og:description / og:image = the post's chart) and self-referencing canonicals.</li>
-<li><b>Refresh cadence:</b> quarterly 30-min stats refresh on every benchmarks post; bump dateModified. Stale stats fall out of AI Overviews.</li>
-<li>Why this works: Google reads images via alt text + filename + surrounding copy; 78% of AI Overviews contain lists (our posts are list-built); FAQ schema + answer-first openings are the lifted pattern.</li>
+<li><code>og:type</code> outputs <code>"website"</code> on blog posts → change to <code>"article"</code>.</li>
+<li><code>og:image</code> is the generic <code>/images/og-image.png</code> on every post → use the per-post image (the BlogPosting schema already has the right per-post image; og:image should match it).</li>
+<li>Image alt text is keyword-only (live example: <code>alt="recruiting roi"</code>) — exactly the pattern Google's docs warn against → use the descriptive sentence alts provided in each post's SEO panel below.</li>
+<li>Content images ship as PNG with no <code>width</code>/<code>height</code> and eager loading → serve WebP, set width/height (layout-shift / Core Web Vitals), <code>loading="lazy"</code> for below-fold images only.</li>
+<li><code>dateModified</code> equals <code>datePublished</code> on existing posts (e.g. both 2026-04-10 — never bumped) → when stats are refreshed (quarterly), update the number AND bump dateModified. Stale stats fall out of AI Overviews.</li>
+<li>Author page has no headshot → add a photo of Scott (entity/E-E-A-T signal).</li>
 </ol>
+<p>New posts from this hub: apply the same template fixes + each post's own SEO panel. Schema blocks in the panels use <code>BlogPosting</code> to match the site's existing convention.</p>
 <h3>Publish schedule</h3>
 <ol>
 <li><b>Week 1 Tue:</b> Cost Per Hire → <code>/employer/resources/cost-per-hire</code></li>
@@ -185,7 +189,8 @@
 <li><b>Images:</b><ul><li><b>Rename to:</b> <code>cost-per-hire-by-industry-2026.webp</code><br><b>Alt text:</b> Bar chart of 2026 U.S. cost per hire by industry, from $2,700 in retail to $16,000-$20,000 in legal, with healthcare highlighted at $9,000-$12,000<br><b>Handling:</b> repo file: chart-cost-per-hire-by-industry.png — convert to WebP, set width/height, do NOT lazy-load (first image), set as og:image</li></ul></li>
 <li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
 <li><b>Verify outbound links resolve:</b> time-to-fill (x2), recruiting-roi, high-volume-hiring, virtual-hiring-events, hiring-event-pricing</li>
-<li>Byline links to the author page; published date visible on page.</li>
+<li>Byline links to the existing author page (<code>/employer/resources/author</code>); published date visible on page.</li>
+<li><b>Template fixes apply here too</b> (verified gaps, see Dev Setup): og:type=article, per-post og:image, WebP + width/height, descriptive alt from this panel.</li>
 </ol>
 <h3>After publish (same day, ~10 min)</h3>
 <ol>
@@ -196,7 +201,7 @@
 <h3>Article schema</h3>
 <pre><code>{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;Article&quot;,
+  &quot;@type&quot;: &quot;BlogPosting&quot;,
   &quot;headline&quot;: &quot;Cost Per Hire: What It Is, 2026 Benchmarks by Industry, and How to Lower It&quot;,
   &quot;description&quot;: &quot;Average cost per hire is $5,475 in 2026 (SHRM) \u2014 $9,000+ in healthcare. See benchmarks by industry, the SHRM formula, and 6 ways to bring your number down.&quot;,
   &quot;author&quot;: {
@@ -424,7 +429,8 @@
 <li><b>Images:</b><ul><li><b>Rename to:</b> <code>healthcare-time-to-fill-by-industry-2026.webp</code><br><b>Alt text:</b> Time to fill by industry: logistics 12 days, retail 24.6, IT 30, health services 49 days, and 78 days to recruit an experienced RN<br><b>Handling:</b> repo file: chart-time-to-fill-by-industry.png — WebP, width/height, no lazy-load, og:image</li></ul></li>
 <li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
 <li><b>Verify outbound links resolve:</b> virtual-hiring-events (pillar), how-to-interview-candidates-at-a-virtual-hiring-event, cost-per-hire (must be live first!), virtual-vs-in-person-hiring-event, NYC healthcare event CTA</li>
-<li>Byline links to the author page; published date visible on page.</li>
+<li>Byline links to the existing author page (<code>/employer/resources/author</code>); published date visible on page.</li>
+<li><b>Template fixes apply here too</b> (verified gaps, see Dev Setup): og:type=article, per-post og:image, WebP + width/height, descriptive alt from this panel.</li>
 </ol>
 <h3>After publish (same day, ~10 min)</h3>
 <ol>
@@ -435,7 +441,7 @@
 <h3>Article schema</h3>
 <pre><code>{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;Article&quot;,
+  &quot;@type&quot;: &quot;BlogPosting&quot;,
   &quot;headline&quot;: &quot;Why Hospitals Struggle to Fill Entry-Level Clinical Roles \u2014 and What Actually Works&quot;,
   &quot;description&quot;: &quot;Hospitals take 49 days to fill roles while entry-level candidates decide in days. The 7 reasons clinical hiring stalls \u2014 and what actually fixes each one.&quot;,
   &quot;author&quot;: {
@@ -605,7 +611,8 @@
 <li><b>Images:</b><ul><li>No chart images in this post — the coded components carry the visuals (that's intentional; they're crawlable HTML).</li></ul></li>
 <li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
 <li><b>Verify outbound links resolve:</b> cost-per-hire, virtual-vs-in-person-hiring-event, recruiting-roi, why-hospitals-struggle, healthcare calendar CTA. Components: healthcare candidates widget (#6), evergreen calendar card (#7) — no screenshots.</li>
-<li>Byline links to the author page; published date visible on page.</li>
+<li>Byline links to the existing author page (<code>/employer/resources/author</code>); published date visible on page.</li>
+<li><b>Template fixes apply here too</b> (verified gaps, see Dev Setup): og:type=article, per-post og:image, WebP + width/height, descriptive alt from this panel.</li>
 </ol>
 <h3>After publish (same day, ~10 min)</h3>
 <ol>
@@ -616,7 +623,7 @@
 <h3>Article schema</h3>
 <pre><code>{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;Article&quot;,
+  &quot;@type&quot;: &quot;BlogPosting&quot;,
   &quot;headline&quot;: &quot;How to Choose a Nurse Job Fair: A Hospital Hiring Guide&quot;,
   &quot;description&quot;: &quot;7 criteria for picking a nurse job fair that produces hires, an honest comparison of event types, and what large hospital systems do differently.&quot;,
   &quot;author&quot;: {
@@ -779,7 +786,8 @@
 <li><b>Images:</b><ul><li><b>Rename to:</b> <code>recruiting-funnel-benchmarks-2026.webp</code><br><b>Alt text:</b> Recruiting funnel: of 180 applicants, about 5 reach an interview and 1 is hired, per CareerPlug 2025 data<br><b>Handling:</b> repo file: chart-recruiting-funnel.png — WebP, width/height, no lazy-load, og:image</li></ul></li>
 <li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
 <li><b>Verify outbound links resolve:</b> time-to-fill, cost-per-hire, recruiting-roi, virtual-hiring-events CTA. Component: job-board comparison (#1).</li>
-<li>Byline links to the author page; published date visible on page.</li>
+<li>Byline links to the existing author page (<code>/employer/resources/author</code>); published date visible on page.</li>
+<li><b>Template fixes apply here too</b> (verified gaps, see Dev Setup): og:type=article, per-post og:image, WebP + width/height, descriptive alt from this panel.</li>
 </ol>
 <h3>After publish (same day, ~10 min)</h3>
 <ol>
@@ -790,7 +798,7 @@
 <h3>Article schema</h3>
 <pre><code>{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;Article&quot;,
+  &quot;@type&quot;: &quot;BlogPosting&quot;,
   &quot;headline&quot;: &quot;10 Recruiting Metrics That Actually Matter in 2026&quot;,
   &quot;description&quot;: &quot;Only 3% of applicants reach an interview and 1 in 180 gets hired. The 10 recruiting metrics worth tracking, with formulas and 2026 benchmarks for each.&quot;,
   &quot;author&quot;: {
