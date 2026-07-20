@@ -16,7 +16,7 @@ Here's the full evaluation checklist, the honest comparison of event types, and 
 
 **3. Nursing and allied coverage, not general audiences.** A general job fair in your city will hand you retail and warehouse applicants with a few CNAs sprinkled in. Look for healthcare-dedicated events, and ask for the candidate mix from the operator's last three events: RN vs. LPN vs. CNA vs. allied vs. non-clinical.
 
-**4. Show-rate accountability.** Interview no-shows are where event ROI dies. Ask what the operator's average show rate is and — more revealing — *how interviews get scheduled.* Self-scheduled interviews (candidate picks your hospital and picks the slot) reliably outperform recruiter-chased scheduling. If the operator doesn't track show rate at all, that's your answer.
+**4. Show-rate accountability.** Interview no-shows are where event ROI dies. Ask what the operator's average show rate is and — more revealing — *how interviews get scheduled.* Self-scheduled interviews (candidate picks your hospital and picks the slot) reliably outperform recruiter-chased scheduling. For calibration: JobFairX healthcare events average a **91% interview show rate** — that's the self-scheduling effect in one number. If the operator doesn't track show rate at all, that's your answer.
 
 **5. Multi-location support.** If you're filling roles across facilities, one city-by-city event contract per location gets expensive and inconsistent. Ask how the platform handles multiple locations per event, and whether one recruiting team can interview for several facilities in a single day.
 
@@ -24,7 +24,7 @@ Here's the full evaluation checklist, the honest comparison of event types, and 
 
 **7. Post-event data.** Resumes in a folder is not reporting. You want: interviews completed, dispositions per candidate, no-show list, and contact info for follow-ups — exportable, the same day.
 
-[COMPONENT: candidates-awaiting-response widget — coded block, jfx-components-snippets.html #2]
+[COMPONENT: healthcare candidates widget (real titles from live event pages: Pharmacy Technician, Home Health Aide, Dental Hygienist, Medical Assistant) — coded block, jfx-components-snippets.html #6]
 
 ## Types of nurse job fairs, honestly compared
 
@@ -49,7 +49,7 @@ Since it's our guide, here's our card on the table. JobFairX runs healthcare vir
 
 Where we're not the answer: if you need an on-site open house with facility tours, a campus relationship play, or a single executive-level clinical hire, different tools do that better. Events win when interview volume is the bottleneck.
 
-[COMPONENT: event card (swap to nearest healthcare event/city) — jfx-components-snippets.html #5]
+[COMPONENT: healthcare event CALENDAR card (evergreen — links /employer/hiring-event-calendar, no dated event) — jfx-components-snippets.html #7]
 
 ## FAQ
 

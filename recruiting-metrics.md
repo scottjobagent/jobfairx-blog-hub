@@ -46,7 +46,7 @@ Full guide with the math: [cost per hire](https://jobfairx.com/employer/resource
 
 ## 7. Interview show rate
 
-**What:** % of scheduled interviews where the candidate appears. **Benchmark:** ~45% for virtual hiring events per Indeed's published data; hourly/entry-level roles run lower through traditional scheduling.
+**What:** % of scheduled interviews where the candidate appears. **Benchmark:** ~45% for virtual hiring events per Indeed's published data; hourly/entry-level roles run lower through traditional scheduling. Self-scheduled formats run far higher — JobFairX events average **91%**.
 **The lever:** who picked the slot. Self-scheduled interviews — candidate chooses the employer and the time — consistently outperform recruiter-chased scheduling. If you track only one operational metric this quarter, track this.
 
 ## 8. Offer acceptance rate
@@ -72,7 +72,7 @@ Full guide with the math: [cost per hire](https://jobfairx.com/employer/resource
 | Cost per interview | channel spend ÷ interviews | track vs. your channels |
 | App-to-interview | interviews ÷ applications | 3% |
 | Interview-to-hire | hires ÷ interviewed | ~27% |
-| Show rate | showed ÷ scheduled | ~45% (virtual events) |
+| Show rate | showed ÷ scheduled | ~45% typical · 91% self-scheduled events |
 | Offer acceptance | accepted ÷ extended | 69–92% · ~77% healthcare |
 | Quality of hire | 90-day retention + HM score | vs. yourself, by channel |
 | Recruiting ROI | hire value ÷ channel cost | positive, trending up |
