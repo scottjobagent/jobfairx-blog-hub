@@ -4,9 +4,13 @@
 
 ---
 
-Cost per hire is the total amount you spend on recruiting divided by the number of people you actually hire. The average cost per hire in the U.S. is **$5,475** for non-executive roles, according to SHRM's 2025 Benchmarking Report, up 33% since 2016. If you're hiring in healthcare, expect $9,000–$12,000 per hire. Executives run $35,879.
+Hiring someone costs a third more than it did a decade ago. The average U.S. cost per hire is now **$5,475** for non-executive roles, up 33% since 2016, per SHRM's 2025 Benchmarking Report. In healthcare, expect $9,000–$12,000. Executives run $35,879.
 
-Those are the benchmarks. The more useful question is what's inside your number, and which parts you can actually cut. That's what this guide covers.
+Most teams don't know their number, and the ones that do usually undercount it. This guide covers the formula, 2026 benchmarks by industry, and six ways to bring the number down.
+
+## What is cost per hire?
+
+Cost per hire is the total amount you spend on recruiting divided by the number of people you actually hire. It's the efficiency metric for a recruiting budget: one number that says what it costs you to land a new employee, and whether that cost is moving the right way.
 
 ## How do you calculate cost per hire?
 
@@ -69,26 +73,11 @@ Three reasons, mostly.
 
 **6. Actually calculate channel ROI.** Most teams can't say what a hire from each channel costs because the spend is pooled. Separate the data per channel, per quarter. Our [recruiting ROI guide](https://jobfairx.com/employer/resources/recruiting-roi) has the formulas and a business-case template.
 
-## What does a hiring event do to the math?
+## Where do hiring events fit?
 
-Here's the scenario math, using our published pricing. No hand-waving.
+Worth a straight answer, since we run them. Flat-rate hiring events are one of the few channels where cost per hire falls as you hire more, because the spend is fixed while the hires aren't. That's the flat-rate effect from #2, and it's why events tend to win for multi-role, hourly, and clinical hiring, where interview volume is the bottleneck.
 
-[IMAGE 4: images/jobfairx-pricing-tiers.jpg — alt: "JobFairX hiring event pricing: Starter $495 per event with 20+ scheduled interviews, Growth $895 with 60+ scheduled interviews, Pro $1,495 with 100+ scheduled interviews"]
-
-A [JobFairX virtual hiring event](https://jobfairx.com/employer/resources/virtual-hiring-events) is a flat fee with scheduled interviews included: **$495** for 20+ interviews (Starter), **$895** for 60+ (Growth), **$1,495** for 100+ (Pro).
-
-| If you hire... | On Starter ($495) | On Growth ($895) | On Pro ($1,495) |
-|---|---|---|---|
-| 1 person | $495/hire | $895/hire | $1,495/hire |
-| 3 people | $165/hire | $298/hire | $498/hire |
-| 5 people | $99/hire | $179/hire | $299/hire |
-| 10 people | $50/hire* | $90/hire | $150/hire |
-
-*\*Ten hires on a Starter event means converting half of its 20+ interviews. Possible, but Growth is the realistic tier at that volume.*
-
-Against a $5,475 national average (or $9,000+ in healthcare), the math is not close. Even a single hire from a Starter event comes in under 10% of the average. That's the flat-rate effect from #2: the event costs the same whether you make one hire or ten, so volume works *for* you instead of against you.
-
-The honest caveat: an event is not the right tool for every role. A single specialized senior hire is still a sourcing-and-outreach game. Events win when you're filling multiple roles, hourly roles, or clinical roles, where interview volume is the bottleneck.
+The honest caveat: an event is not the right tool for every role. A single specialized senior hire is still a sourcing-and-outreach game. If you want the actual event math against these benchmarks, we published it on our [hiring event pricing page](https://jobfairx.com/employer/hiring-event-pricing).
 
 ## FAQ
 
