@@ -4,7 +4,7 @@
 
 ---
 
-Cost per hire is the total amount you spend on recruiting divided by the number of people you actually hire. The average cost per hire in the U.S. is **$5,475** for non-executive roles, according to SHRM's 2025 Benchmarking Report — up 33% since 2016. If you're hiring in healthcare, expect $9,000–$12,000 per hire. Executives run $35,879.
+Cost per hire is the total amount you spend on recruiting divided by the number of people you actually hire. The average cost per hire in the U.S. is **$5,475** for non-executive roles, according to SHRM's 2025 Benchmarking Report, up 33% since 2016. If you're hiring in healthcare, expect $9,000–$12,000 per hire. Executives run $35,879.
 
 Those are the benchmarks. The more useful question is what's inside your number, and which parts you can actually cut. That's what this guide covers.
 
@@ -18,7 +18,7 @@ Internal costs: recruiter salaries (allocated to hiring time), interviewer hours
 
 For a typical mid-size company, the money breaks down roughly like this: recruiter time 30–40%, job boards and advertising 20–25%, software 10–15%, interviewer time 10–15%, background checks and assessments 5–10%.
 
-Two things most teams get wrong when they run the formula. They forget interviewer time — hours your managers spend in interviews are a real cost, and for hourly roles with high interview volume they're often the biggest one. And they divide by offers instead of hires. Ghosted offers and no-shows inflate your true cost per hire, which is why the metric pairs with [time to fill](https://jobfairx.com/employer/resources/time-to-fill).
+Two things most teams get wrong when they run the formula. They forget interviewer time: hours your managers spend in interviews are a real cost, and for hourly roles with high interview volume they're often the biggest one. And they divide by offers instead of hires. Ghosted offers and no-shows inflate your true cost per hire, which is why the metric pairs with [time to fill](https://jobfairx.com/employer/resources/time-to-fill).
 
 ## Cost per hire benchmarks for 2026
 
@@ -37,7 +37,7 @@ Two things most teams get wrong when they run the formula. They forget interview
 
 *Sources: SHRM 2025 Benchmarking Report; Pin cost-per-hire benchmarks, 2026.*
 
-Worth knowing: these are direct-cost figures. CIPD and RPOA research puts the fully loaded number — with hiring-manager time and lost productivity counted — at roughly double the invoice total.
+Worth knowing: these are direct-cost figures. Research from the [Chartered Institute of Personnel and Development (CIPD)](https://www.cipd.org/uk/knowledge/reports/resourcing-surveys/) and the [Recruitment Process Outsourcing Association (RPOA)](https://www.rpoassociation.org/) puts the fully loaded number, with hiring-manager time and lost productivity counted, at roughly double the invoice total.
 
 And cost per hire isn't even the expensive part in some industries. In healthcare, the *vacancy* is. The 2026 NSI Retention Report puts the average cost of a single RN turnover at **$60,090**, with experienced RN roles taking 56–102 days to fill. When the empty seat costs 6x the recruiting spend, slow-and-cheap hiring is the most expensive strategy there is.
 
@@ -45,7 +45,7 @@ And cost per hire isn't even the expensive part in some industries. In healthcar
 
 Three reasons, mostly.
 
-**Job board economics.** Pay-per-click pricing keeps rising while application quality doesn't. You're paying for clicks and applications — not interviews, and not hires. When 100 applications produce 4 interviews, your cost per *interview* is 25x your cost per click, and nobody puts that number in the dashboard.
+**Job board economics.** Pay-per-click pricing keeps rising while application quality doesn't. You're paying for clicks and applications, not interviews and not hires. When 100 applications produce 4 interviews, your cost per *interview* is 25x your cost per click, and nobody puts that number in the dashboard.
 
 **Recruiter time on screening.** Most of the 30–40% of cost that's recruiter salary gets burned on reviewing resumes and chasing candidates who never respond. That's the "post and pray" tax.
 
@@ -55,23 +55,23 @@ Three reasons, mostly.
 
 **1. Measure cost per interview, not cost per application.** Applications are an input. Interviews are the first unit that predicts a hire. Re-run last quarter's numbers as spend ÷ interviews-that-happened and you'll find out which channels are actually expensive.
 
-**2. Pay flat rates instead of per-click where you can.** Variable-cost channels punish volume hiring. Flat-rate channels — including hiring events — mean your cost per hire *drops* as you fill more roles from one spend.
+**2. Pay flat rates instead of per-click where you can.** Variable-cost channels punish volume hiring. Flat-rate channels, including hiring events, mean your cost per hire *drops* as you fill more roles from one spend.
 
 [IMAGE 2: images/jobboard-vs-hiring-event.jpg — alt: "Comparison of a traditional job board versus a JobFairX hiring event: you screen and schedule vs. interviews auto-scheduled; weeks to fill a role vs. 20–100+ interviews in one day; pay per click vs. flat rate"]
 
-**3. Batch interviews into events.** One recruiter running back-to-back scheduled interviews for a day beats three weeks of calendar Tetris. This is the single biggest lever for [high-volume hiring](https://jobfairx.com/employer/resources/high-volume-hiring) — interviewer time is your largest hidden cost, and batching cuts it hard.
+**3. Batch interviews into events.** One recruiter running back-to-back scheduled interviews for a day beats three weeks of calendar Tetris. This is the single biggest lever for [high-volume hiring](https://jobfairx.com/employer/resources/high-volume-hiring). Interviewer time is your largest hidden cost, and batching cuts it hard.
 
 **4. Only interview people who asked to meet you.** No-shows collapse when the candidate requested the interview slot instead of being chased into it. Pre-qualified, self-scheduled interviews flip the dynamic: candidates who picked your company and picked the time show up.
 
 [IMAGE 3: images/candidates-awaiting-response.jpg — alt: "JobFairX employer dashboard showing matched candidates awaiting response with desired job and location, and one-click accept buttons"]
 
-**5. Cut your time to fill.** Cost per hire and [time to fill](https://jobfairx.com/employer/resources/time-to-fill) move together — every extra week a role sits open adds recruiter hours, ad spend, and (in healthcare especially) vacancy cost that dwarfs the recruiting budget.
+**5. Cut your time to fill.** Cost per hire and [time to fill](https://jobfairx.com/employer/resources/time-to-fill) move together. Every extra week a role sits open adds recruiter hours, ad spend, and (in healthcare especially) vacancy cost that dwarfs the recruiting budget.
 
-**6. Actually calculate channel ROI.** Most teams can't say what a hire from each channel costs because the spend is pooled. Split it out per channel, per quarter. Our [recruiting ROI guide](https://jobfairx.com/employer/resources/recruiting-roi) has the formulas and a business-case template.
+**6. Actually calculate channel ROI.** Most teams can't say what a hire from each channel costs because the spend is pooled. Separate the data per channel, per quarter. Our [recruiting ROI guide](https://jobfairx.com/employer/resources/recruiting-roi) has the formulas and a business-case template.
 
 ## What does a hiring event do to the math?
 
-Here's the scenario math, using our published pricing — no hand-waving.
+Here's the scenario math, using our published pricing. No hand-waving.
 
 [IMAGE 4: images/jobfairx-pricing-tiers.jpg — alt: "JobFairX hiring event pricing: Starter $495 per event with 20+ scheduled interviews, Growth $895 with 60+ scheduled interviews, Pro $1,495 with 100+ scheduled interviews"]
 
@@ -82,16 +82,18 @@ A [JobFairX virtual hiring event](https://jobfairx.com/employer/resources/virtua
 | 1 person | $495/hire | $895/hire | $1,495/hire |
 | 3 people | $165/hire | $298/hire | $498/hire |
 | 5 people | $99/hire | $179/hire | $299/hire |
-| 10 people | — | $90/hire | $150/hire |
+| 10 people | $50/hire* | $90/hire | $150/hire |
 
-Against a $5,475 national average — or $9,000+ in healthcare — the math is not close. Even a single hire from a Starter event comes in under 10% of the average. That's the flat-rate effect from #2: the event costs the same whether you make one hire or ten, so volume works *for* you instead of against you.
+*\*Ten hires on a Starter event means converting half of its 20+ interviews. Possible, but Growth is the realistic tier at that volume.*
 
-The honest caveat: an event is not the right tool for every role. A single specialized senior hire is still a sourcing-and-outreach game. Events win when you're filling multiple roles, hourly roles, or clinical roles — situations where interview volume is the bottleneck.
+Against a $5,475 national average (or $9,000+ in healthcare), the math is not close. Even a single hire from a Starter event comes in under 10% of the average. That's the flat-rate effect from #2: the event costs the same whether you make one hire or ten, so volume works *for* you instead of against you.
+
+The honest caveat: an event is not the right tool for every role. A single specialized senior hire is still a sourcing-and-outreach game. Events win when you're filling multiple roles, hourly roles, or clinical roles, where interview volume is the bottleneck.
 
 ## FAQ
 
 **What is a good cost per hire?**
-Below your industry benchmark, trending down. For hourly and entry-level roles, under $3,000. Against the $5,475 U.S. average, anything under ~$2,000 is strong. But a "good" number with a 90-day time to fill isn't good — read the two metrics together.
+Below your industry benchmark, trending down. For hourly and entry-level roles, under $3,000. Against the $5,475 U.S. average, anything under ~$2,000 is strong. But a "good" number with a 90-day time to fill isn't good. Read the two metrics together.
 
 **What should be included in cost per hire?**
 Everything recruiting touches: recruiter and sourcer compensation (allocated), job boards, advertising, agencies, software, background checks, referral bonuses, interviewer time, and events. SHRM's formula: total internal + external recruiting costs ÷ total hires.
@@ -100,11 +102,11 @@ Everything recruiting touches: recruiter and sourcer compensation (allocated), j
 Credentialing, licensure verification, a shrinking candidate pool, and competition. Healthcare hires cost $9,000–$12,000 and health services roles take the longest to fill of any industry (49 days per Workable). The vacancy cost makes it worse: NSI puts one RN turnover at $60,090.
 
 **Does cost per hire include onboarding?**
-Under the SHRM standard, no — it stops at the accepted offer. Some teams track "cost per productive hire" including onboarding and ramp; useful, but keep it separate so your benchmark comparisons stay apples-to-apples.
+Under the SHRM standard, no. It stops at the accepted offer. Some teams track "cost per productive hire" including onboarding and ramp; useful, but keep it separate so your benchmark comparisons stay apples-to-apples.
 
 ---
 
-*Hiring for multiple roles? See what a flat-rate event does to your cost per hire — [upcoming hiring events and pricing](https://jobfairx.com/employer/hiring-event-pricing).*
+*Hiring for multiple roles? See what a flat-rate event does to your cost per hire: [upcoming hiring events and pricing](https://jobfairx.com/employer/hiring-event-pricing).*
 
 ---
 ---
