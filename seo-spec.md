@@ -375,6 +375,92 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 
 ---
 
+## /employer/resources/virtual-hiring-event-statistics
+
+**Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Virtual Hiring Event Statistics 2026: Show Rates, Speed, and What Actually Converts",
+  "description": "Typical virtual hiring events see ~45% interview show rates; self-scheduled events run 91%. The 2026 numbers on show rates, speed, interviews, and cost.",
+  "author": {
+    "@type": "Person",
+    "name": "Scott Lobenberg",
+    "jobTitle": "Founder",
+    "url": "https://jobfairx.com/about-us",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "JobFairX",
+      "url": "https://jobfairx.com"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "JobFairX",
+    "url": "https://jobfairx.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jobfairx.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jobfairx.com/employer/resources/virtual-hiring-event-statistics"
+  },
+  "datePublished": "2026-07-XX",
+  "dateModified": "2026-07-XX",
+  "image": "https://jobfairx.com/employer/resources/images/chart-show-rate-comparison.webp"
+}
+```
+
+**FAQPage schema (answers match on-page FAQ copy):**
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the average show rate for a virtual hiring event?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Around 45% for typical virtual hiring events, per Indeed's published data. Self-scheduled, interview-first formats run far higher: JobFairX healthcare events average 91% in 2026. The lever is who picks the interview slot."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many interviews does a virtual hiring event produce?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depends entirely on the format. Interview-first events schedule interviews before event day: JobFairX employers average 35 scheduled interviews and 8 hires per event in 2026. Booth-format virtual fairs produce conversations and resumes, not scheduled interviews."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are virtual career fairs still effective in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The booth-style version is shrinking: NACE found median virtual fair attendance fell from 295 to 93 while in-person rebounded. Interview-structured virtual events are what's growing, with the platform market projected to grow 12.5% annually through 2034. Effectiveness follows structure, not format."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast can you hire through a virtual hiring event?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Median time from signup to interview is 4 days (Indeed), against a 46.2-day average time to hire across industries. Offers typically go out the same week because candidates are still engaged."
+      }
+    }
+  ]
+}
+```
+
+
+---
+
 ## Publish-day checklist (per post, ~10 min)
 
 1. Slug + meta title + meta description from the post's publishing notes.
