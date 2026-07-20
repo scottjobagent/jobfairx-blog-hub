@@ -188,7 +188,7 @@
 <li><b>Meta description:</b> Average cost per hire is $5,475 in 2026 (SHRM), and $9,000+ in healthcare. See benchmarks by industry, the SHRM formula, and 6 ways to bring your number down.</li>
 <li><b>Images:</b><ul><li><b>Rename to:</b> <code>cost-per-hire-by-industry-2026.webp</code><br><b>Alt text:</b> Bar chart of 2026 U.S. cost per hire by industry, from $2,700 in retail to $16,000-$20,000 in legal, with healthcare highlighted at $9,000-$12,000<br><b>Handling:</b> repo file: chart-cost-per-hire-by-industry.png — convert to WebP, set width/height, do NOT lazy-load (first image), set as og:image</li></ul></li>
 <li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
-<li><b>Verify outbound links resolve:</b> time-to-fill (x2), recruiting-roi, high-volume-hiring, virtual-hiring-events, hiring-event-pricing</li>
+<li><b>Verify outbound links resolve:</b> time-to-fill (x2), recruiting-roi, high-volume-hiring, hiring-event-pricing (x2: events section + CTA). Note: the virtual-hiring-events link was removed in the intent rewrite — do not look for it.</li>
 <li>Byline links to the existing author page (<code>/employer/resources/author</code>); published date visible on page.</li>
 <li><b>Template fixes apply here too</b> (verified gaps, see Dev Setup): og:type=article, per-post og:image, WebP + width/height, descriptive alt from this panel.</li>
 </ol>
@@ -242,7 +242,7 @@
       &quot;name&quot;: &quot;What is a good cost per hire?&quot;,
       &quot;acceptedAnswer&quot;: {
         &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;Below your industry benchmark, trending down. For hourly and entry-level roles, under $3,000. Against the $5,475 U.S. average, anything under roughly $2,000 is strong, but read it together with time to fill.&quot;
+        &quot;text&quot;: &quot;Below your industry benchmark, trending down. For hourly and entry-level roles, under $3,000. Against the $5,475 U.S. average, anything under ~$2,000 is strong. But a \&quot;good\&quot; number with a 90-day time to fill isn&#x27;t good. Read the two metrics together.&quot;
       }
     },
     {
@@ -250,7 +250,7 @@
       &quot;name&quot;: &quot;What should be included in cost per hire?&quot;,
       &quot;acceptedAnswer&quot;: {
         &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;Everything recruiting touches: recruiter and sourcer compensation (allocated), job boards, advertising, agencies, software, background checks, referral bonuses, interviewer time, and events. SHRM&#x27;s formula: total internal + external recruiting costs divided by total hires.&quot;
+        &quot;text&quot;: &quot;Everything recruiting touches: recruiter and sourcer compensation (allocated), job boards, advertising, agencies, software, background checks, referral bonuses, interviewer time, and events. SHRM&#x27;s formula: total internal + external recruiting costs \u00f7 total hires.&quot;
       }
     },
     {
@@ -258,7 +258,7 @@
       &quot;name&quot;: &quot;Why is healthcare cost per hire so high?&quot;,
       &quot;acceptedAnswer&quot;: {
         &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;Credentialing, licensure verification, a shrinking candidate pool, and competition. Healthcare hires cost $9,000-$12,000 and health services roles take the longest to fill of any industry at 49 days (Workable). NSI puts one RN turnover at $60,090.&quot;
+        &quot;text&quot;: &quot;Credentialing, licensure verification, a shrinking candidate pool, and competition. Healthcare hires cost $9,000\u2013$12,000 and health services roles take the longest to fill of any industry (49 days per Workable). The vacancy cost makes it worse: NSI puts one RN turnover at $60,090.&quot;
       }
     },
     {
@@ -266,7 +266,7 @@
       &quot;name&quot;: &quot;Does cost per hire include onboarding?&quot;,
       &quot;acceptedAnswer&quot;: {
         &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;Under the SHRM standard, no. It stops at the accepted offer. Some teams separately track cost per productive hire including onboarding and ramp; keep it separate so benchmark comparisons stay apples-to-apples.&quot;
+        &quot;text&quot;: &quot;Under the SHRM standard, no. It stops at the accepted offer. Some teams track \&quot;cost per productive hire\&quot; including onboarding and ramp; useful, but keep it separate so your benchmark comparisons stay apples-to-apples.&quot;
       }
     }
   ]
@@ -396,7 +396,7 @@
 <li><b>Meta description:</b> Hospitals take 49 days to fill roles while entry-level candidates decide in days. The 7 reasons clinical hiring stalls, and what actually fixes each one.</li>
 <li><b>Images:</b><ul><li><b>Rename to:</b> <code>healthcare-time-to-fill-by-industry-2026.webp</code><br><b>Alt text:</b> Time to fill by industry: logistics 12 days, retail 24.6, IT 30, health services 49 days, and 78 days to recruit an experienced RN<br><b>Handling:</b> repo file: chart-time-to-fill-by-industry.png — WebP, width/height, no lazy-load, og:image</li></ul></li>
 <li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
-<li><b>Verify outbound links resolve:</b> virtual-hiring-events (pillar), how-to-interview-candidates-at-a-virtual-hiring-event, cost-per-hire (must be live first!), virtual-vs-in-person-hiring-event, NYC healthcare event CTA</li>
+<li><b>Verify outbound links resolve:</b> virtual-hiring-events (pillar), how-to-interview-candidates-at-a-virtual-hiring-event, cost-per-hire (must be live first!), virtual-vs-in-person-hiring-event, healthcare calendar CTA. Component: event verticals grid (#4) — no screenshots.</li>
 <li>Byline links to the existing author page (<code>/employer/resources/author</code>); published date visible on page.</li>
 <li><b>Template fixes apply here too</b> (verified gaps, see Dev Setup): og:type=article, per-post og:image, WebP + width/height, descriptive alt from this panel.</li>
 </ol>
@@ -450,7 +450,7 @@
       &quot;name&quot;: &quot;Why do hospitals struggle with virtual job fairs?&quot;,
       &quot;acceptedAnswer&quot;: {
         &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;Usually because they run them like virtual versions of the booth-and-banner fair: a lobby, some chat, no scheduled interviews. The format isn&#x27;t the problem; the missing interview structure is. Virtual events work when every attendee is matched, screened, and booked into a time slot.&quot;
+        &quot;text&quot;: &quot;Usually because they run them like virtual versions of the booth-and-banner fair: a lobby, some chat, no scheduled interviews. The format isn&#x27;t the problem; the missing interview structure is. Virtual events work when every attendee is matched, screened, and booked into a time slot. See our breakdown of virtual vs. in-person hiring events.&quot;
       }
     },
     {
@@ -466,7 +466,7 @@
       &quot;name&quot;: &quot;How much does an unfilled nursing position cost?&quot;,
       &quot;acceptedAnswer&quot;: {
         &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;NSI&#x27;s 2026 report puts RN turnover cost at $60,090 per nurse, with the average hospital losing $4.2-6.2 million annually. Every 1-point change in RN turnover costs or saves about $295,000 a year.&quot;
+        &quot;text&quot;: &quot;NSI&#x27;s 2026 report puts RN turnover cost at $60,090 per nurse, with the average hospital losing $4.2\u20136.2 million annually. Every 1-point change in RN turnover costs or saves about $295,000 a year.&quot;
       }
     },
     {
@@ -474,7 +474,7 @@
       &quot;name&quot;: &quot;What&#x27;s the fastest way to hire entry-level clinical staff?&quot;,
       &quot;acceptedAnswer&quot;: {
         &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;Compress screening and interviewing into a single event day. Candidates matched to your roles self-schedule interviews, your team meets 20-100+ pre-qualified candidates in one day, and offers go out while candidates are still engaged.&quot;
+        &quot;text&quot;: &quot;Compress screening and interviewing into a single event day. Candidates matched to your roles self-schedule interviews, your team meets 20\u2013100+ pre-qualified candidates in one day, and offers go out while candidates are still engaged.&quot;
       }
     }
   ]
@@ -619,7 +619,7 @@
       &quot;name&quot;: &quot;What is the best entry-level job fair service for nurses?&quot;,
       &quot;acceptedAnswer&quot;: {
         &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;The one that delivers pre-screened, scheduled interviews rather than booth traffic. Evaluate any service on seven criteria: pre-screening, scheduled interviews, clinical audience, show rate, multi-location support, flat pricing, and same-day reporting.&quot;
+        &quot;text&quot;: &quot;The one that delivers pre-screened, scheduled interviews rather than booth traffic. Evaluate any service on the seven criteria above: pre-screening, scheduled interviews, clinical audience, show rate, multi-location support, flat pricing, same-day reporting. Formats that score well on all seven are rare; formats that score on none are common.&quot;
       }
     },
     {
@@ -635,7 +635,7 @@
       &quot;name&quot;: &quot;How much does a nurse job fair cost for employers?&quot;,
       &quot;acceptedAnswer&quot;: {
         &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;Hosting your own runs $800-$3,000+ in hard costs plus weeks of staff time. Specialty virtual events run a few hundred to a few thousand dollars flat; JobFairX events start at $495 with 20+ scheduled interviews included. Compare everything on cost per scheduled interview, then cost per hire.&quot;
+        &quot;text&quot;: &quot;Hosting your own runs $800\u2013$3,000+ in hard costs plus weeks of staff time. Booth space at large general fairs varies widely by market. Specialty virtual events run a few hundred to a few thousand dollars flat; JobFairX events start at $495 with 20+ scheduled interviews included. Compare everything on cost per scheduled interview, then cost per hire.&quot;
       }
     },
     {
@@ -643,7 +643,7 @@
       &quot;name&quot;: &quot;Are virtual job fairs effective for nurse recruiting?&quot;,
       &quot;acceptedAnswer&quot;: {
         &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;Yes, when they&#x27;re interview-structured: pre-screened clinical candidates, self-scheduled slots, same-day decisions. They&#x27;re weak when they replicate the booth model on a screen. The format isn&#x27;t the variable; the interview structure is.&quot;
+        &quot;text&quot;: &quot;Yes, when they&#x27;re interview-structured: pre-screened clinical candidates, self-scheduled slots, same-day decisions. They&#x27;re weak when they replicate the booth model on a screen. The format isn&#x27;t the variable; the interview structure is. Here&#x27;s why hospitals struggle with entry-level clinical hiring and how event structure fixes it.&quot;
       }
     }
   ]

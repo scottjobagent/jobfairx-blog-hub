@@ -39,9 +39,9 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 ```json
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Cost Per Hire: What It Is, 2026 Benchmarks by Industry, and How to Lower It",
-  "description": "Average cost per hire is $5,475 in 2026 (SHRM) \u2014 $9,000+ in healthcare. See benchmarks by industry, the SHRM formula, and 6 ways to bring your number down.",
+  "description": "Average cost per hire is $5,475 in 2026 (SHRM), and $9,000+ in healthcare. See benchmarks by industry, the SHRM formula, and 6 ways to bring your number down.",
   "author": {
     "@type": "Person",
     "name": "Scott Lobenberg",
@@ -84,7 +84,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
       "name": "What is a good cost per hire?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Below your industry benchmark, trending down. For hourly and entry-level roles, under $3,000. Against the $5,475 U.S. average, anything under roughly $2,000 is strong \u2014 but read it together with time to fill."
+        "text": "Below your industry benchmark, trending down. For hourly and entry-level roles, under $3,000. Against the $5,475 U.S. average, anything under ~$2,000 is strong. But a \"good\" number with a 90-day time to fill isn't good. Read the two metrics together."
       }
     },
     {
@@ -92,7 +92,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
       "name": "What should be included in cost per hire?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Everything recruiting touches: recruiter and sourcer compensation (allocated), job boards, advertising, agencies, software, background checks, referral bonuses, interviewer time, and events. SHRM's formula: total internal + external recruiting costs divided by total hires."
+        "text": "Everything recruiting touches: recruiter and sourcer compensation (allocated), job boards, advertising, agencies, software, background checks, referral bonuses, interviewer time, and events. SHRM's formula: total internal + external recruiting costs \u00f7 total hires."
       }
     },
     {
@@ -100,7 +100,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
       "name": "Why is healthcare cost per hire so high?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Credentialing, licensure verification, a shrinking candidate pool, and competition. Healthcare hires cost $9,000-$12,000 and health services roles take the longest to fill of any industry at 49 days (Workable). NSI puts one RN turnover at $60,090."
+        "text": "Credentialing, licensure verification, a shrinking candidate pool, and competition. Healthcare hires cost $9,000\u2013$12,000 and health services roles take the longest to fill of any industry (49 days per Workable). The vacancy cost makes it worse: NSI puts one RN turnover at $60,090."
       }
     },
     {
@@ -108,7 +108,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
       "name": "Does cost per hire include onboarding?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Under the SHRM standard, no \u2014 it stops at the accepted offer. Some teams separately track cost per productive hire including onboarding and ramp; keep it separate so benchmark comparisons stay apples-to-apples."
+        "text": "Under the SHRM standard, no. It stops at the accepted offer. Some teams track \"cost per productive hire\" including onboarding and ramp; useful, but keep it separate so your benchmark comparisons stay apples-to-apples."
       }
     }
   ]
@@ -125,9 +125,9 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 ```json
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Why Hospitals Struggle to Fill Entry-Level Clinical Roles \u2014 and What Actually Works",
-  "description": "Hospitals take 49 days to fill roles while entry-level candidates decide in days. The 7 reasons clinical hiring stalls \u2014 and what actually fixes each one.",
+  "@type": "BlogPosting",
+  "headline": "Why Hospitals Struggle to Fill Entry-Level Clinical Roles (and What Actually Works)",
+  "description": "Hospitals take 49 days to fill roles while entry-level candidates decide in days. The 7 reasons clinical hiring stalls, and what actually fixes each one.",
   "author": {
     "@type": "Person",
     "name": "Scott Lobenberg",
@@ -170,7 +170,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
       "name": "Why do hospitals struggle with virtual job fairs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Usually because they run them like virtual versions of the booth-and-banner fair: a lobby, some chat, no scheduled interviews. The format isn't the problem \u2014 the missing interview structure is. Virtual events work when every attendee is matched, screened, and booked into a time slot."
+        "text": "Usually because they run them like virtual versions of the booth-and-banner fair: a lobby, some chat, no scheduled interviews. The format isn't the problem; the missing interview structure is. Virtual events work when every attendee is matched, screened, and booked into a time slot. See our breakdown of virtual vs. in-person hiring events."
       }
     },
     {
@@ -186,7 +186,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
       "name": "How much does an unfilled nursing position cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "NSI's 2026 report puts RN turnover cost at $60,090 per nurse, with the average hospital losing $4.2-6.2 million annually. Every 1-point change in RN turnover costs or saves about $295,000 a year."
+        "text": "NSI's 2026 report puts RN turnover cost at $60,090 per nurse, with the average hospital losing $4.2\u20136.2 million annually. Every 1-point change in RN turnover costs or saves about $295,000 a year."
       }
     },
     {
@@ -194,7 +194,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
       "name": "What's the fastest way to hire entry-level clinical staff?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Compress screening and interviewing into a single event day. Candidates matched to your roles self-schedule interviews, your team meets 20-100+ pre-qualified candidates in one day, and offers go out while candidates are still engaged."
+        "text": "Compress screening and interviewing into a single event day. Candidates matched to your roles self-schedule interviews, your team meets 20\u2013100+ pre-qualified candidates in one day, and offers go out while candidates are still engaged."
       }
     }
   ]
@@ -211,7 +211,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 ```json
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "How to Choose a Nurse Job Fair: A Hospital Hiring Guide",
   "description": "7 criteria for picking a nurse job fair that produces hires, an honest comparison of event types, and what large hospital systems do differently.",
   "author": {
@@ -255,7 +255,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
       "name": "What is the best entry-level job fair service for nurses?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The one that delivers pre-screened, scheduled interviews rather than booth traffic. Evaluate any service on seven criteria: pre-screening, scheduled interviews, clinical audience, show rate, multi-location support, flat pricing, and same-day reporting."
+        "text": "The one that delivers pre-screened, scheduled interviews rather than booth traffic. Evaluate any service on the seven criteria above: pre-screening, scheduled interviews, clinical audience, show rate, multi-location support, flat pricing, same-day reporting. Formats that score well on all seven are rare; formats that score on none are common."
       }
     },
     {
@@ -263,7 +263,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
       "name": "Which job fairs do large hospital systems use?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Typically a mix: their own open houses for brand, school fairs for new grad pipeline, and recurring healthcare-specific virtual events for volume interviewing \u2014 run on a standing monthly or bi-monthly cadence per region rather than as one-offs."
+        "text": "Typically a mix: their own open houses for brand, school fairs for new grad pipeline, and recurring healthcare-specific virtual events for volume interviewing, run on a standing monthly or bi-monthly cadence per region rather than as one-offs."
       }
     },
     {
@@ -271,7 +271,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
       "name": "How much does a nurse job fair cost for employers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hosting your own runs $800-$3,000+ in hard costs plus weeks of staff time. Specialty virtual events run a few hundred to a few thousand dollars flat \u2014 JobFairX events start at $495 with 20+ scheduled interviews included. Compare everything on cost per scheduled interview, then cost per hire."
+        "text": "Hosting your own runs $800\u2013$3,000+ in hard costs plus weeks of staff time. Booth space at large general fairs varies widely by market. Specialty virtual events run a few hundred to a few thousand dollars flat; JobFairX events start at $495 with 20+ scheduled interviews included. Compare everything on cost per scheduled interview, then cost per hire."
       }
     },
     {
@@ -279,7 +279,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
       "name": "Are virtual job fairs effective for nurse recruiting?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, when they're interview-structured: pre-screened clinical candidates, self-scheduled slots, same-day decisions. They're weak when they replicate the booth model on a screen. The format isn't the variable \u2014 the interview structure is."
+        "text": "Yes, when they're interview-structured: pre-screened clinical candidates, self-scheduled slots, same-day decisions. They're weak when they replicate the booth model on a screen. The format isn't the variable; the interview structure is. Here's why hospitals struggle with entry-level clinical hiring and how event structure fixes it."
       }
     }
   ]
@@ -296,7 +296,7 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 ```json
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "10 Recruiting Metrics That Actually Matter in 2026",
   "description": "Only 3% of applicants reach an interview and 1 in 180 gets hired. The 10 recruiting metrics worth tracking, with formulas and 2026 benchmarks for each.",
   "author": {

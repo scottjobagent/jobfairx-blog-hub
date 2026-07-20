@@ -61,13 +61,13 @@ Three reasons, mostly.
 
 **2. Pay flat rates instead of per-click where you can.** Variable-cost channels punish volume hiring. Flat-rate channels, including hiring events, mean your cost per hire *drops* as you fill more roles from one spend.
 
-[IMAGE 2: images/jobboard-vs-hiring-event.jpg — alt: "Comparison of a traditional job board versus a JobFairX hiring event: you screen and schedule vs. interviews auto-scheduled; weeks to fill a role vs. 20–100+ interviews in one day; pay per click vs. flat rate"]
+[COMPONENT: job board vs. hiring event comparison — coded block, jfx-components-snippets.html #1]
 
 **3. Batch interviews into events.** One recruiter running back-to-back scheduled interviews for a day beats three weeks of calendar Tetris. This is the single biggest lever for [high-volume hiring](https://jobfairx.com/employer/resources/high-volume-hiring). Interviewer time is your largest hidden cost, and batching cuts it hard.
 
 **4. Only interview people who asked to meet you.** No-shows collapse when the candidate requested the interview slot instead of being chased into it. Pre-qualified, self-scheduled interviews flip the dynamic: candidates who picked your company and picked the time show up.
 
-[IMAGE 3: images/candidates-awaiting-response.jpg — alt: "JobFairX employer dashboard showing matched candidates awaiting response with desired job and location, and one-click accept buttons"]
+[COMPONENT: candidates awaiting response widget — coded block, jfx-components-snippets.html #2]
 
 **5. Cut your time to fill.** Cost per hire and [time to fill](https://jobfairx.com/employer/resources/time-to-fill) move together. Every extra week a role sits open adds recruiter hours, ad spend, and (in healthcare especially) vacancy cost that dwarfs the recruiting budget.
 
@@ -104,18 +104,18 @@ Under the SHRM standard, no. It stops at the accepted offer. Some teams track "c
 
 **URL slug:** /employer/resources/cost-per-hire
 **Meta title:** Cost Per Hire: 2026 Benchmarks by Industry & How to Lower It
-**Meta description:** Average cost per hire is $5,475 in 2026 (SHRM) — $9,000+ in healthcare. See benchmarks by industry, the SHRM formula, and 6 ways to bring your number down.
+**Meta description:** Average cost per hire is $5,475 in 2026 (SHRM), and $9,000+ in healthcare. See benchmarks by industry, the SHRM formula, and 6 ways to bring your number down.
 
-**Images (5, in /images folder):**
+**Images (1 chart) + coded components (2 — no screenshots):**
 1. cost-per-hire-by-industry.png — chart, after the benchmarks intro
-2. jobboard-vs-hiring-event.jpg — screenshot from /employer, in tactic #2
-3. candidates-awaiting-response.jpg — screenshot from /employer, in tactic #4
-4. jobfairx-pricing-tiers.jpg — screenshot from /employer/hiring-event-pricing, in scenario section
-5. (optional) nyc-healthcare-event-page.jpg — could sit next to the healthcare FAQ if it feels image-light
+2. REPLACED by coded comparison component (#1) in tactic #2
+3. REPLACED by coded candidates widget (#2) in tactic #4
+4. REMOVED: pricing tiers screenshot (scenario section moved to the pricing page — see pricing-page-addition.md)
+5. REMOVED: optional NYC event card (intent rule: informational post, no promotional event card)
 
 **Schema:** add FAQPage schema for the 4 FAQ questions; Article schema with author = Scott Lobenberg, datePublished + dateModified visible on page.
 
-**Cross-links out (5):** time-to-fill (×2), recruiting-roi, high-volume-hiring, virtual-hiring-events, hiring-event-pricing.
+**Cross-links out (4 destinations):** time-to-fill (×2), recruiting-roi, high-volume-hiring, hiring-event-pricing (×2: events section + CTA). Note: virtual-hiring-events link removed in the intent rewrite.
 **Backlinks to add after publish:** from time-to-fill, recruiting-roi, and high-volume-hiring — one sentence each citing the $5,475 average, anchor text "cost per hire."
 
 **Sources cited in post:** SHRM 2025 Benchmarking Report ($5,475 / $35,879); Pin 2026 benchmarks (industry table); CIPD + RPOA (fully loaded costs); NSI 2026 Retention Report ($60,090 RN turnover, 56–102 day fills); Workable (49-day health services time to fill).
