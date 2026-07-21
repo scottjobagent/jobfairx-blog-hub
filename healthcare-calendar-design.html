@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ============================================================
+  JOBFAIRX — HEALTHCARE JOB FAIRS CALENDAR (page design for dev)
+  URL: /employer/healthcare-hiring-event-calendar
+  Status: DESIGN MOCK — event cards below are SAMPLE DATA.
+  Feed the grid from the events API filtered to vertical=Healthcare.
+
+  SEO (backed by GSC query data, 6 months, pulled Jul 21 2026):
+    "healthcare job fair"            205 clicks / 1,949 impr
+    "healthcare job fairs near me"   185 / 1,285
+    "healthcare job fairs"            98 / 986
+    "healthcare virtual job fair"     91 / 241
+    "healthcare job fair near me"     70 / 740
+    "healthcare hiring events near me" 68 / 683
+    "healthcare job fair 2026"        44 / 389
+  → "job fair" language outpulls "hiring events" ~5x. H1 leads with it.
+
+  Title tag:  Healthcare Job Fairs 2026 — Virtual Hiring Events Calendar | JobFairX
+  Meta desc:  Upcoming healthcare job fairs and virtual hiring events — nurses,
+              allied health, and clinical staff, credential-screened and
+              interview-ready. Pick your city and date.
+  Canonical:  self-referencing. Add to sitemap.xml.
+  Schema:     see JSON-LD block at the bottom of <body>.
+  Internal links once live: swap healthcare CTAs in why-hospitals-struggle,
+  how-to-choose-a-nurse-job-fair, healthcare-recruiting-strategies, cost-per-hire;
+  add a link from the Healthcare Recruiting Strategies hub the same day.
+============================================================ -->
+<title>Healthcare Job Fairs 2026 — Virtual Hiring Events Calendar | JobFairX</title>
+<meta name="description" content="Upcoming healthcare job fairs and virtual hiring events — nurses, allied health, and clinical staff, credential-screened and interview-ready. Pick your city and date.">
+<link rel="canonical" href="https://jobfairx.com/employer/healthcare-hiring-event-calendar">
+<style>
+:root { --blue:#3457D5; --blue-dark:#2843AC; --ink:#111827; --body:#374151; --muted:#6B7280; --line:#E5E7EB; --soft:#F8FAFF; }
+* { box-sizing:border-box; }
+body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif; margin:0; color:var(--body); background:#fff; }
+.wrap { max-width:1080px; margin:0 auto; padding:0 24px; }
+
+/* HERO */
+.hero { background:linear-gradient(180deg,#F5F7FE 0%,#fff 100%); border-bottom:1px solid var(--line); padding:64px 0 44px; }
+.eyebrow { font-size:13px; font-weight:700; letter-spacing:.09em; text-transform:uppercase; color:var(--blue); margin-bottom:12px; }
+h1 { font-size:42px; line-height:1.12; letter-spacing:-.02em; color:var(--ink); margin:0 0 16px; max-width:760px; }
+.sub { font-size:18px; line-height:1.55; max-width:680px; margin:0 0 22px; }
+.trust { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:26px; }
+.pill { border:1px solid var(--line); background:#fff; border-radius:999px; padding:7px 15px; font-size:13.5px; color:var(--body); }
+.pill b { color:var(--ink); }
+.hero-ctas { display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
+.btn { display:inline-block; background:var(--blue); color:#fff; border-radius:999px; padding:13px 28px; font-weight:700; font-size:15.5px; text-decoration:none; }
+.btn:hover { background:var(--blue-dark); }
+.link-quiet { font-size:14.5px; color:var(--muted); }
+.link-quiet a { color:var(--blue); }
+
+/* FILTER BAR */
+.filters { display:flex; gap:12px; flex-wrap:wrap; padding:26px 0 6px; align-items:center; }
+.filters label { font-size:13px; font-weight:600; color:var(--muted); margin-right:2px; }
+.filters select { border:1px solid #D1D5DB; border-radius:10px; padding:10px 14px; font-size:14.5px; color:var(--ink); background:#fff; min-width:170px; }
+.count { margin-left:auto; font-size:13.5px; color:var(--muted); }
+
+/* EVENT GRID */
+.grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; padding:18px 0 10px; }
+.card { border:1px solid var(--line); border-radius:14px; padding:22px 22px 20px; display:flex; flex-direction:column; gap:6px; }
+.card .date { font-size:12.5px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--blue); }
+.card h3 { font-size:18.5px; color:var(--ink); margin:2px 0 2px; line-height:1.3; }
+.card .meta { font-size:13.5px; color:var(--muted); }
+.card .reg { font-size:13.5px; color:var(--body); margin-top:4px; }
+.card .reg b { color:var(--ink); }
+.card .cta-row { margin-top:auto; padding-top:14px; }
+.card a.book { display:inline-block; background:var(--blue); color:#fff; border-radius:999px; padding:9px 20px; font-size:13.5px; font-weight:700; text-decoration:none; }
+.badge-virtual { display:inline-block; background:#EEF2FF; color:var(--blue-dark); font-size:11.5px; font-weight:700; border-radius:6px; padding:3px 8px; margin-left:6px; vertical-align:middle; }
+
+/* HOW IT WORKS strip */
+.how { background:var(--soft); border:1px solid var(--line); border-radius:16px; padding:30px 28px; margin:34px 0; display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
+.how h4 { font-size:15.5px; color:var(--ink); margin:0 0 6px; }
+.how .n { display:inline-flex; width:26px; height:26px; border-radius:50%; background:var(--blue); color:#fff; font-size:13px; font-weight:700; align-items:center; justify-content:center; margin-bottom:10px; }
+.how p { font-size:13.5px; margin:0; line-height:1.55; }
+
+/* FAQ */
+.faq { padding:10px 0 30px; max-width:760px; }
+.faq h2 { font-size:26px; color:var(--ink); letter-spacing:-.01em; }
+.faq h3 { font-size:16.5px; color:var(--ink); margin:22px 0 6px; }
+.faq p { font-size:15px; line-height:1.6; margin:0; }
+
+/* CANDIDATE BAND */
+.cand { border-top:1px solid var(--line); background:var(--soft); padding:30px 0 34px; text-align:center; }
+.cand p { font-size:15px; margin:0 0 12px; }
+.cand a { color:var(--blue); font-weight:600; }
+
+footer.devnote { background:#FEF2F2; border-top:3px solid #DC2626; padding:26px 0; font-size:13.5px; }
+footer.devnote b { color:#DC2626; }
+@media (max-width:860px){ .grid { grid-template-columns:repeat(2,1fr);} .how{grid-template-columns:1fr;} h1{font-size:32px;} }
+@media (max-width:560px){ .grid { grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow">For Healthcare Employers</div>
+    <h1>Healthcare Job Fairs &amp; Hiring Events Calendar</h1>
+    <p class="sub">Standing virtual job fairs for nurses, allied health, and clinical staff. Candidates are credential-screened at registration and self-schedule interviews with your team — employers average <b>35 scheduled interviews</b> and <b>8 hires</b> per event.</p>
+    <div class="trust">
+      <span class="pill"><b>91%</b> average interview show rate</span>
+      <span class="pill"><b>Flat rate</b> — interviews included</span>
+      <span class="pill"><b>100+</b> events on the calendar</span>
+    </div>
+    <div class="hero-ctas">
+      <a class="btn" href="#events">Browse Upcoming Events</a>
+      <span class="link-quiet">Questions first? <a href="/employer/hiring-event-pricing">See pricing</a></span>
+    </div>
+  </div>
+</section>
+
+<div class="wrap" id="events">
+  <div class="filters">
+    <label>Role focus</label>
+    <select><option>All healthcare roles</option><option>Registered Nurses</option><option>CNAs &amp; Aides</option><option>Allied Health</option><option>Medical Assistants</option><option>Behavioral Health</option></select>
+    <label>Region</label>
+    <select><option>All regions</option><option>Northeast</option><option>Southeast</option><option>Midwest</option><option>Southwest</option><option>West</option></select>
+    <label>Month</label>
+    <select><option>Next 90 days</option><option>August 2026</option><option>September 2026</option><option>October 2026</option></select>
+    <span class="count">Showing 26 healthcare events</span>
+  </div>
+
+  <!-- SAMPLE CARDS — replace with events API feed, vertical=Healthcare -->
+  <div class="grid">
+    <div class="card">
+      <div class="date">Thu · Aug 6, 2026 <span class="badge-virtual">VIRTUAL</span></div>
+      <h3>Long Island Healthcare Job Fair</h3>
+      <div class="meta">Nurses · CNAs · Allied Health</div>
+      <div class="reg"><b>599</b> candidates pre-registered</div>
+      <div class="cta-row"><a class="book" href="#">Reserve Your Spot</a></div>
+    </div>
+    <div class="card">
+      <div class="date">Tue · Aug 11, 2026 <span class="badge-virtual">VIRTUAL</span></div>
+      <h3>Austin Healthcare Job Fair</h3>
+      <div class="meta">RNs · Medical Assistants · Techs</div>
+      <div class="reg"><b>784</b> candidates pre-registered</div>
+      <div class="cta-row"><a class="book" href="#">Reserve Your Spot</a></div>
+    </div>
+    <div class="card">
+      <div class="date">Wed · Aug 19, 2026 <span class="badge-virtual">VIRTUAL</span></div>
+      <h3>Oceanside Healthcare Job Fair</h3>
+      <div class="meta">Nurses · Behavioral Health · Aides</div>
+      <div class="reg"><b>773</b> candidates pre-registered</div>
+      <div class="cta-row"><a class="book" href="#">Reserve Your Spot</a></div>
+    </div>
+  </div>
+  <p style="font-size:12.5px;color:#9CA3AF;margin:4px 0 0;">Design note: 3 sample cards shown — grid holds the full filtered feed with pagination or load-more.</p>
+
+  <div class="how">
+    <div><span class="n">1</span><h4>Pick your event</h4><p>Choose the city and date that matches your openings. Flat rate per event, interviews included.</p></div>
+    <div><span class="n">2</span><h4>Candidates schedule with you</h4><p>Credential-screened candidates request your team and book real interview slots before event day.</p></div>
+    <div><span class="n">3</span><h4>Interview and hire in one day</h4><p>Your calendar fills with back-to-back scheduled interviews. Employers average 35 interviews and 8 hires per event.</p></div>
+  </div>
+
+  <div class="faq">
+    <h2>Healthcare job fair FAQ</h2>
+    <h3>Are these healthcare job fairs virtual or in person?</h3>
+    <p>Virtual. Every event on this calendar runs online, so your team interviews from anywhere — no booth, no travel, no venue costs. Local candidate pools are built per metro.</p>
+    <h3>How is this different from a traditional job fair?</h3>
+    <p>Candidates don't wander a room. They're screened for credentials at registration, request your organization specifically, and self-schedule interviews before the event. You get a calendar of scheduled interviews, not a stack of resumes — and 91% of scheduled candidates show up.</p>
+    <h3>What healthcare roles do these events cover?</h3>
+    <p>Registered nurses, CNAs and aides, medical assistants, allied health, behavioral health, and clinical support. Filter by role focus above to find events matching your openings.</p>
+    <h3>What does a healthcare hiring event cost?</h3>
+    <p>Events are flat-rate with interviews included — cost per hire falls as you hire more from one event. Full details on the <a href="/employer/hiring-event-pricing">pricing page</a>.</p>
+  </div>
+</div>
+
+<div class="cand">
+  <div class="wrap">
+    <p><b>Looking for a healthcare job?</b> These events are always 100% free for job seekers.</p>
+    <p><a href="/">Find a healthcare job fair near you →</a></p>
+  </div>
+</div>
+
+<footer class="devnote">
+  <div class="wrap">
+    <b>DEV NOTES:</b> Self-referencing canonical · add to sitemap.xml · JSON-LD below (ItemList of Event objects from the live feed + FAQPage matching the 4 questions verbatim) · filters should map to crawlable URL params only if we want indexed variants, otherwise keep client-side · candidate band links to the job-seeker funnel to capture "near me" searchers landing here · once live, update healthcare CTAs in: cost-per-hire, why-hospitals-struggle, how-to-choose-a-nurse-job-fair, healthcare-recruiting-strategies + link from the Healthcare hub.
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Are these healthcare job fairs virtual or in person?","acceptedAnswer":{"@type":"Answer","text":"Virtual. Every event on this calendar runs online, so your team interviews from anywhere — no booth, no travel, no venue costs. Local candidate pools are built per metro."}},
+    {"@type":"Question","name":"How is this different from a traditional job fair?","acceptedAnswer":{"@type":"Answer","text":"Candidates don't wander a room. They're screened for credentials at registration, request your organization specifically, and self-schedule interviews before the event. You get a calendar of scheduled interviews, not a stack of resumes — and 91% of scheduled candidates show up."}},
+    {"@type":"Question","name":"What healthcare roles do these events cover?","acceptedAnswer":{"@type":"Answer","text":"Registered nurses, CNAs and aides, medical assistants, allied health, behavioral health, and clinical support. Filter by role focus above to find events matching your openings."}},
+    {"@type":"Question","name":"What does a healthcare hiring event cost?","acceptedAnswer":{"@type":"Answer","text":"Events are flat-rate with interviews included — cost per hire falls as you hire more from one event. Full details on the pricing page."}}
+  ]
+}
+</script>
+<!-- Plus: ItemList of schema.org/Event objects generated from the live event feed (name, startDate, eventAttendanceMode=OnlineEventAttendanceMode, location=VirtualLocation, organizer=JobFairX). -->
+</body>
+</html>

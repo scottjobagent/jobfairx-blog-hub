@@ -40,6 +40,14 @@
 .jfx-stat .jfx-stat-label { font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:#3457D5; }
 .jfx-stat .jfx-stat-num { font-size:44px; font-weight:800; color:#111827; line-height:1.1; margin:4px 0 2px; }
 .jfx-stat .jfx-stat-sub { font-size:13.5px; color:#6B7280; }
+.jfx-quote { border:1px solid #E5E7EB; border-left:6px solid #3457D5; border-radius:12px; background:#F8FAFF; padding:24px 28px; margin:26px 0; }
+.jfx-quote p { font-size:19px; line-height:1.5; color:#111827; font-weight:600; margin:0 0 10px; }
+.jfx-quote .jfx-attr { font-size:13.5px; color:#6B7280; font-weight:500; }
+.jfx-bigcta { border:none; border-radius:16px; background:linear-gradient(135deg,#3457D5 0%,#2843AC 100%); color:#fff; text-align:center; padding:42px 30px; margin:44px 0 6px; }
+.jfx-bigcta h3 { color:#fff; font-size:26px; margin:0 0 8px; letter-spacing:-.01em; border:none; }
+.jfx-bigcta p { color:#DDE4FA; font-size:15.5px; margin:0 0 18px; }
+.jfx-bigcta .jfx-pill { border-color:rgba(255,255,255,.35); background:rgba(255,255,255,.1); color:#fff; }
+.jfx-bigcta a.jfx-cta { background:#fff; color:#2843AC; margin-top:14px; }
 .jfx-pull { border:none; margin:26px 0; padding:6px 0 6px 24px; border-left:4px solid #3457D5; background:none; font-size:21px; line-height:1.45; color:#111827; font-weight:600; }
 .jfx-calc { border:1px solid #E5E7EB; border-radius:14px; padding:24px 26px; margin:24px 0; background:#fff; }
 .jfx-calc h4 { font-size:17px; color:#111827; margin:0 0 4px; }
@@ -112,6 +120,14 @@
 .jfx-stat .jfx-stat-label { font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:#3457D5; }
 .jfx-stat .jfx-stat-num { font-size:44px; font-weight:800; color:#111827; line-height:1.1; margin:4px 0 2px; }
 .jfx-stat .jfx-stat-sub { font-size:13.5px; color:#6B7280; }
+.jfx-quote { border:1px solid #E5E7EB; border-left:6px solid #3457D5; border-radius:12px; background:#F8FAFF; padding:24px 28px; margin:26px 0; }
+.jfx-quote p { font-size:19px; line-height:1.5; color:#111827; font-weight:600; margin:0 0 10px; }
+.jfx-quote .jfx-attr { font-size:13.5px; color:#6B7280; font-weight:500; }
+.jfx-bigcta { border:none; border-radius:16px; background:linear-gradient(135deg,#3457D5 0%,#2843AC 100%); color:#fff; text-align:center; padding:42px 30px; margin:44px 0 6px; }
+.jfx-bigcta h3 { color:#fff; font-size:26px; margin:0 0 8px; letter-spacing:-.01em; border:none; }
+.jfx-bigcta p { color:#DDE4FA; font-size:15.5px; margin:0 0 18px; }
+.jfx-bigcta .jfx-pill { border-color:rgba(255,255,255,.35); background:rgba(255,255,255,.1); color:#fff; }
+.jfx-bigcta a.jfx-cta { background:#fff; color:#2843AC; margin-top:14px; }
 .jfx-pull { border:none; margin:26px 0; padding:6px 0 6px 24px; border-left:4px solid #3457D5; background:none; font-size:21px; line-height:1.45; color:#111827; font-weight:600; }
 .jfx-calc { border:1px solid #E5E7EB; border-radius:14px; padding:24px 26px; margin:24px 0; background:#fff; }
 .jfx-calc h4 { font-size:17px; color:#111827; margin:0 0 4px; }
@@ -302,7 +318,7 @@
 </div>
 <details class="seo"><summary><span class="arrow">&#9654;</span><span class="t">SEO — before &amp; after publish (everything for this post)</span></summary>
 <div class="seonotes">
-<div style="border:2px solid #DC2626; background:#FEF2F2; color:#B91C1C; font-weight:800; border-radius:10px; padding:14px 18px; margin-bottom:14px">&#128308; DEV ALERT: BUILD BEFORE PUBLISH: the final CTA points to /employer/healthcare-hiring-event-calendar — a NEW healthcare-only calendar landing page that returns 404 today. Full spec (H1, title tag, meta description, content, canonical, rollout) is in this post&#x27;s publishing notes in the repo markdown. Verified via Chrome console Jul 21: the current calendar mixes all verticals (26 healthcare of 300 links) with no filter, so a dedicated page is required.</div>
+<div style="border:2px solid #DC2626; background:#FEF2F2; color:#B91C1C; font-weight:800; border-radius:10px; padding:14px 18px; margin-bottom:14px">&#128308; DEV ALERT: BUILD BEFORE PUBLISH: the final CTA points to /employer/healthcare-hiring-event-calendar — a NEW healthcare-only calendar landing page that returns 404 today. Full page design: healthcare-calendar-design.html in this repo (eyebrow, H1, filters, event cards, CTAs, FAQ, schema). Spec + GSC keyword data in this post&#x27;s publishing notes. GSC (6 mo): &quot;healthcare job fair&quot; queries outpull &quot;hiring events&quot; ~5x — H1 leads with Job Fairs. Verified via Chrome console Jul 21: the current calendar mixes all verticals (26 healthcare of 300 links) with no filter, so a dedicated page is required.</div>
 <h3>Before publish</h3>
 <ol>
 <li><b>Slug:</b> <code>/employer/resources/cost-per-hire</code></li>
@@ -534,6 +550,11 @@ function jfxCalc() {
 <p>Worth a straight answer, since we run them. Flat-rate hiring events are one of the few channels where cost per hire falls as you hire more, because the spend is fixed while the hires aren't. That's the flat-rate effect from #2, and it's why events tend to win for multi-role, hourly, and clinical hiring, where interview volume is the bottleneck.</p>
 <p>The honest caveat: an event is not the right tool for every role. A single specialized senior hire is still a sourcing-and-outreach game. If you want the actual event math against these benchmarks, we published it on our <a href="https://jobfairx.com/employer/hiring-event-pricing">hiring event pricing page</a>.</p>
 
+<div class="jfx-quote">
+<p>&ldquo;Every hiring budget I look at pays for activity: clicks, posts, applications. Almost nobody pays for interviews. But interviews are the only thing in the funnel that predicts a hire. The moment you start pricing channels in cost per interview instead of cost per click, the decision makes itself.&rdquo;</p>
+<div class="jfx-attr">&mdash; Scott Lobenberg, Founder, JobFairX</div>
+</div>
+
 <h2>FAQ</h2>
 <div class="faq">
 <h3>What is a good cost per hire?</h3>
@@ -546,7 +567,12 @@ function jfxCalc() {
 <p>Under the SHRM standard, no. It stops at the accepted offer. Some teams track "cost per productive hire" including onboarding and ramp; useful, but keep it separate so your benchmark comparisons stay apples-to-apples.</p>
 </div>
 
-<div class="cta">Hiring for multiple roles? See what a flat-rate event does to your cost per hire: <a href="https://jobfairx.com/employer/healthcare-hiring-event-calendar">healthcare hiring events calendar</a>.</div>
+<div class="jfx-bigcta">
+<h3>Cut your cost per hire at the source</h3>
+<p>Healthcare job fairs with pre-qualified candidates and scheduled interviews. Flat rate. One day.</p>
+<span class="jfx-pill">&#10003; 91% average show rate</span><span class="jfx-pill">&#10003; 35 interviews per employer, average</span><br>
+<a class="jfx-cta" href="https://jobfairx.com/employer/healthcare-hiring-event-calendar">See the Healthcare Job Fairs Calendar</a>
+</div>
 </main></div>
 </details>
 

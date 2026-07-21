@@ -89,6 +89,11 @@ Worth a straight answer, since we run them. Flat-rate hiring events are one of t
 
 The honest caveat: an event is not the right tool for every role. A single specialized senior hire is still a sourcing-and-outreach game. If you want the actual event math against these benchmarks, we published it on our [hiring event pricing page](https://jobfairx.com/employer/hiring-event-pricing).
 
+> "Every hiring budget I look at pays for activity: clicks, posts, applications. Almost nobody pays for interviews. But interviews are the only thing in the funnel that predicts a hire. The moment you start pricing channels in cost per interview instead of cost per click, the decision makes itself."
+> — **Scott Lobenberg, Founder, JobFairX**
+
+[COMPONENT: styled founder quote — .jfx-quote pattern, see jfx-components-snippets.html #10]
+
 ## FAQ
 
 **What is a good cost per hire?**
@@ -105,7 +110,10 @@ Under the SHRM standard, no. It stops at the accepted offer. Some teams track "c
 
 ---
 
-*Hiring for multiple roles? See what a flat-rate event does to your cost per hire: [healthcare hiring events calendar](https://jobfairx.com/employer/healthcare-hiring-event-calendar).*
+[COMPONENT: big CTA banner — .jfx-bigcta pattern, see jfx-components-snippets.html #11]
+
+**Cut your cost per hire at the source.** Healthcare job fairs with pre-qualified candidates and scheduled interviews. Flat rate. One day. ✓ 91% average show rate · ✓ 35 interviews per employer, average
+→ **[See the Healthcare Job Fairs Calendar](https://jobfairx.com/employer/healthcare-hiring-event-calendar)**
 
 ---
 ---
@@ -128,9 +136,12 @@ Under the SHRM standard, no. It stops at the accepted offer. Some teams track "c
 <span style="color:#DC2626; font-weight:800">🔴 DEV — BUILD BEFORE THIS POST PUBLISHES: healthcare-only calendar landing page.</span> The final CTA now points to **/employer/healthcare-hiring-event-calendar**, which returns 404 today. Verified via Chrome console (Jul 21): the current /employer/hiring-event-calendar mixes all five verticals (26 healthcare among 300 event links), has no filter UI and no query-param filtering, so a dedicated page is required. Spec:
 
 - **URL:** /employer/healthcare-hiring-event-calendar (confirmed unused)
-- **H1:** Healthcare Hiring Events Calendar
-- **Title tag:** Healthcare Hiring Events Calendar 2026 | JobFairX
-- **Meta description:** Upcoming virtual hiring events for healthcare employers — nurses, allied health, and clinical staff, credential-screened and interview-ready. Pick your city and date.
+- **Keyword data (GSC, 6 months, pulled Jul 21):** "healthcare job fair" 205 clicks / 1,949 impressions · "healthcare job fairs near me" 185 / 1,285 · "healthcare job fairs" 98 / 986 · "healthcare virtual job fair" 91 / 241 · "healthcare job fair near me" 70 / 740 · "healthcare hiring events near me" 68 / 683 · "healthcare job fair 2026" 44 / 389. "Job fair" language outpulls "hiring events" ~5x — lead with it.
+- **Eyebrow:** FOR HEALTHCARE EMPLOYERS
+- **H1:** Healthcare Job Fairs &amp; Hiring Events Calendar
+- **Title tag:** Healthcare Job Fairs 2026 — Virtual Hiring Events Calendar | JobFairX
+- **Meta description:** Upcoming healthcare job fairs and virtual hiring events — nurses, allied health, and clinical staff, credential-screened and interview-ready. Pick your city and date.
+- **Full page design:** healthcare-calendar-design.html in this repo — coded mock with eyebrow, H1, intro, filters, event cards, employer + candidate CTAs, FAQ, and schema notes.
 - **Content:** same event-feed component as the main calendar, filtered to vertical = Healthcare (26 events today); one intro paragraph above the grid ("Standing healthcare hiring events in 40+ cities. Candidates are credential-screened at registration and self-schedule interviews with your team; employers average 35 scheduled interviews and 8 hires per event."); self-referencing canonical; add to sitemap.
 - **Once live, update the healthcare CTAs to this URL** in: why-hospitals-struggle, how-to-choose-a-nurse-job-fair, healthcare-recruiting-strategies (all currently point at the mixed calendar), plus this post. Add one link to it from the Healthcare Recruiting Strategies hub the same day.
 
