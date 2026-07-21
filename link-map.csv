@@ -1,0 +1,50 @@
+source,target,anchor_text,purpose,status
+cost-per-hire,time-to-fill,time to fill,sibling,IN DRAFT
+cost-per-hire,recruiting-roi,recruiting ROI guide,sibling,IN DRAFT
+cost-per-hire,high-volume-hiring,high-volume hiring,sibling,IN DRAFT
+cost-per-hire,SITE:/employer/hiring-event-pricing,hiring event pricing page,commercial CTA,IN DRAFT
+why-hospitals-struggle-entry-level-clinical-hiring,virtual-hiring-events,guide to virtual hiring events,pillar,IN DRAFT
+why-hospitals-struggle-entry-level-clinical-hiring,how-to-interview-candidates-at-a-virtual-hiring-event,how to run interviews at a virtual hiring event,sibling,IN DRAFT
+why-hospitals-struggle-entry-level-clinical-hiring,cost-per-hire,cost per hire,sibling,IN DRAFT
+why-hospitals-struggle-entry-level-clinical-hiring,virtual-vs-in-person-hiring-event,virtual vs. in-person hiring events,sibling,IN DRAFT
+why-hospitals-struggle-entry-level-clinical-hiring,SITE:/employer/hiring-event-calendar,healthcare hiring event calendar,commercial CTA,IN DRAFT
+how-to-choose-a-nurse-job-fair,cost-per-hire,cost per hire,sibling,IN DRAFT
+how-to-choose-a-nurse-job-fair,virtual-vs-in-person-hiring-event,virtual vs. in-person hiring events,sibling,IN DRAFT
+how-to-choose-a-nurse-job-fair,recruiting-roi,recruiting ROI guide,sibling,IN DRAFT
+how-to-choose-a-nurse-job-fair,why-hospitals-struggle-entry-level-clinical-hiring,why hospitals struggle with entry-level clinical hiring,sibling,IN DRAFT
+how-to-choose-a-nurse-job-fair,SITE:/employer/hiring-event-calendar,healthcare hiring event calendar,commercial CTA,IN DRAFT
+recruiting-metrics,time-to-fill,time to fill,hub->spoke,IN DRAFT
+recruiting-metrics,cost-per-hire,cost per hire,hub->spoke,IN DRAFT
+recruiting-metrics,recruiting-roi,recruiting ROI,hub->spoke,IN DRAFT
+recruiting-metrics,virtual-hiring-events,see how it works,soft CTA,IN DRAFT
+virtual-hiring-event-statistics,recruiting-metrics,the ten recruiting metrics that actually matter,hub,IN DRAFT
+virtual-hiring-event-statistics,time-to-fill,time to fill guide,sibling,IN DRAFT
+virtual-hiring-event-statistics,cost-per-hire,cost per hire guide,sibling,IN DRAFT
+virtual-hiring-event-statistics,why-hospitals-struggle-entry-level-clinical-hiring,why hospitals struggle to fill entry-level clinical roles,sibling,IN DRAFT
+virtual-hiring-event-statistics,virtual-hiring-events,how interview-first virtual hiring events work,pillar CTA,IN DRAFT
+healthcare-recruiting-strategies,recruiting-metrics,the recruiting metrics that actually matter,cross-hub,IN DRAFT
+healthcare-recruiting-strategies,virtual-hiring-event-statistics,virtual hiring event data,flagship cite,IN DRAFT
+healthcare-recruiting-strategies,why-hospitals-struggle-entry-level-clinical-hiring,why hospitals struggle to fill entry-level clinical roles,hub->spoke,IN DRAFT
+healthcare-recruiting-strategies,how-to-choose-a-nurse-job-fair,how to choose a nurse job fair,hub->spoke,IN DRAFT
+healthcare-recruiting-strategies,cost-per-hire,cost per hire guide,sibling,IN DRAFT
+healthcare-recruiting-strategies,SITE:/employer/hiring-event-calendar,healthcare hiring event calendar,commercial CTA,IN DRAFT
+time-to-fill,cost-per-hire,cost per hire,backlink pass,TO ADD on publish
+recruiting-roi,cost-per-hire,cost per hire,backlink pass,TO ADD on publish
+high-volume-hiring,cost-per-hire,cost per hire,backlink pass,TO ADD on publish
+virtual-hiring-events,why-hospitals-struggle-entry-level-clinical-hiring,entry-level clinical hiring,backlink pass,TO ADD on publish
+high-volume-hiring,why-hospitals-struggle-entry-level-clinical-hiring,why hospitals struggle to fill entry-level clinical roles,backlink pass,TO ADD on publish
+how-to-interview-candidates-at-a-virtual-hiring-event,why-hospitals-struggle-entry-level-clinical-hiring,entry-level clinical hiring,backlink pass,TO ADD on publish
+why-hospitals-struggle-entry-level-clinical-hiring,how-to-choose-a-nurse-job-fair,how to choose a nurse job fair,backlink pass,TO ADD on publish
+best-virtual-hiring-event-platforms,how-to-choose-a-nurse-job-fair,how to choose a nurse job fair,backlink pass,TO ADD on publish
+high-volume-hiring,how-to-choose-a-nurse-job-fair,how to choose a nurse job fair,backlink pass,TO ADD on publish
+time-to-fill,recruiting-metrics,recruiting metrics,backlink pass,TO ADD on publish
+cost-per-hire,recruiting-metrics,recruiting metrics,backlink pass,TO ADD on publish
+recruiting-roi,recruiting-metrics,recruiting metrics,backlink pass,TO ADD on publish
+high-volume-hiring,recruiting-metrics,recruiting metrics,backlink pass,TO ADD on publish
+recruiting-metrics,virtual-hiring-event-statistics,virtual hiring event statistics,backlink pass,TO ADD on publish
+cost-per-hire,virtual-hiring-event-statistics,virtual hiring event statistics,backlink pass,TO ADD on publish
+why-hospitals-struggle-entry-level-clinical-hiring,virtual-hiring-event-statistics,virtual hiring event statistics,backlink pass,TO ADD on publish
+virtual-hiring-events,virtual-hiring-event-statistics,virtual hiring event statistics,backlink pass,TO ADD on publish
+why-hospitals-struggle-entry-level-clinical-hiring,healthcare-recruiting-strategies,healthcare recruiting strategies,backlink pass,TO ADD on publish
+how-to-choose-a-nurse-job-fair,healthcare-recruiting-strategies,healthcare recruiting strategies,backlink pass,TO ADD on publish
+virtual-hiring-events,healthcare-recruiting-strategies,healthcare recruiting strategies,backlink pass,TO ADD on publish
