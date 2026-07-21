@@ -37,9 +37,9 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 **Landing page card** (for /employer/resources):
 
 - **Section:** Recruiting Metrics & ROI
-- **Style:** PHOTO preferred (mix rule): recruiter at desk reviewing a hiring budget — spreadsheet + calculator in frame, natural office light, 16:9 crop. Matches the photo cards in Recruiting Metrics & ROI (time-to-fill clock shot). Illustrated card below is the ready-to-use fallback.
-- **Download:** [card-cost-per-hire.png](https://scottjobagent.github.io/jobfairx-blog-hub/card-cost-per-hire.png)
-- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-cost-per-hire.png)
+- **Style:** PHOTO (final) — licensed iStock #1000963872 (calculator + hiring budget), downloaded on our plan Jul 21 2026. Original + this crop in Scott's blog-landing-images folder.
+- **Download:** [card-cost-per-hire.jpg](https://scottjobagent.github.io/jobfairx-blog-hub/card-cost-per-hire.jpg)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-cost-per-hire.jpg)
 
 **Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
 
@@ -130,9 +130,9 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 **Landing page card** (for /employer/resources):
 
 - **Section:** Healthcare Hiring (NEW section — see note)
-- **Style:** PHOTO preferred: nurse or clinical staff in a hospital corridor, candid, slightly weary tone (the post is about struggle) — NOT a smiling stock handshake. 16:9. Illustrated card below is the fallback.
-- **Download:** [card-why-hospitals-struggle.png](https://scottjobagent.github.io/jobfairx-blog-hub/card-why-hospitals-struggle.png)
-- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-why-hospitals-struggle.png)
+- **Style:** PHOTO (final) — licensed iStock #519923228 (nurse in corridor, candid), downloaded on our plan Jul 21 2026. Original + crop in blog-landing-images.
+- **Download:** [card-why-hospitals-struggle.jpg](https://scottjobagent.github.io/jobfairx-blog-hub/card-why-hospitals-struggle.jpg)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-why-hospitals-struggle.jpg)
 
 **Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
 
@@ -223,9 +223,9 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 **Landing page card** (for /employer/resources):
 
 - **Section:** Healthcare Hiring (NEW section — see note)
-- **Style:** PHOTO preferred: nurse in scrubs on a video interview from home, laptop visible — mirrors the how-to-interview card style. 16:9. Illustrated card below is the fallback.
-- **Download:** [card-how-to-choose-a-nurse-job-fair.png](https://scottjobagent.github.io/jobfairx-blog-hub/card-how-to-choose-a-nurse-job-fair.png)
-- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-how-to-choose-a-nurse-job-fair.png)
+- **Style:** PHOTO (final) — licensed iStock #1271023656 (nurse on video call from home), downloaded on our plan Jul 21 2026. Original + crop in blog-landing-images.
+- **Download:** [card-how-to-choose-a-nurse-job-fair.jpg](https://scottjobagent.github.io/jobfairx-blog-hub/card-how-to-choose-a-nurse-job-fair.jpg)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-how-to-choose-a-nurse-job-fair.jpg)
 
 **Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
 
@@ -501,9 +501,9 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 **Landing page card** (for /employer/resources):
 
 - **Section:** Healthcare Hiring (NEW section — see note)
-- **Style:** PHOTO preferred: healthcare recruiting team planning at a whiteboard or wall calendar — mirrors the host-your-own card. 16:9. Illustrated card below is the fallback.
-- **Download:** [card-healthcare-recruiting-strategies.png](https://scottjobagent.github.io/jobfairx-blog-hub/card-healthcare-recruiting-strategies.png)
-- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-healthcare-recruiting-strategies.png)
+- **Style:** PHOTO (final) — licensed iStock #2153183376 (clinical team planning meeting), downloaded on our plan Jul 21 2026. Original + crop in blog-landing-images.
+- **Download:** [card-healthcare-recruiting-strategies.jpg](https://scottjobagent.github.io/jobfairx-blog-hub/card-healthcare-recruiting-strategies.jpg)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-healthcare-recruiting-strategies.jpg)
 
 **Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
 
