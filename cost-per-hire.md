@@ -16,7 +16,7 @@ Cost per hire is the total amount you spend on recruiting divided by the number 
 
 ## How do you calculate cost per hire?
 
-The SHRM formula:
+Cost per hire = total internal + external recruiting costs, divided by total hires. That's the SHRM standard:
 
 > **Cost per hire = (internal recruiting costs + external recruiting costs) ÷ total number of hires**
 
@@ -27,6 +27,8 @@ For a typical mid-size company, the money breaks down roughly like this: recruit
 Two things most teams get wrong when they run the formula. They forget interviewer time: hours your managers spend in interviews are a real cost, and for hourly roles with high interview volume they're often the biggest one. And they divide by offers instead of hires. Ghosted offers and no-shows inflate your true cost per hire, which is why the metric pairs with [time to fill](https://jobfairx.com/employer/resources/time-to-fill).
 
 ## Cost per hire benchmarks for 2026
+
+The average cost per hire in the U.S. is $5,475 for non-executive roles, and $28,000+ for executives (SHRM). By industry:
 
 [IMAGE 1: chart-cost-per-hire-by-industry.png — alt: "Bar chart of 2026 U.S. cost per hire by industry, from $2,700 in retail and hospitality to $16,000–$20,000 in legal and professional services, with healthcare highlighted at $9,000–$12,000"]
 
@@ -53,7 +55,7 @@ And cost per hire isn't even the expensive part in some industries. In healthcar
 
 ## Why is cost per hire going up?
 
-Three reasons, mostly.
+Cost per hire is rising because job-board pricing keeps climbing, recruiter screening time keeps growing, and ghosting shrinks the hire count. In detail:
 
 **Job board economics.** Pay-per-click pricing keeps rising while application quality doesn't. You're paying for clicks and applications, not interviews and not hires. When 100 applications produce 4 interviews, your cost per *interview* is 25x your cost per click, and nobody puts that number in the dashboard.
 
@@ -85,7 +87,7 @@ Three reasons, mostly.
 
 ## Where do hiring events fit?
 
-Worth a straight answer, since we run them. Flat-rate hiring events are one of the few channels where cost per hire falls as you hire more, because the spend is fixed while the hires aren't. That's the flat-rate effect from #2, and it's why events tend to win for multi-role, hourly, and clinical hiring, where interview volume is the bottleneck.
+Flat-rate hiring events are one of the few channels where cost per hire falls as you hire more, because the spend is fixed while the hires aren't. Worth a straight answer, since we run them: that's the flat-rate effect from #2, and it's why events tend to win for multi-role, hourly, and clinical hiring, where interview volume is the bottleneck.
 
 The honest caveat: an event is not the right tool for every role. A single specialized senior hire is still a sourcing-and-outreach game. If you want the actual event math against these benchmarks, we published it on our [hiring event pricing page](https://jobfairx.com/employer/hiring-event-pricing).
 
