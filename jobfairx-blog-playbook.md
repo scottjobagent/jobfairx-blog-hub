@@ -8,7 +8,7 @@
 
 ## DRAFT
 4. **Voice:** founder-to-peer, short sentences, no AI phrases. Em dashes allowed but rare — only when the sentence truly needs one, never as a crutch. A couple per post at most; commas, periods, and colons do the work everywhere else. Answer-first lede — the hook stat in sentence one, never buried.
-5. **Built for AEO:** question-form H2s, lists and tables (78% of AI Overviews contain lists), a 4-question FAQ whose answers match the schema word-for-word, quotable one-line stats.
+5. **Built for AEO:** question-form H2s, lists and tables (78% of AI Overviews contain lists), a 4-question FAQ whose answers match the schema word-for-word, quotable one-line stats. **Direct-answer rule (added Jul 21):** the first sentence under every question H2 answers it directly — "X is...", "X costs...", "The average is..." — inside ~140 characters, so AI parsers extract a clean answer. Context and nuance come after the answer, never before it.
 6. **Visuals:** coded components only, never product screenshots. Max one chart. Evergreen links (calendar, never dated event pages).
 7. **3-5 contextual cross-links** using the exact anchors from the Link Map.
 
