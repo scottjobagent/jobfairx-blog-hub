@@ -87,6 +87,12 @@ h1 { font-size:30px; font-weight:600; color:var(--ink); margin:0 0 12px; }
 footer.devnote { background:#FEF2F2; border-top:3px solid #DC2626; padding:24px 0; font-size:13px; }
 footer.devnote b { color:#DC2626; }
 @media (max-width:820px){ .colheads{display:none;} .row{grid-template-columns:1fr; gap:8px;} .detail{justify-self:start;} .controls{flex-direction:column;} }
+
+footer.devnote ul { list-style:none; margin:10px 0 0; padding:0; }
+footer.devnote li { padding:7px 0; border-top:1px solid #FECACA; font-size:13px; color:#7F1D1D; }
+.ckpair { display:inline-flex; gap:8px; margin-right:10px; vertical-align:middle; }
+.ckpair label { font-size:11px; font-weight:700; color:#991B1B; display:inline-flex; align-items:center; gap:4px; white-space:nowrap; background:#fff; border:1px solid #FECACA; border-radius:6px; padding:2px 8px; cursor:pointer; }
+.ckpair input { accent-color:#DC2626; cursor:pointer; }
 </style>
 </head>
 <body>
@@ -142,7 +148,8 @@ footer.devnote b { color:#DC2626; }
 </div></div>
 
 <footer class="devnote"><div class="wrap">
-  <b>DEV NOTES:</b> Design cloned from the live /employer/hiring-event-calendar (same nav, hero proportions, list styling, pills, buttons) — only the copy, feed filter, FAQ, and schema differ. Feed = events API filtered to vertical=Healthcare. Self-referencing canonical · add to sitemap.xml · JSON-LD below (FAQPage as-is + ItemList of schema.org/Event objects from the live feed) · IMPORTANT: make the big heading the real H1 (the live calendar marks the tiny eyebrow as H1 — don't copy that) · candidate band captures "near me" job-seeker traffic · once live, update healthcare CTAs in: cost-per-hire, why-hospitals-struggle, how-to-choose-a-nurse-job-fair, healthcare-recruiting-strategies + link from the Healthcare hub.
+  <b>DEV CHECKLIST — check off each item when done, and again once it's tested LIVE:</b>
+  <ul><li><span class="ckpair"><label><input type="checkbox" class="ck" data-k="hc-feed-d"> check off when done</label><label><input type="checkbox" class="ck" data-k="hc-feed-t"> tested ONCE LIVE</label></span>Wire the event grid to the events feed filtered to <b>vertical=Healthcare</b> (the 4 rows above are real current events, statically placed).</li><li><span class="ckpair"><label><input type="checkbox" class="ck" data-k="hc-h1-d"> check off when done</label><label><input type="checkbox" class="ck" data-k="hc-h1-t"> tested ONCE LIVE</label></span><b>H1 markup:</b> make the big heading the real <code>&lt;h1&gt;</code> and the eyebrow a <code>&lt;div&gt;</code>. NOTE: the live /employer/hiring-event-calendar has this backwards (the tiny eyebrow is the H1, the big heading is an H2) — fix it on THAT page too while you're in there.</li><li><span class="ckpair"><label><input type="checkbox" class="ck" data-k="hc-title-d"> check off when done</label><label><input type="checkbox" class="ck" data-k="hc-title-t"> tested ONCE LIVE</label></span>Title tag: <b>Healthcare Job Fairs 2026 — Virtual Hiring Events Calendar | JobFairX</b> + meta description from the head of this file.</li><li><span class="ckpair"><label><input type="checkbox" class="ck" data-k="hc-canon-d"> check off when done</label><label><input type="checkbox" class="ck" data-k="hc-canon-t"> tested ONCE LIVE</label></span>Self-referencing canonical on /employer/healthcare-hiring-event-calendar + add the URL to sitemap.xml.</li><li><span class="ckpair"><label><input type="checkbox" class="ck" data-k="hc-schema-d"> check off when done</label><label><input type="checkbox" class="ck" data-k="hc-schema-t"> tested ONCE LIVE</label></span>Paste the FAQPage JSON-LD (bottom of this file) as-is + generate an ItemList of schema.org/Event objects from the live feed (eventAttendanceMode=OnlineEventAttendanceMode, location=VirtualLocation, organizer=JobFairX). Validate in Rich Results Test.</li><li><span class="ckpair"><label><input type="checkbox" class="ck" data-k="hc-cand-d"> check off when done</label><label><input type="checkbox" class="ck" data-k="hc-cand-t"> tested ONCE LIVE</label></span>Keep the job-seeker band at the bottom (captures “near me” candidate traffic) pointing at the candidate funnel.</li><li><span class="ckpair"><label><input type="checkbox" class="ck" data-k="hc-ctas-d"> check off when done</label><label><input type="checkbox" class="ck" data-k="hc-ctas-t"> tested ONCE LIVE</label></span>Once live: update the healthcare CTAs to this URL in cost-per-hire, why-hospitals-struggle, how-to-choose-a-nurse-job-fair, healthcare-recruiting-strategies + add a link from the Healthcare hub.</li></ul>
 </div></footer>
 
 <script type="application/ld+json">
@@ -156,6 +163,22 @@ footer.devnote b { color:#DC2626; }
     {"@type":"Question","name":"What does a healthcare hiring event cost?","acceptedAnswer":{"@type":"Answer","text":"Events are flat-rate with interviews included — cost per hire falls as you hire more from one event. Full details on the pricing page."}}
   ]
 }
+</script>
+
+<script>
+(function(){
+  var KEY='jfx-dev-checks';
+  var st = {};
+  try { st = JSON.parse(localStorage.getItem(KEY)||'{}'); } catch(e){}
+  document.querySelectorAll('input.ck').forEach(function(cb){
+    var k = cb.getAttribute('data-k');
+    if (st[k]) cb.checked = true;
+    cb.addEventListener('change', function(){
+      st[k] = cb.checked; if(!cb.checked) delete st[k];
+      try { localStorage.setItem(KEY, JSON.stringify(st)); } catch(e){}
+    });
+  });
+})();
 </script>
 </body>
 </html>

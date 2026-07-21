@@ -1,6 +1,6 @@
 # Healthcare Recruiting Strategies That Fill Shifts in 2026
 
-**By Scott Lobenberg, Founder, JobFairX** · Published July 2026
+**By [Scott Lobenberg](https://jobfairx.com/employer/resources/author), Founder, JobFairX** · Published July 2026
 
 ---
 

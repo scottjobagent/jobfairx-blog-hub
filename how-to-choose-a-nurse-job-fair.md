@@ -1,6 +1,6 @@
 # How to Choose a Nurse Job Fair: A Hospital Hiring Guide
 
-**By Scott Lobenberg, Founder, JobFairX** · Published July 2026
+**By [Scott Lobenberg](https://jobfairx.com/employer/resources/author), Founder, JobFairX** · Published July 2026
 
 ---
 

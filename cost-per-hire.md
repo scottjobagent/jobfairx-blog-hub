@@ -1,6 +1,6 @@
 # Cost Per Hire: What It Is, 2026 Benchmarks by Industry, and How to Lower It
 
-**By Scott Lobenberg, Founder, JobFairX** · Published July 2026
+**By [Scott Lobenberg](https://jobfairx.com/employer/resources/author), Founder, JobFairX** · Published July 2026
 
 ---
 

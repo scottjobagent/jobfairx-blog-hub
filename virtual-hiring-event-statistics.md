@@ -1,6 +1,6 @@
 # Virtual Hiring Event Statistics 2026: Show Rates, Speed, and What Actually Converts
 
-**By Scott Lobenberg, Founder, JobFairX** · Published July 2026 · Updated quarterly
+**By [Scott Lobenberg](https://jobfairx.com/employer/resources/author), Founder, JobFairX** · Published July 2026 · Updated quarterly
 
 ---
 
