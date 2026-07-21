@@ -91,7 +91,7 @@ Flat-rate hiring events are one of the few channels where cost per hire falls as
 
 [COMPONENT: stat callout — JOBFAIRX 2025 PLATFORM DATA / 582 events / "Healthcare hiring events held in 2025 — employers averaged 35 scheduled interviews and 8 hires per event"]
 
-Our own 2025 numbers, since this is the claim that matters: across **582 healthcare hiring events**, employers averaged **35 scheduled interviews and 8 hires per event**. Run that against the pricing above: even at the top flat-rate tier, the channel spend works out to under $200 per hire, before staff time — against the $9,000–$12,000 healthcare average through traditional channels.
+Our own 2025 numbers, from the most expensive row on the benchmarks table above: across **582 healthcare hiring events**, employers averaged **35 scheduled interviews and 8 hires per event**. Run that against the pricing above: even at the top flat-rate tier, the channel spend works out to under $200 per hire, before staff time — against the $9,000–$12,000 healthcare average through traditional channels.
 
 The honest caveat: an event is not the right tool for every role. A single specialized senior hire is still a sourcing-and-outreach game. If you want the actual event math against these benchmarks, we published it on our [hiring event pricing page](https://jobfairx.com/employer/hiring-event-pricing).
 
