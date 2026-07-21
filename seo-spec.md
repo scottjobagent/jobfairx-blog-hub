@@ -588,6 +588,98 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 
 ---
 
+## /employer/resources/how-to-host-a-job-fair
+
+**Landing page card** (for /employer/resources):
+
+- **Section:** Virtual Hiring Events
+- **Style:** ILLUSTRATION shipped (booth + checklist, on-brand, keeps the site's 4-photo/3-illustration mix). If Scott prefers a photo: iStock search 'in-person job fair employer booth candid', 16:9 crop — swap the file, keep the filename.
+- **Download:** [card-how-to-host-a-job-fair.jpg](https://scottjobagent.github.io/jobfairx-blog-hub/card-how-to-host-a-job-fair.jpg)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-how-to-host-a-job-fair.jpg)
+
+**Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How to Host a Job Fair: Step-by-Step Employer Guide (+ Checklist)",
+  "description": "Hosting a job fair takes 6-8 weeks and $800-$3,000+ in hard costs. The 10-step employer guide, a planning checklist, and the one decision that produces hires.",
+  "author": {
+    "@type": "Person",
+    "name": "Scott Lobenberg",
+    "jobTitle": "Founder",
+    "url": "https://jobfairx.com/about-us",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "JobFairX",
+      "url": "https://jobfairx.com"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "JobFairX",
+    "url": "https://jobfairx.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jobfairx.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jobfairx.com/employer/resources/how-to-host-a-job-fair"
+  },
+  "datePublished": "2026-07-XX",
+  "dateModified": "2026-07-XX"
+}
+```
+
+**FAQPage schema (answers match on-page FAQ copy):**
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does it cost to host a job fair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Plan on $800 to $3,000+ in hard costs for a self-hosted event (venue, marketing, materials, signage), plus staff time, which is usually the largest real expense. A recruiter and two hiring managers for one event day, plus planning hours, often exceeds every hard cost combined."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far in advance should you plan a job fair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Six to eight weeks for a self-hosted event: venue and registration first, promotion running by four weeks out, staffing and interview slots locked at least two weeks before the day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you get candidates to attend a job fair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Promote the jobs, not the event, starting four weeks out: local job boards, LinkedIn, university and community college career centers, and radius-targeted ads, all pointing to a pre-registration page with screening questions. \"Hiring 12 CNAs, interviews on the spot\" outpulls a generic career fair invitation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are job fairs worth it for employers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only when they're built around interviews. NACE data shows just 45% of traditional career fair attendees get an interview invitation and 24% get an offer. Fairs that pre-screen at registration and run scheduled interviews on event day beat those numbers; fairs that collect resumes don't."
+      }
+    }
+  ]
+}
+```
+
+
+---
+
 ## Publish-day checklist (per post, ~10 min)
 
 1. Slug + meta title + meta description from the post's publishing notes.

@@ -86,6 +86,63 @@
 .jfx-event .jfx-cta { display:inline-block; background:#3457D5; color:#fff; border-radius:999px; padding:11px 26px; font-weight:700; font-size:15px; text-decoration:none; }
 .jfx-event .jfx-note { font-size:12.5px; color:#6B7280; margin-top:10px; }
 
+.jfx-check { border:1px solid #E5E7EB; border-radius:14px; padding:22px 26px; background:#fff; }
+.jfx-check h4 { font-size:18px; color:#111827; margin:0 0 14px; }
+.jfx-check .jfx-phase { margin:0 0 14px; }
+.jfx-check .jfx-phase b { display:block; color:#3457D5; font-size:13px; text-transform:uppercase; letter-spacing:.05em; margin-bottom:6px; }
+.jfx-check ul { list-style:none; margin:0; padding:0; }
+.jfx-check li { padding:4px 0 4px 26px; position:relative; font-size:14.5px; color:#374151; }
+.jfx-check li::before { content:""; position:absolute; left:2px; top:8px; width:13px; height:13px; border:2px solid #94A3C8; border-radius:4px; }
+.jfx-wrap { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif; margin:26px 0; }
+.jfx-cap { font-size:13px; color:#6B7280; margin-top:8px; text-align:center; }
+/* comparison */
+.jfx-compare { display:grid; grid-template-columns:1fr 1fr; border:1px solid #E5E7EB; border-radius:12px; overflow:hidden; font-size:15px; }
+.jfx-compare .jfx-col h4 { padding:14px 18px; font-size:14px; letter-spacing:.02em; text-transform:uppercase; }
+.jfx-compare .jfx-old h4 { background:#F9FAFB; color:#6B7280; }
+.jfx-compare .jfx-new h4 { background:#3457D5; color:#fff; }
+.jfx-compare ul { list-style:none; margin:0; padding:6px 0; }
+.jfx-compare li { padding:11px 18px; border-top:1px solid #F3F4F6; color:#374151; display:flex; gap:10px; align-items:flex-start; }
+.jfx-compare .jfx-x { color:#DC2626; font-weight:700; }
+.jfx-compare .jfx-check { color:#16A34A; font-weight:700; }
+.jfx-compare .jfx-new li { font-weight:600; color:#111827; }
+@media (max-width:560px){ .jfx-compare { grid-template-columns:1fr; } }
+/* candidates widget */
+.jfx-widget { border:1px solid #E5E7EB; border-radius:12px; overflow:hidden; max-width:560px; margin:0 auto; box-shadow:0 4px 16px rgba(17,24,39,.06); }
+.jfx-widget h4 { padding:14px 18px; font-size:15px; color:#111827; border-bottom:1px solid #E5E7EB; }
+.jfx-widget h4 span { color:#6B7280; font-weight:400; }
+.jfx-widget table { width:100%; border-collapse:collapse; font-size:14px; }
+.jfx-widget th { text-align:left; font-size:11px; letter-spacing:.05em; text-transform:uppercase; color:#6B7280; padding:8px 18px; border-bottom:1px solid #F3F4F6; }
+.jfx-widget td { padding:10px 18px; border-bottom:1px solid #F3F4F6; color:#374151; vertical-align:middle; }
+.jfx-widget td b { color:#111827; display:block; }
+.jfx-widget td small { color:#3457D5; }
+.jfx-btn { background:#3457D5; color:#fff; border:none; border-radius:999px; padding:7px 16px; font-size:13px; font-weight:600; }
+/* pricing */
+.jfx-pricing { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+.jfx-plan { border:1px solid #E5E7EB; border-radius:14px; padding:22px 20px; text-align:center; position:relative; }
+.jfx-plan.jfx-pop { border:2px solid #3457D5; }
+.jfx-badge { position:absolute; top:-11px; left:50%; transform:translateX(-50%); background:#3457D5; color:#fff; font-size:11px; font-weight:700; padding:3px 12px; border-radius:999px; letter-spacing:.03em; }
+.jfx-plan h4 { font-size:17px; color:#111827; margin:4px 0 2px; }
+.jfx-plan .jfx-price { font-size:30px; font-weight:800; color:#111827; }
+.jfx-plan .jfx-per { font-size:12.5px; color:#6B7280; margin-bottom:12px; }
+.jfx-plan ul { list-style:none; margin:0; padding:0; font-size:13.5px; color:#374151; text-align:left; }
+.jfx-plan li { padding:5px 0 5px 22px; position:relative; }
+.jfx-plan li::before { content:"✓"; position:absolute; left:0; color:#3457D5; font-weight:700; }
+@media (max-width:640px){ .jfx-pricing { grid-template-columns:1fr; } }
+/* verticals */
+.jfx-verticals { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; }
+.jfx-vert { border:1px solid #E5E7EB; border-radius:12px; padding:16px 14px; }
+.jfx-vert h5 { font-size:14.5px; color:#111827; margin:0 0 4px; display:flex; align-items:center; gap:7px; }
+.jfx-dot { width:9px; height:9px; border-radius:50%; display:inline-block; flex:none; }
+.jfx-vert p { font-size:12.5px; color:#6B7280; margin:0; line-height:1.5; }
+@media (max-width:760px){ .jfx-verticals { grid-template-columns:repeat(2,1fr); } }
+/* event card */
+.jfx-event { border:1px solid #E5E7EB; border-radius:14px; padding:34px 26px; text-align:center; background:linear-gradient(180deg,#F5F7FE 0%,#fff 100%); max-width:560px; margin:0 auto; }
+.jfx-event h4 { font-size:24px; color:#111827; margin:0 0 6px; letter-spacing:-.01em; }
+.jfx-event .jfx-sub { color:#374151; font-size:14.5px; margin-bottom:14px; }
+.jfx-pill { display:inline-block; border:1px solid #E5E7EB; background:#fff; border-radius:999px; padding:6px 14px; font-size:13px; color:#374151; margin:0 4px 12px; }
+.jfx-event .jfx-cta { display:inline-block; background:#3457D5; color:#fff; border-radius:999px; padding:11px 26px; font-weight:700; font-size:15px; text-decoration:none; }
+.jfx-event .jfx-note { font-size:12.5px; color:#6B7280; margin-top:10px; }
+
   .cardstrip { display:flex; gap:18px; align-items:center; background:#F8FAFF; border-bottom:1px solid var(--line); padding:16px 24px; }
   .cardstrip img { width:240px; aspect-ratio:16/9; object-fit:cover; border-radius:10px; border:1px solid #E5E7EB; display:block; }
   .cardstrip .cardinfo { display:flex; flex-direction:column; gap:4px; font-size:13.5px; color:#374151; }
@@ -189,6 +246,7 @@
 <li><b>Week 2 Thu:</b> Recruiting Metrics → <code>/employer/resources/recruiting-metrics</code> (this is the metrics hub — its backlink pass matters most)</li>
 <li><b>Week 3 Tue:</b> Virtual Hiring Event Statistics → <code>/employer/resources/virtual-hiring-event-statistics</code> (DATA FLAGSHIP — every later post cites it; its backlink pass is non-negotiable)</li>
 <li><b>Week 3 Thu:</b> Healthcare Recruiting Strategies → <code>/employer/resources/healthcare-recruiting-strategies</code> (HEALTHCARE HUB — healthcare spokes link here as they publish)</li>
+<li><b>Week 4 Tue:</b> How to Host a Job Fair → <code>/employer/resources/how-to-host-a-job-fair</code> (the in-person/general angle; pairs with the contrarian virtual post)</li>
 </ol>
 </div></div>
 </details>
@@ -1351,6 +1409,170 @@
 </div>
 
 <div class="cta">Filling clinical shifts? See the <a href="https://jobfairx.com/employer/hiring-event-calendar">healthcare hiring event calendar</a>: standing cadence, credential-screened candidates, self-scheduled interviews.</div>
+</main></div>
+</details>
+<div class="weekline">Week 4</div>
+
+<details class="post">
+  <summary><span class="arrow">&#9654;</span><span class="t">How to Host a Job Fair: Step-by-Step Guide (+ Checklist)</span><span class="meta">publish Tue · /how-to-host-a-job-fair</span><span class="badge draft">DRAFT</span></summary>
+  <div class="inner"><div class="cardstrip">
+  <a href="card-how-to-host-a-job-fair.jpg" download><img src="card-how-to-host-a-job-fair.jpg" alt="landing page card for this post"></a>
+  <div class="cardinfo">
+    <b>Landing page card</b>
+    <span>Section: Virtual Hiring Events</span>
+    <span>ILLUSTRATION shipped (booth + checklist, on-brand, keeps the site&#x27;s 4-photo/3-illustration mix). If Scott prefers a photo: iStock search &#x27;in-person job fair employer booth candid&#x27;, 16:9 crop — swap the file, keep the filename.</span>
+    <a href="card-how-to-host-a-job-fair.jpg" download>Download card-how-to-host-a-job-fair.jpg</a>
+  </div>
+</div>
+<details class="seo"><summary><span class="arrow">&#9654;</span><span class="t">SEO — before &amp; after publish (everything for this post)</span></summary>
+<div class="seonotes">
+<h3>Before publish</h3>
+<ol>
+<li><b>Slug:</b> <code>/employer/resources/how-to-host-a-job-fair</code></li>
+<li><b>Title tag:</b> How to Host a Job Fair: Step-by-Step Guide (+ Checklist)</li>
+<li><b>Meta description:</b> Hosting a job fair takes 6-8 weeks and $800-$3,000+ in hard costs. The 10-step employer guide, a planning checklist, and the one decision that produces hires.</li>
+<li><b>Images:</b><ul><li>No chart images in this post — the coded components carry the visuals (that's intentional; they're crawlable HTML).</li></ul></li>
+<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
+<li><b>Verify outbound links resolve:</b> how-to-host-a-virtual-hiring-event (the fork), virtual-vs-in-person-hiring-event, virtual-hiring-event-statistics (flagship cite), cost-per-hire, recruiting-metrics, calendar CTA. Component: planning checklist (#8) — new, crawlable HTML. No chart, no screenshots.</li>
+<li><b>Landing page card</b> (for <code>/employer/resources</code>):<ul>
+<li><b>Section:</b> Virtual Hiring Events</li>
+<li><b>Style:</b> ILLUSTRATION shipped (booth + checklist, on-brand, keeps the site's 4-photo/3-illustration mix). If Scott prefers a photo: iStock search 'in-person job fair employer booth candid', 16:9 crop — swap the file, keep the filename.</li>
+<li><b>Image:</b> <a href="card-how-to-host-a-job-fair.jpg" download>card-how-to-host-a-job-fair.jpg</a> (1600&times;900 PNG, flat-illustration style matching the existing vector cards on the page) — right-click &rarr; Save, or click to download. Preview:<br><img src="card-how-to-host-a-job-fair.jpg" alt="landing card" style="max-width:420px;border:1px solid #E5E7EB;border-radius:10px;margin-top:8px"></li>
+</ul></li>
+<li>Byline links to the existing author page (<code>/employer/resources/author</code>); published date visible on page.</li>
+<li><b>Template fixes apply here too</b> (verified gaps, see Dev Setup): og:type=article, per-post og:image, WebP + width/height, descriptive alt from this panel.</li>
+</ol>
+<h3>After publish (same day, ~10 min)</h3>
+<ol>
+<li><b>Backlink pass — add links TO this post from:</b><ul><li>how-to-host-a-virtual-hiring-event — top of post ("planning an in-person or general fair instead?"), anchor "how to host a job fair"</li><li>virtual-vs-in-person-hiring-event — same anchor</li><li>high-volume-hiring — same anchor</li></ul></li>
+<li>GSC → URL Inspection → Request indexing.</li>
+<li>Confirm the post is in the sitemap with today's lastmod.</li>
+</ol>
+<h3>Article schema</h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;BlogPosting&quot;,
+  &quot;headline&quot;: &quot;How to Host a Job Fair: Step-by-Step Employer Guide (+ Checklist)&quot;,
+  &quot;description&quot;: &quot;Hosting a job fair takes 6-8 weeks and $800-$3,000+ in hard costs. The 10-step employer guide, a planning checklist, and the one decision that produces hires.&quot;,
+  &quot;author&quot;: {
+    &quot;@type&quot;: &quot;Person&quot;,
+    &quot;name&quot;: &quot;Scott Lobenberg&quot;,
+    &quot;jobTitle&quot;: &quot;Founder&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com/about-us&quot;,
+    &quot;worksFor&quot;: {
+      &quot;@type&quot;: &quot;Organization&quot;,
+      &quot;name&quot;: &quot;JobFairX&quot;,
+      &quot;url&quot;: &quot;https://jobfairx.com&quot;
+    }
+  },
+  &quot;publisher&quot;: {
+    &quot;@type&quot;: &quot;Organization&quot;,
+    &quot;name&quot;: &quot;JobFairX&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com&quot;,
+    &quot;logo&quot;: {
+      &quot;@type&quot;: &quot;ImageObject&quot;,
+      &quot;url&quot;: &quot;https://jobfairx.com/logo.png&quot;
+    }
+  },
+  &quot;mainEntityOfPage&quot;: {
+    &quot;@type&quot;: &quot;WebPage&quot;,
+    &quot;@id&quot;: &quot;https://jobfairx.com/employer/resources/how-to-host-a-job-fair&quot;
+  },
+  &quot;datePublished&quot;: &quot;2026-07-XX&quot;,
+  &quot;dateModified&quot;: &quot;2026-07-XX&quot;
+}</code></pre>
+<h3>FAQPage schema</h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;FAQPage&quot;,
+  &quot;mainEntity&quot;: [
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;How much does it cost to host a job fair?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Plan on $800 to $3,000+ in hard costs for a self-hosted event (venue, marketing, materials, signage), plus staff time, which is usually the largest real expense. A recruiter and two hiring managers for one event day, plus planning hours, often exceeds every hard cost combined.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;How far in advance should you plan a job fair?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Six to eight weeks for a self-hosted event: venue and registration first, promotion running by four weeks out, staffing and interview slots locked at least two weeks before the day.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;How do you get candidates to attend a job fair?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Promote the jobs, not the event, starting four weeks out: local job boards, LinkedIn, university and community college career centers, and radius-targeted ads, all pointing to a pre-registration page with screening questions. \&quot;Hiring 12 CNAs, interviews on the spot\&quot; outpulls a generic career fair invitation.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;Are job fairs worth it for employers?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Only when they&#x27;re built around interviews. NACE data shows just 45% of traditional career fair attendees get an interview invitation and 24% get an offer. Fairs that pre-screen at registration and run scheduled interviews on event day beat those numbers; fairs that collect resumes don&#x27;t.&quot;
+      }
+    }
+  ]
+}</code></pre>
+</div>
+</details><main>
+<div class="kicker">Hiring Events</div>
+<h1>How to Host a Job Fair: Step-by-Step Employer Guide (+ Checklist)</h1>
+<div class="byline">By <b>Scott Lobenberg</b>, Founder, JobFairX &nbsp;&middot;&nbsp; Published July 2026</div>
+
+<p>Hosting a job fair takes 6 to 8 weeks of planning, $800 to $3,000+ in hard costs, and one decision that determines whether it produces hires: whether candidates leave with scheduled interviews or just leave. NACE data on traditional career fairs says only 45% of attendees ever get an interview invitation and 24% get an offer, and most of those interviews happen weeks later. So the guide below is built around fixing that number, not just filling a room.</p>
+<p>Ten steps, then the checklist.</p>
+
+<ol class="tactics">
+<li><b>Define the goal in hires, not attendance.</b> "Good turnout" is not a goal. Decide up front: how many roles are you filling, how many interviews does that take, and how many candidates do you need in the room to get there? Work the funnel backwards. If you need 5 hires and your interview-to-hire rate is around 27% (CareerPlug's cross-industry benchmark), you need roughly 19 real interviews, which means every other decision below serves interview count.</li>
+<li><b>Pick the format before you pick anything else.</b> In-person works when the jobs are local, hands-on, and you want candidates to see the facility. Virtual reaches more candidates in less time, at lower cost. The full breakdown is in our <a href="https://jobfairx.com/employer/resources/virtual-vs-in-person-hiring-event">virtual vs. in-person career fairs</a> comparison. One honest fork in the road: if you're leaning virtual, read <a href="https://jobfairx.com/employer/resources/how-to-host-a-virtual-hiring-event">should you host your own virtual hiring event</a> before committing. Most employers shouldn't. The rest of this guide covers hosting your own in-person or general job fair, where DIY makes more sense.</li>
+<li><b>Budget it honestly.</b> Hard costs run $800 to $3,000+ for a self-hosted event: venue, tables and signage, marketing spend, refreshments, materials. The bigger line item is the one nobody budgets: staff time. A recruiter and two hiring managers spending a full day at a booth, plus the planning hours, is often worth more than every hard cost combined. Count it, because it lands in your <a href="https://jobfairx.com/employer/resources/cost-per-hire">cost per hire</a> whether you count it or not.</li>
+<li><b>Lock the venue, date, and time 6-8 weeks out.</b> Midweek beats weekends for working candidates browsing a career change. Late afternoon into early evening (2-7pm) catches both shifts. Check parking, transit access, and accessibility before you sign anything. Reserve a layout that supports private conversations, because step 8 needs somewhere quieter than a booth.</li>
+<li><b>Staff it with people who can say yes.</b> A job fair staffed only by recruiters produces resumes. A job fair staffed by hiring managers with authority to schedule interviews, or extend offers on the spot, produces hires. Assign roles before the day: who greets, who screens, who interviews, who closes. If a hiring manager can't attend, get their calendar authority: the ability to book real interview slots on their behalf.</li>
+<li><b>Pre-register and pre-screen every candidate.</b> The single biggest upgrade you can make. Collect registrations before the event and ask qualifying questions at signup: licensure, certifications, experience, shift availability. Now your team spends event day talking to people who can actually take the job. This is also the structural reason interview-first events outperform. Our <a href="https://jobfairx.com/employer/resources/virtual-hiring-event-statistics">virtual hiring event statistics</a> page has the numbers: candidates who pick their employer and self-schedule an interview show up 91% of the time, against roughly 45% for typical events. You can borrow the mechanic for a self-hosted fair: let pre-registered candidates book a specific interview slot, not just an arrival window.</li>
+<li><b>Promote it where candidates already look.</b> Start 4 weeks out, minimum. Local job boards, LinkedIn, university and community college career centers, community groups, and radius-targeted social ads all outperform a flyer on a door. Post the roles, not just the event: "hiring 12 CNAs, interviews on the spot" pulls harder than "join us at our career fair." Every promotion should point at the pre-registration page from step 6.</li>
+<li><b>Run scheduled interviews at the event, not just conversations.</b> This is the step that beats the 45% statistic. Block interview slots through the day, staff them from step 5, and route pre-screened candidates straight into them. Booth conversations are marketing; a 12-minute structured interview with a scoring rubric is recruiting. Candidates who interview on event day don't spend the next two weeks interviewing with someone else.</li>
+<li><b>Follow up within 48 hours.</b> Momentum decays fast. Advance decisions, next steps, and offers should go out while candidates are still engaged, ideally same week. Entry-level candidates accept the first decent offer they get; a two-week follow-up cycle hands them to whoever moved faster.</li>
+<li><b>Score it like a channel.</b> After the event: spend (hard costs plus staff hours) divided by interviews that happened, interviews divided by hires, show rate, and 90-day retention of the people you hired. Run the same math on your job boards and any <a href="https://jobfairx.com/employer/resources/recruiting-metrics">recruiting metrics that actually matter</a> will tell you whether to host again, tweak, or switch channels.</li>
+</ol>
+
+
+<div class="jfx-check">
+  <h4>Job fair planning checklist</h4>
+  <div class="jfx-phase"><b>6&ndash;8 weeks out</b><ul>
+    <li>Goals set in hires, not attendance</li><li>Format chosen (in-person / virtual / hybrid)</li><li>Budget approved (hard costs + staff time)</li><li>Venue, date, time locked</li><li>Registration page live with screening questions</li></ul></div>
+  <div class="jfx-phase"><b>4 weeks out</b><ul>
+    <li>Promotion running: job boards, LinkedIn, career centers, targeted ads</li><li>Staffing and roles assigned</li><li>Interview slots blocked</li><li>Materials ordered</li></ul></div>
+  <div class="jfx-phase"><b>1 week out</b><ul>
+    <li>Registration list screened</li><li>Interview schedule drafted</li><li>Confirmation + reminder emails queued</li><li>Day-of logistics confirmed</li></ul></div>
+  <div class="jfx-phase"><b>Event day</b><ul>
+    <li>Check-in staffed; pre-screened candidates routed to interview slots</li><li>Scoring rubrics in hand</li><li>Every promising candidate leaves with a next step and a date</li></ul></div>
+  <div class="jfx-phase"><b>Within 48 hours</b><ul>
+    <li>Follow-ups and offers out</li><li>No-show list captured</li><li>Channel math run: cost per interview, interviews per hire, show rate</li></ul></div>
+</div>
+<p class="jfx-cap">The full 10-step guide behind this checklist is above. Steal it.</p>
+
+
+<h2>When you shouldn't host your own</h2>
+<p>If the roles are spread across cities, the timeline is tight, or your team doesn't have 6-8 weeks and a spare event day, hosting is the expensive path. Interview-first events flip the work: candidates come pre-screened and the interviews come pre-scheduled. The standing schedule is on our <a href="https://jobfairx.com/employer/hiring-event-calendar">hiring event calendar</a> if you'd rather compare before committing either way.</p>
+
+<h2>FAQ</h2>
+<div class="faq">
+<h3>How much does it cost to host a job fair?</h3>
+<p>Plan on $800 to $3,000+ in hard costs for a self-hosted event (venue, marketing, materials, signage), plus staff time, which is usually the largest real expense. A recruiter and two hiring managers for one event day, plus planning hours, often exceeds every hard cost combined.</p>
+<h3>How far in advance should you plan a job fair?</h3>
+<p>Six to eight weeks for a self-hosted event: venue and registration first, promotion running by four weeks out, staffing and interview slots locked at least two weeks before the day.</p>
+<h3>How do you get candidates to attend a job fair?</h3>
+<p>Promote the jobs, not the event, starting four weeks out: local job boards, LinkedIn, university and community college career centers, and radius-targeted ads, all pointing to a pre-registration page with screening questions. "Hiring 12 CNAs, interviews on the spot" outpulls a generic career fair invitation.</p>
+<h3>Are job fairs worth it for employers?</h3>
+<p>Only when they're built around interviews. NACE data shows just 45% of traditional career fair attendees get an interview invitation and 24% get an offer. Fairs that pre-screen at registration and run scheduled interviews on event day beat those numbers; fairs that collect resumes don't.</p>
+</div>
 </main></div>
 </details>
 </div>
