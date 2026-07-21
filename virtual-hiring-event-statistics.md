@@ -17,7 +17,11 @@ Here are the numbers that matter, sourced, in one place. We update this page qua
 - **8**: average hires per employer, per event (2026)
 - **3%**: share of job board applicants who ever reach an interview (CareerPlug, 10M+ applications)
 - **$1.8B → $5.2B**: global virtual career fair platform market, 2025 to 2034, a 12.5% CAGR (Data Intelo)
-- **93**: median attendee count at virtual campus career fairs, down from 295 three years earlier (NACE 2024-25 Career Services Benchmarks)
+- **93**: median attendee count at virtual campus career fairs, down from 295 three years earlier ([NACE 2024-25 Career Services Benchmarks](https://www.naceweb.org/career-development/trends-and-predictions/employers-students-favor-in-person-career-fairs))
+- **100+**: upcoming virtual hiring events listed on the public JobFairX calendar at any given time (July 2026)
+- **599-784**: pre-registered candidates on individual JobFairX city event pages, checked live July 2026 (Long Island 599, Oceanside 773, Austin 784)
+
+**Take the numbers with you:** [Download the 2026 Virtual Hiring Event Statistics Report (PDF)](https://scottjobagent.github.io/jobfairx-blog-hub/virtual-hiring-event-statistics-2026.pdf) — every stat, every chart, every source, in one file your team can forward.
 
 [IMAGE 1: chart-show-rate-comparison.png — alt: "Bar chart comparing interview show rates in 2026: about 45 percent for typical virtual hiring events per Indeed, versus 91 percent for self-scheduled JobFairX healthcare events"]
 
@@ -28,6 +32,8 @@ The market data says two things at once, and both matter.
 Growth: the virtual career fair platform market hit $1.8 billion in 2025 and is projected to reach $5.2 billion by 2034, a 12.5% compound annual growth rate (Data Intelo). Someone keeps buying these events.
 
 Decline: NACE's 2024-25 Career Services Benchmarks found only 33.2% of colleges still host virtual career fairs (93.9% run in-person, 6.3% hybrid), and median attendance at the virtual ones collapsed from 295 to 93. In-person campus fairs went the other way, from a median of 419 attendees to 700.
+
+[IMAGE 2: images/attendance-trend.png — alt: "Grouped bar chart from NACE 2024-25 data: median virtual career fair attendance fell from 295 to 93 while in-person rose from 419 to 700"]
 
 Both are true because they're measuring different products. The lobby-and-booth virtual fair, a video call wearing a job fair costume, is shrinking. Interview-structured virtual events, where every attendee is matched, screened, and booked into a time slot, are what's growing. When you see "virtual events don't work," check which one they measured.
 
@@ -48,6 +54,8 @@ The speed gap is the widest of any stat on this page:
 - Average time to fill in health services, the slowest industry: **49 days** (Workable)
 - Average time to recruit an experienced RN: **78 days**, with a range of 56 to 102 (NSI 2026)
 
+[IMAGE 3: images/speed-comparison.png — alt: "Bar chart comparing days to interview or hire in 2026: 4 days median from event signup to interview versus 46.2 days average time to hire, 49 days health services time to fill, and 78 days to recruit an experienced RN"]
+
 Entry-level candidates accept offers within days of starting their search. A channel that produces interviews in 4 days competes for those candidates. A 49-day pipeline hires whoever is left. Full benchmarks in our [time to fill guide](https://jobfairx.com/employer/resources/time-to-fill).
 
 ## How many interviews and hires does one event produce?
@@ -56,13 +64,17 @@ The 2026 averages across JobFairX healthcare events, published on our public eve
 
 - **35 scheduled interviews** per employer, per event
 - **8 hires** per employer, per event
-- Registration scale: a single city event draws hundreds of pre-registered, credential-screened candidates (a recent Oceanside healthcare event listed 773 pre-registered)
+- Registration scale: individual city events regularly draw 600-800 pre-registered, credential-screened candidates. Checked live in July 2026: Long Island healthcare 599, Oceanside healthcare 773, Austin diversity 784. With 100+ upcoming events on the public calendar at any time, that pipeline refreshes continuously.
+
+[IMAGE 4: images/funnel-vs-event.png — alt: "Side-by-side funnel chart: job boards convert 180 applicants into about 5 interviews and 1 hire per CareerPlug, while a JobFairX event averages 35 scheduled interviews and 8 hires per employer"]
 
 For contrast, NACE data on traditional career fairs: 45% of attendees get so much as one interview invitation, 24% get an offer, and most of those interviews happen weeks after the event. The difference isn't effort. At an interview-first event, the interviews are scheduled before the day starts, not hoped for after it ends.
 
 ## What does hiring cost in 2026, and where do events fit?
 
 The cost baseline: average U.S. cost per hire is **$5,475** for non-executive roles (SHRM 2025), and healthcare runs $9,000 to $12,000 per hire. Behind those numbers sits a brutal funnel: only 3% of applicants reach an interview and roughly 1 in 180 gets hired (CareerPlug), which means most recruiting spend buys applications that never become conversations.
+
+[IMAGE 5: images/cost-comparison.png — alt: "Bar chart comparing 2026 hiring costs: 5,475 dollars average cost per hire, 9,000 to 12,000 dollars in healthcare, versus 60,090 dollars for a single RN turnover"]
 
 Flat-rate, interview-first events attack the denominator: the spend is fixed while interviews and hires aren't. We published the full math, benchmarks by industry, and six ways to bring your number down in the [cost per hire guide](https://jobfairx.com/employer/resources/cost-per-hire).
 
@@ -78,7 +90,9 @@ The full breakdown of why those numbers stay stuck, and what fixes each failure 
 
 ## Where these numbers come from
 
-JobFairX figures (91% show rate, 35 interviews, 8 hires) are averages across our healthcare events, published on our public event pages and updated as events complete. Third-party figures are cited inline with source and year: Indeed Hiring Events, NACE 2024-25 Career Services Benchmarks, CareerPlug's 2025 Recruiting Metrics Report (10M+ applications), SHRM 2025 Benchmarking Report, NSI 2026 National Health Care Retention Report, Workable, Employ, and Data Intelo market research.
+**JobFairX data:** the 91% show rate, 35 scheduled interviews, and 8 hires per employer are averages across JobFairX healthcare events, published on our public event pages and updated as events complete. The registration figures (599-784 pre-registered per city event) and the 100+ upcoming events were checked live on our public calendar and event pages in July 2026. Anyone can verify them the same way.
+
+**Third-party data**, each linked to the original report: [Indeed Hiring Events](https://www.indeed.com/employers/hiring-events) (~45% typical show rate, 4-day median), [NACE 2024-25 Career Services Benchmarks](https://www.naceweb.org/career-development/trends-and-predictions/employers-students-favor-in-person-career-fairs) (fair formats and attendance), [CareerPlug's 2025 Recruiting Metrics Report](https://www.careerplug.com/recruiting-metrics-and-kpis/) (10M+ applications: 3% app-to-interview, 1-in-180 hired), [SHRM 2025 Benchmarking Report](https://www.shrm.org/topics-tools/research) ($5,475 cost per hire), [NSI 2026 National Health Care Retention Report](https://www.nsinursingsolutions.com/documents/library/nsi_national_health_care_retention_report.pdf) ($60,090 RN turnover, 78-day RN recruiting), [Workable](https://resources.workable.com/stories-and-insights/time-to-hire-industry) (49-day health services time to fill), Employ (46.2-day average time to hire), and [Data Intelo](https://dataintelo.com/report/virtual-career-fair-platform-market) (market sizing).
 
 If you cite a number from this page, link it. When a number changes, this page changes first.
 
@@ -113,7 +127,9 @@ Median time from signup to interview is 4 days (Indeed), against a 46.2-day aver
 
 **Data decision (Scott, Jul 20):** built from public first-party stats (91% show rate, 35 interviews, 8 hires, 773 pre-registered, all published on jobfairx.com event pages) plus verified third-party sources only. Internal stats (booking-to-offer days, signup-to-event time, offer rates) can be added at the first quarterly refresh. The "updated quarterly" byline and methodology section commit to freshness, which is an AIO ranking factor for stats pages.
 
-**Images (1 chart, no screenshots):** show-rate-comparison.png after the headline numbers. Coded components not needed; the numbers are the content.
+**Images (5 charts, no screenshots):** show-rate-comparison (after headline numbers, og:image), attendance-trend (market section), speed-comparison (speed section), funnel-vs-event (interviews section), cost-comparison (cost section). Every major stat has a chart — Google Images becomes a traffic source. All in repo as chart-*.png; WebP + width/height per SEO panel; only the first loads eagerly.
+
+**PDF:** virtual-hiring-event-statistics-2026.pdf (in repo). Host at /downloads/ or link the repo file; recruiters forward PDFs internally and it earns backlinks. Update it at each quarterly refresh.
 
 **Schema:** FAQPage (4 questions) + Article, author Scott Lobenberg, visible published AND updated dates (dateModified matters most on this post).
 
