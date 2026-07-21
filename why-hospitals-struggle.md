@@ -10,7 +10,7 @@ Here are the seven failure modes we see most, and what actually fixes each one.
 
 ## Why is healthcare hiring so slow?
 
-Start with the scoreboard:
+Healthcare hiring is slow because credentialing, licensure checks, and application-first funnels stretch the average fill to 49 days — the slowest of any industry. The scoreboard:
 
 [IMAGE 1: chart-time-to-fill-by-industry.png — alt: "Bar chart of time to fill by industry: logistics 12 days, hospitality 20.7, retail 24.6, IT 30, health services 49 days, and 78 days average recruiting time for an experienced RN"]
 
@@ -64,7 +64,9 @@ Postings are HR's job, interviews are the unit manager's job, and the vacancy is
 
 ## How do hiring events reduce nurse vacancies?
 
-They attack the three failure modes that matter most at entry level: speed (interviews happen in days, not weeks; Indeed's event data shows a median of 4 days from signup to interview), show rates (self-scheduled interviews vs. chased ones), and volume (dozens of pre-screened candidates in one day instead of a trickle over two months). They don't fix retention, credentialing policy, or pay bands. No recruiting tool does. But for getting qualified entry-level candidates in front of hiring managers before the market takes them, nothing else compresses the timeline as hard.
+Hiring events reduce nurse vacancies by attacking the three failure modes that matter most at entry level: speed, show rate, and volume. Speed: interviews happen in days, not weeks (Indeed's event data shows a median of 4 days from signup to interview). Show rate: self-scheduled interviews beat chased ones. Volume: dozens of pre-screened candidates in one day instead of a trickle over two months. They don't fix retention, credentialing policy, or pay bands. No recruiting tool does. But for getting qualified entry-level candidates in front of hiring managers before the market takes them, nothing else compresses the timeline as hard.
+
+[COMPONENT: stat callout — JOBFAIRX 2025 PLATFORM DATA / 582 events / "Healthcare hiring events held in 2025 — employers averaged 35 scheduled interviews and 8 hires per event, with a 91% interview show rate"]
 
 ## FAQ
 
@@ -82,7 +84,10 @@ Compress screening and interviewing into a single event day. Candidates matched 
 
 ---
 
-*Filling clinical roles? See the [healthcare hiring event calendar](https://jobfairx.com/employer/hiring-event-calendar): flat rate, interviews included.*
+[COMPONENT: big CTA banner — .jfx-bigcta pattern, see jfx-components-snippets.html #11]
+
+**Stop collecting applications. Start holding interviews.** Healthcare job fairs with pre-qualified candidates and scheduled interviews. Flat rate. One day. ✓ 91% average show rate · ✓ 582 healthcare events in 2025
+→ **[See the Healthcare Job Fairs Calendar](https://jobfairx.com/employer/healthcare-hiring-event-calendar)**
 
 ---
 ---
@@ -107,4 +112,4 @@ Compress screening and interviewing into a single event day. Candidates matched 
 
 **HubSpot note:** this post covers/supersedes the 50%-complete HubSpot draft "8 Reasons Hospitals Miss at Entry Level Hiring Events" — archive that draft (or tell me and I'll rework its content in) so the two don't compete for the same prompts.
 
-**Sources cited:** Workable (49-day health services time-to-fill, industry comparison); NSI 2026 Retention Report ($60,090, 56–102 days / 78-day RDI, $5.19M avg annual loss, $4.2–6.2M range, $295K per point); Becker's (16.4% RN turnover 2024, 9.6% vacancy 2025); NACE (45% interview / 24% offer); Indeed Hiring Events (median 4 days RSVP→interview).
+**Sources cited:** Workable (49-day health services time-to-fill, industry comparison); NSI 2026 Retention Report ($60,090, 56–102 days / 78-day RDI, $5.19M avg annual loss, $4.2–6.2M range, $295K per point); Becker's (16.4% RN turnover 2024, 9.6% vacancy 2025); NACE (45% interview / 24% offer); Indeed Hiring Events (median 4 days RSVP→interview) JobFairX platform data, calendar year 2025 (582 healthcare events; 35 interviews, 8 hires per employer per event; 91% show rate — FIRST-PARTY, provided by Scott Jul 21 2026).
