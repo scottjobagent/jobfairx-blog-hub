@@ -34,6 +34,13 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 
 ## /employer/resources/cost-per-hire
 
+**Landing page card** (for /employer/resources):
+
+- **Section:** Recruiting Metrics & ROI
+- **Style:** PHOTO preferred (mix rule): recruiter at desk reviewing a hiring budget — spreadsheet + calculator in frame, natural office light, 16:9 crop. Matches the photo cards in Recruiting Metrics & ROI (time-to-fill clock shot). Illustrated card below is the ready-to-use fallback.
+- **Download:** [card-cost-per-hire.png](https://scottjobagent.github.io/jobfairx-blog-hub/card-cost-per-hire.png)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-cost-per-hire.png)
+
 **Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
 
 ```json
@@ -119,6 +126,13 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 ---
 
 ## /employer/resources/why-hospitals-struggle-entry-level-clinical-hiring
+
+**Landing page card** (for /employer/resources):
+
+- **Section:** Healthcare Hiring (NEW section — see note)
+- **Style:** PHOTO preferred: nurse or clinical staff in a hospital corridor, candid, slightly weary tone (the post is about struggle) — NOT a smiling stock handshake. 16:9. Illustrated card below is the fallback.
+- **Download:** [card-why-hospitals-struggle.png](https://scottjobagent.github.io/jobfairx-blog-hub/card-why-hospitals-struggle.png)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-why-hospitals-struggle.png)
 
 **Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
 
@@ -206,6 +220,13 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 
 ## /employer/resources/how-to-choose-a-nurse-job-fair
 
+**Landing page card** (for /employer/resources):
+
+- **Section:** Healthcare Hiring (NEW section — see note)
+- **Style:** PHOTO preferred: nurse in scrubs on a video interview from home, laptop visible — mirrors the how-to-interview card style. 16:9. Illustrated card below is the fallback.
+- **Download:** [card-how-to-choose-a-nurse-job-fair.png](https://scottjobagent.github.io/jobfairx-blog-hub/card-how-to-choose-a-nurse-job-fair.png)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-how-to-choose-a-nurse-job-fair.png)
+
 **Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
 
 ```json
@@ -290,6 +311,13 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 ---
 
 ## /employer/resources/recruiting-metrics
+
+**Landing page card** (for /employer/resources):
+
+- **Section:** Recruiting Metrics & ROI
+- **Style:** ILLUSTRATION (final): dashboard-tile card below. Data topics read better illustrated, and recruiting-roi in the same section is already an illustration.
+- **Download:** [card-recruiting-metrics.png](https://scottjobagent.github.io/jobfairx-blog-hub/card-recruiting-metrics.png)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-recruiting-metrics.png)
 
 **Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
 
@@ -377,6 +405,13 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 
 ## /employer/resources/virtual-hiring-event-statistics
 
+**Landing page card** (for /employer/resources):
+
+- **Section:** Virtual Hiring Events
+- **Style:** ILLUSTRATION (final): 45%-vs-91% chart card below. A stats page should look like data, and it echoes the chart inside the post.
+- **Download:** [card-virtual-hiring-event-statistics.png](https://scottjobagent.github.io/jobfairx-blog-hub/card-virtual-hiring-event-statistics.png)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-virtual-hiring-event-statistics.png)
+
 **Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
 
 ```json
@@ -462,6 +497,13 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 ---
 
 ## /employer/resources/healthcare-recruiting-strategies
+
+**Landing page card** (for /employer/resources):
+
+- **Section:** Healthcare Hiring (NEW section — see note)
+- **Style:** PHOTO preferred: healthcare recruiting team planning at a whiteboard or wall calendar — mirrors the host-your-own card. 16:9. Illustrated card below is the fallback.
+- **Download:** [card-healthcare-recruiting-strategies.png](https://scottjobagent.github.io/jobfairx-blog-hub/card-healthcare-recruiting-strategies.png)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-healthcare-recruiting-strategies.png)
 
 **Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
 
