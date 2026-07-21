@@ -51,13 +51,13 @@
 .jfx-calc .jfx-calc-out { grid-column:1 / -1; display:none; margin-top:10px; border-top:1px solid #E5E7EB; padding-top:14px; }
 .jfx-calc .jfx-calc-out .jfx-stat-num { font-size:36px; }
 @media (max-width:560px){ .jfx-calc .jfx-calc-grid { grid-template-columns:1fr; } }
-.jfx-check { border:1px solid #E5E7EB; border-radius:14px; padding:22px 26px; background:#fff; }
-.jfx-check h4 { font-size:18px; color:#111827; margin:0 0 14px; }
-.jfx-check .jfx-phase { margin:0 0 14px; }
-.jfx-check .jfx-phase b { display:block; color:#3457D5; font-size:13px; text-transform:uppercase; letter-spacing:.05em; margin-bottom:6px; }
-.jfx-check ul { list-style:none; margin:0; padding:0; }
-.jfx-check li { padding:4px 0 4px 26px; position:relative; font-size:14.5px; color:#374151; }
-.jfx-check li::before { content:""; position:absolute; left:2px; top:8px; width:13px; height:13px; border:2px solid #94A3C8; border-radius:4px; }
+.jfx-checklist { border:1px solid #E5E7EB; border-radius:14px; padding:22px 26px; background:#fff; }
+.jfx-checklist h4 { font-size:18px; color:#111827; margin:0 0 14px; }
+.jfx-checklist .jfx-phase { margin:0 0 14px; }
+.jfx-checklist .jfx-phase b { display:block; color:#3457D5; font-size:13px; text-transform:uppercase; letter-spacing:.05em; margin-bottom:6px; }
+.jfx-checklist ul { list-style:none; margin:0; padding:0; }
+.jfx-checklist li { padding:4px 0 4px 26px; position:relative; font-size:14.5px; color:#374151; }
+.jfx-checklist li::before { content:""; position:absolute; left:2px; top:8px; width:13px; height:13px; border:2px solid #94A3C8; border-radius:4px; }
 .jfx-wrap { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif; margin:26px 0; }
 .jfx-cap { font-size:13px; color:#6B7280; margin-top:8px; text-align:center; }
 /* comparison */
@@ -123,13 +123,13 @@
 .jfx-calc .jfx-calc-out { grid-column:1 / -1; display:none; margin-top:10px; border-top:1px solid #E5E7EB; padding-top:14px; }
 .jfx-calc .jfx-calc-out .jfx-stat-num { font-size:36px; }
 @media (max-width:560px){ .jfx-calc .jfx-calc-grid { grid-template-columns:1fr; } }
-.jfx-check { border:1px solid #E5E7EB; border-radius:14px; padding:22px 26px; background:#fff; }
-.jfx-check h4 { font-size:18px; color:#111827; margin:0 0 14px; }
-.jfx-check .jfx-phase { margin:0 0 14px; }
-.jfx-check .jfx-phase b { display:block; color:#3457D5; font-size:13px; text-transform:uppercase; letter-spacing:.05em; margin-bottom:6px; }
-.jfx-check ul { list-style:none; margin:0; padding:0; }
-.jfx-check li { padding:4px 0 4px 26px; position:relative; font-size:14.5px; color:#374151; }
-.jfx-check li::before { content:""; position:absolute; left:2px; top:8px; width:13px; height:13px; border:2px solid #94A3C8; border-radius:4px; }
+.jfx-checklist { border:1px solid #E5E7EB; border-radius:14px; padding:22px 26px; background:#fff; }
+.jfx-checklist h4 { font-size:18px; color:#111827; margin:0 0 14px; }
+.jfx-checklist .jfx-phase { margin:0 0 14px; }
+.jfx-checklist .jfx-phase b { display:block; color:#3457D5; font-size:13px; text-transform:uppercase; letter-spacing:.05em; margin-bottom:6px; }
+.jfx-checklist ul { list-style:none; margin:0; padding:0; }
+.jfx-checklist li { padding:4px 0 4px 26px; position:relative; font-size:14.5px; color:#374151; }
+.jfx-checklist li::before { content:""; position:absolute; left:2px; top:8px; width:13px; height:13px; border:2px solid #94A3C8; border-radius:4px; }
 .jfx-wrap { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif; margin:26px 0; }
 .jfx-cap { font-size:13px; color:#6B7280; margin-top:8px; text-align:center; }
 /* comparison */
@@ -1634,7 +1634,7 @@ function jfxCalc() {
 </ol>
 
 
-<div class="jfx-check">
+<div class="jfx-checklist">
   <h4>Job fair planning checklist</h4>
   <div class="jfx-phase"><b>6&ndash;8 weeks out</b><ul>
     <li>Goals set in hires, not attendance</li><li>Format chosen (in-person / virtual / hybrid)</li><li>Budget approved (hard costs + staff time)</li><li>Venue, date, time locked</li><li>Registration page live with screening questions</li></ul></div>
