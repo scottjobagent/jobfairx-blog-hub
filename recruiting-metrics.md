@@ -116,6 +116,6 @@ Per channel, per quarter: spend ÷ interviews (cost per interview), interviews �
 
 **Schema:** FAQPage (4 questions) + Article, author Scott Lobenberg, visible dates.
 
-**Cross-links out (5):** time-to-fill, cost-per-hire, recruiting-roi, virtual-hiring-events (CTA), and it references future posts (add links when they publish). After publish, add backlinks TO this hub from time-to-fill, cost-per-hire, recruiting-roi, and high-volume-hiring — anchor "recruiting metrics." This is the hub; link concentration here matters most.
+**Cross-links out (5):** time-to-fill, cost-per-hire, recruiting-roi, virtual-hiring-events (CTA), and it references future posts (add links when they publish). After publish, add backlinks TO this hub from time-to-fill (anchor "recruiting metrics"), cost-per-hire (anchor "the recruiting metrics that matter"), recruiting-roi (anchor "recruiting KPIs and benchmarks"), and high-volume-hiring (anchor "metrics that predict a hire"). This is the hub; link concentration here matters most. Vary anchors — never repeat one exact-match phrase from 3+ pages.
 
 **Sources:** CareerPlug 2025 Recruiting Metrics Report (3%, 27%, 1-in-180, 97%); Workable (time-to-fill by industry); Employ/HR Dive (46.2 days); SHRM 2025 ($5,475); Pin 2026 (healthcare CPH); NACE + industry data (offer acceptance 69–92%, healthcare ~77%); Indeed Hiring Events (45% show rate); Ashby (technical interview-to-hire).

@@ -103,7 +103,7 @@ Compress screening and interviewing into a single event day. Candidates matched 
 **Schema:** FAQPage for the 4 FAQs; Article schema, author Scott Lobenberg, visible dates.
 
 **Cross-links out (5):** virtual-hiring-events (pillar), how-to-interview-candidates-at-a-virtual-hiring-event, cost-per-hire (Week 1 post — publish that first or same day), virtual-vs-in-person-hiring-event, healthcare calendar CTA ×1.
-**Backlinks to add after publish:** from the pillar (healthcare paragraph), from high-volume-hiring, and from how-to-interview-candidates — anchor "why hospitals struggle to fill entry-level clinical roles" or "entry-level clinical hiring."
+**Backlinks to add after publish:** from the pillar (healthcare paragraph, anchor "entry-level clinical hiring"), from high-volume-hiring (anchor "why hospitals struggle to fill entry-level clinical roles"), and from how-to-interview-candidates (anchor "filling entry-level clinical roles"). Vary anchors — never repeat one exact-match phrase from 3+ pages.
 
 **HubSpot note:** this post covers/supersedes the 50%-complete HubSpot draft "8 Reasons Hospitals Miss at Entry Level Hiring Events" — archive that draft (or tell me and I'll rework its content in) so the two don't compete for the same prompts.
 

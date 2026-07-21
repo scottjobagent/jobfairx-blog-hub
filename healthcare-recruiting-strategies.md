@@ -92,6 +92,6 @@ Healthcare cost per hire runs $9,000 to $12,000 through traditional channels, ag
 **Schema:** FAQPage (4 questions) + Article, author Scott Lobenberg, visible dates.
 
 **Cross-links out (6):** recruiting-metrics, virtual-hiring-event-statistics (flagship), why-hospitals-struggle, how-to-choose-a-nurse-job-fair, cost-per-hire, healthcare calendar CTA.
-**Backlinks to add after publish:** from why-hospitals-struggle (intro or "what works" section), how-to-choose-a-nurse-job-fair (systems section), and virtual-hiring-events pillar (healthcare paragraph) — anchor "healthcare recruiting strategies." As future healthcare spokes publish, they link here and this hub links back the same day.
+**Backlinks to add after publish:** from why-hospitals-struggle (intro or "what works" section, anchor "healthcare recruiting strategies"), how-to-choose-a-nurse-job-fair (systems section, anchor "a healthcare recruiting playbook"), and virtual-hiring-events pillar (healthcare paragraph, anchor "recruiting strategies for healthcare"). Vary anchors — never repeat one exact-match phrase from 3+ pages. As future healthcare spokes publish, they link here and this hub links back the same day.
 
 **Sources cited:** Workable (49 days); NSI 2026 ($60,090, $5.19M, $295K/point, 9.6% vacancy, 16.4% turnover, 78-day RN); CareerPlug 2025 (3%, 1-in-180); Indeed (~45% show rate, 4-day median); JobFairX event data 2026 (91%); SHRM 2025 ($5,475); Pin 2026 (healthcare CPH $9K-$12K); Employ (46.2 days).

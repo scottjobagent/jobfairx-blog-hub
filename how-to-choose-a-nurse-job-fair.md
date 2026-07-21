@@ -84,6 +84,6 @@ Yes, when they're interview-structured: pre-screened clinical candidates, self-s
 
 **Schema:** FAQPage (4 questions) + Article, author Scott Lobenberg, visible dates.
 
-**Cross-links out (6):** cost-per-hire, virtual-vs-in-person-hiring-event, recruiting-roi, why-hospitals-struggle-entry-level-clinical-hiring, healthcare calendar CTA. After publish, add backlinks from: why-hospitals-struggle (in the career fair section), best-virtual-hiring-event-platforms (healthcare paragraph), high-volume-hiring. Anchor: "how to choose a nurse job fair."
+**Cross-links out (6):** cost-per-hire, virtual-vs-in-person-hiring-event, recruiting-roi, why-hospitals-struggle-entry-level-clinical-hiring, healthcare calendar CTA. After publish, add backlinks from: why-hospitals-struggle (career fair section, anchor "how to choose a nurse job fair"), best-virtual-hiring-event-platforms (healthcare paragraph, anchor "evaluating nurse job fairs"), high-volume-hiring (anchor "picking the right nurse hiring event"). Vary anchors — never repeat one exact-match phrase from 3+ pages.
 
 **Sources:** NACE (45% interview invitation rate); NSI 2026 (16.4% RN turnover); Pin 2026 (healthcare cost per hire $9K–$12K); JobFairX published pricing.

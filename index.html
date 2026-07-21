@@ -325,7 +325,7 @@
 <li><b>Title tag:</b> Cost Per Hire: 2026 Benchmarks by Industry &amp; How to Lower It</li>
 <li><b>Meta description:</b> Average cost per hire is $5,475 in 2026 (SHRM), and $9,000+ in healthcare. See benchmarks by industry, the SHRM formula, and 6 ways to bring your number down.</li>
 <li><b>Images:</b><ul><li><b>Rename to:</b> <code>cost-per-hire-by-industry-2026.webp</code><br><b>Alt text:</b> Bar chart of 2026 U.S. cost per hire by industry, from $2,700 in retail to $16,000-$20,000 in legal, with healthcare highlighted at $9,000-$12,000<br><b>Handling:</b> repo file: chart-cost-per-hire-by-industry.png — convert to WebP, set width/height, do NOT lazy-load (first image), set as og:image</li></ul></li>
-<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
+<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>. <span style="color:#DC2626; font-weight:800">&#9888; The date fields ship as the placeholder <code>2026-07-XX</code> — replace BOTH (datePublished + dateModified) with the real publish date in ISO format (e.g. 2026-07-28) BEFORE pasting. The placeholder is a hard validation error in Google's Rich Results Test.</span> Then validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
 <li><b>Verify outbound links resolve:</b> time-to-fill (x2), recruiting-roi, high-volume-hiring, hiring-event-pricing (events section), healthcare-hiring-event-calendar (CTA — new page, see red note). Components: comparison (#1), candidates widget (#2), calculator (#9), stat callouts + pull quotes (#10). Note: the virtual-hiring-events link was removed in the intent rewrite — do not look for it.</li>
 <li><b>Landing page card</b> (for <code>/employer/resources</code>):<ul>
 <li><b>Section:</b> Recruiting Metrics & ROI</li>
@@ -337,7 +337,7 @@
 </ol>
 <h3>After publish (same day, ~10 min)</h3>
 <ol>
-<li><b>Backlink pass — add links TO this post from:</b><ul><li>time-to-fill — add a sentence citing the $5,475 average, anchor "cost per hire"</li><li>recruiting-roi — same anchor</li><li>high-volume-hiring — same anchor</li></ul></li>
+<li><b>Backlink pass — add links TO this post from:</b><ul><li>time-to-fill — add a sentence citing the $5,475 average, anchor "cost per hire"</li><li>recruiting-roi — anchor "average cost per hire in 2026"</li><li>high-volume-hiring — anchor "what a hire actually costs"</li><li>ANCHOR RULE: vary anchors across referring pages — repeating one exact-match phrase from 3+ pages reads unnatural to crawlers.</li></ul></li>
 <li>GSC → URL Inspection → Request indexing.</li>
 <li>Confirm the post is in the sitemap with today's lastmod.</li>
 </ol>
@@ -351,7 +351,10 @@
     &quot;@type&quot;: &quot;Person&quot;,
     &quot;name&quot;: &quot;Scott Lobenberg&quot;,
     &quot;jobTitle&quot;: &quot;Founder&quot;,
-    &quot;url&quot;: &quot;https://jobfairx.com/about-us&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com/employer/resources/author&quot;,
+    &quot;sameAs&quot;: [
+      &quot;https://www.linkedin.com/in/scottlobenberg/&quot;
+    ],
     &quot;worksFor&quot;: {
       &quot;@type&quot;: &quot;Organization&quot;,
       &quot;name&quot;: &quot;JobFairX&quot;,
@@ -596,7 +599,7 @@ function jfxCalc() {
 <li><b>Title tag:</b> Why Hospitals Struggle to Fill Entry-Level Clinical Roles (2026)</li>
 <li><b>Meta description:</b> Hospitals take 49 days to fill roles while entry-level candidates decide in days. The 7 reasons clinical hiring stalls, and what actually fixes each one.</li>
 <li><b>Images:</b><ul><li><b>Rename to:</b> <code>healthcare-time-to-fill-by-industry-2026.webp</code><br><b>Alt text:</b> Time to fill by industry: logistics 12 days, retail 24.6, IT 30, health services 49 days, and 78 days to recruit an experienced RN<br><b>Handling:</b> repo file: chart-time-to-fill-by-industry.png — WebP, width/height, no lazy-load, og:image</li></ul></li>
-<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
+<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>. <span style="color:#DC2626; font-weight:800">&#9888; The date fields ship as the placeholder <code>2026-07-XX</code> — replace BOTH (datePublished + dateModified) with the real publish date in ISO format (e.g. 2026-07-28) BEFORE pasting. The placeholder is a hard validation error in Google's Rich Results Test.</span> Then validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
 <li><b>Verify outbound links resolve:</b> virtual-hiring-events (pillar), how-to-interview-candidates-at-a-virtual-hiring-event, cost-per-hire (must be live first!), virtual-vs-in-person-hiring-event, healthcare calendar CTA. Component: event verticals grid (#4) — no screenshots.</li>
 <li><b>Landing page card</b> (for <code>/employer/resources</code>):<ul>
 <li><b>Section:</b> Healthcare Hiring (NEW section — see note)</li>
@@ -622,7 +625,10 @@ function jfxCalc() {
     &quot;@type&quot;: &quot;Person&quot;,
     &quot;name&quot;: &quot;Scott Lobenberg&quot;,
     &quot;jobTitle&quot;: &quot;Founder&quot;,
-    &quot;url&quot;: &quot;https://jobfairx.com/about-us&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com/employer/resources/author&quot;,
+    &quot;sameAs&quot;: [
+      &quot;https://www.linkedin.com/in/scottlobenberg/&quot;
+    ],
     &quot;worksFor&quot;: {
       &quot;@type&quot;: &quot;Organization&quot;,
       &quot;name&quot;: &quot;JobFairX&quot;,
@@ -780,7 +786,7 @@ function jfxCalc() {
 <li><b>Title tag:</b> How to Choose a Nurse Job Fair: A Hospital Hiring Guide (2026)</li>
 <li><b>Meta description:</b> 7 criteria for picking a nurse job fair that produces hires, an honest comparison of event types, and what large hospital systems do differently.</li>
 <li><b>Images:</b><ul><li>No chart images in this post — the coded components carry the visuals (that's intentional; they're crawlable HTML).</li></ul></li>
-<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
+<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>. <span style="color:#DC2626; font-weight:800">&#9888; The date fields ship as the placeholder <code>2026-07-XX</code> — replace BOTH (datePublished + dateModified) with the real publish date in ISO format (e.g. 2026-07-28) BEFORE pasting. The placeholder is a hard validation error in Google's Rich Results Test.</span> Then validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
 <li><b>Verify outbound links resolve:</b> cost-per-hire, virtual-vs-in-person-hiring-event, recruiting-roi, why-hospitals-struggle, healthcare calendar CTA. Components: healthcare candidates widget (#6), evergreen calendar card (#7) — no screenshots.</li>
 <li><b>Landing page card</b> (for <code>/employer/resources</code>):<ul>
 <li><b>Section:</b> Healthcare Hiring (NEW section — see note)</li>
@@ -792,7 +798,7 @@ function jfxCalc() {
 </ol>
 <h3>After publish (same day, ~10 min)</h3>
 <ol>
-<li><b>Backlink pass — add links TO this post from:</b><ul><li>why-hospitals-struggle — career fair section, anchor "how to choose a nurse job fair"</li><li>best-virtual-hiring-event-platforms — healthcare paragraph, same anchor</li><li>high-volume-hiring — same anchor</li></ul></li>
+<li><b>Backlink pass — add links TO this post from:</b><ul><li>why-hospitals-struggle — career fair section, anchor "how to choose a nurse job fair"</li><li>best-virtual-hiring-event-platforms — healthcare paragraph, anchor "evaluating nurse job fairs"</li><li>high-volume-hiring — anchor "picking the right nurse hiring event"</li><li>ANCHOR RULE: vary anchors across referring pages.</li></ul></li>
 <li>GSC → URL Inspection → Request indexing.</li>
 <li>Confirm the post is in the sitemap with today's lastmod.</li>
 </ol>
@@ -806,7 +812,10 @@ function jfxCalc() {
     &quot;@type&quot;: &quot;Person&quot;,
     &quot;name&quot;: &quot;Scott Lobenberg&quot;,
     &quot;jobTitle&quot;: &quot;Founder&quot;,
-    &quot;url&quot;: &quot;https://jobfairx.com/about-us&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com/employer/resources/author&quot;,
+    &quot;sameAs&quot;: [
+      &quot;https://www.linkedin.com/in/scottlobenberg/&quot;
+    ],
     &quot;worksFor&quot;: {
       &quot;@type&quot;: &quot;Organization&quot;,
       &quot;name&quot;: &quot;JobFairX&quot;,
@@ -969,7 +978,7 @@ function jfxCalc() {
 <li><b>Title tag:</b> 10 Recruiting Metrics That Actually Matter in 2026 (With Benchmarks)</li>
 <li><b>Meta description:</b> Only 3% of applicants reach an interview and 1 in 180 gets hired. The 10 recruiting metrics worth tracking, with formulas and 2026 benchmarks for each.</li>
 <li><b>Images:</b><ul><li><b>Rename to:</b> <code>recruiting-funnel-benchmarks-2026.webp</code><br><b>Alt text:</b> Recruiting funnel: of 180 applicants, about 5 reach an interview and 1 is hired, per CareerPlug 2025 data<br><b>Handling:</b> repo file: chart-recruiting-funnel.png — WebP, width/height, no lazy-load, og:image</li></ul></li>
-<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
+<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>. <span style="color:#DC2626; font-weight:800">&#9888; The date fields ship as the placeholder <code>2026-07-XX</code> — replace BOTH (datePublished + dateModified) with the real publish date in ISO format (e.g. 2026-07-28) BEFORE pasting. The placeholder is a hard validation error in Google's Rich Results Test.</span> Then validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
 <li><b>Verify outbound links resolve:</b> time-to-fill, cost-per-hire, recruiting-roi, virtual-hiring-events CTA. Component: job-board comparison (#1).</li>
 <li><b>Landing page card</b> (for <code>/employer/resources</code>):<ul>
 <li><b>Section:</b> Recruiting Metrics & ROI</li>
@@ -981,7 +990,7 @@ function jfxCalc() {
 </ol>
 <h3>After publish (same day, ~10 min)</h3>
 <ol>
-<li><b>Backlink pass — add links TO this post from:</b><ul><li>THIS IS THE METRICS HUB — backlink pass matters most here.</li><li>time-to-fill — anchor "recruiting metrics"</li><li>cost-per-hire — same anchor</li><li>recruiting-roi — same anchor</li><li>high-volume-hiring — same anchor</li></ul></li>
+<li><b>Backlink pass — add links TO this post from:</b><ul><li>THIS IS THE METRICS HUB — backlink pass matters most here.</li><li>time-to-fill — anchor "recruiting metrics"</li><li>cost-per-hire — anchor "the recruiting metrics that matter"</li><li>recruiting-roi — anchor "recruiting KPIs and benchmarks"</li><li>high-volume-hiring — anchor "metrics that predict a hire"</li><li>ANCHOR RULE: vary anchors across referring pages.</li></ul></li>
 <li>GSC → URL Inspection → Request indexing.</li>
 <li>Confirm the post is in the sitemap with today's lastmod.</li>
 </ol>
@@ -995,7 +1004,10 @@ function jfxCalc() {
     &quot;@type&quot;: &quot;Person&quot;,
     &quot;name&quot;: &quot;Scott Lobenberg&quot;,
     &quot;jobTitle&quot;: &quot;Founder&quot;,
-    &quot;url&quot;: &quot;https://jobfairx.com/about-us&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com/employer/resources/author&quot;,
+    &quot;sameAs&quot;: [
+      &quot;https://www.linkedin.com/in/scottlobenberg/&quot;
+    ],
     &quot;worksFor&quot;: {
       &quot;@type&quot;: &quot;Organization&quot;,
       &quot;name&quot;: &quot;JobFairX&quot;,
@@ -1181,7 +1193,7 @@ function jfxCalc() {
 <li><b>Title tag:</b> Virtual Hiring Event Statistics 2026: Benchmarks &amp; Show Rates</li>
 <li><b>Meta description:</b> Typical virtual hiring events see ~45% interview show rates; self-scheduled events run 91%. The 2026 numbers on show rates, speed, interviews, and cost.</li>
 <li><b>Images:</b><ul><li><b>Rename to:</b> <code>virtual-hiring-event-show-rates-2026.webp</code><br><b>Alt text:</b> Bar chart comparing interview show rates in 2026: about 45 percent for typical virtual hiring events per Indeed, versus 91 percent for self-scheduled JobFairX healthcare events<br><b>Handling:</b> repo file: chart-show-rate-comparison.png — WebP, width/height, no lazy-load, og:image. dateModified matters MOST on this post: bump it every quarterly stats refresh.</li><li><b>Rename to:</b> <code>virtual-fair-attendance-trend-2026.webp</code><br><b>Alt text:</b> Grouped bar chart from NACE 2024-25 data: median virtual career fair attendance fell from 295 to 93 while in-person rose from 419 to 700<br><b>Handling:</b> repo file: chart-attendance-trend.png — WebP, width/height, lazy-load OK (below fold). Every chart is a Google Images entry point; keep descriptive filenames.</li><li><b>Rename to:</b> <code>time-to-interview-comparison-2026.webp</code><br><b>Alt text:</b> Bar chart comparing days to interview or hire in 2026: 4 days median from event signup to interview versus 46.2, 49, and 78 days through traditional channels<br><b>Handling:</b> repo file: chart-speed-comparison.png — WebP, width/height, lazy-load OK.</li><li><b>Rename to:</b> <code>job-board-funnel-vs-hiring-event-2026.webp</code><br><b>Alt text:</b> Side-by-side funnel chart: job boards convert 180 applicants into about 5 interviews and 1 hire, while a JobFairX event averages 35 scheduled interviews and 8 hires per employer<br><b>Handling:</b> repo file: chart-funnel-vs-event.png — WebP, width/height, lazy-load OK.</li><li><b>Rename to:</b> <code>hiring-cost-vs-vacancy-cost-2026.webp</code><br><b>Alt text:</b> Bar chart comparing 2026 hiring costs: 5,475 dollars average cost per hire and 9,000 to 12,000 in healthcare versus 60,090 dollars for a single RN turnover<br><b>Handling:</b> repo file: chart-cost-comparison.png — WebP, width/height, lazy-load OK.</li></ul></li>
-<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
+<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>. <span style="color:#DC2626; font-weight:800">&#9888; The date fields ship as the placeholder <code>2026-07-XX</code> — replace BOTH (datePublished + dateModified) with the real publish date in ISO format (e.g. 2026-07-28) BEFORE pasting. The placeholder is a hard validation error in Google's Rich Results Test.</span> Then validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
 <li><b>Verify outbound links resolve:</b> Internal: recruiting-metrics, time-to-fill, cost-per-hire, why-hospitals-struggle, virtual-hiring-events (CTA). External (all must resolve — they are the meticulous-citation layer): NSI report PDF, Workable, CareerPlug, NACE, Data Intelo, Indeed hiring events, SHRM research. PDF: host virtual-hiring-event-statistics-2026.pdf (in repo) at a stable /downloads/ URL and point the two download CTAs at it; update the PDF at every quarterly refresh.</li>
 <li><b>Landing page card</b> (for <code>/employer/resources</code>):<ul>
 <li><b>Section:</b> Virtual Hiring Events</li>
@@ -1193,7 +1205,7 @@ function jfxCalc() {
 </ol>
 <h3>After publish (same day, ~10 min)</h3>
 <ol>
-<li><b>Backlink pass — add links TO this post from:</b><ul><li>THIS IS THE DATA FLAGSHIP — every live post should cite one stat from it with a link.</li><li>recruiting-metrics — show rate section, anchor "virtual hiring event statistics"</li><li>cost-per-hire — funnel paragraph, same anchor</li><li>why-hospitals-struggle — speed section, same anchor</li><li>virtual-hiring-events pillar — same anchor</li></ul></li>
+<li><b>Backlink pass — add links TO this post from:</b><ul><li>THIS IS THE DATA FLAGSHIP — every live post should cite one stat from it with a link.</li><li>recruiting-metrics — show rate section, anchor "virtual hiring event statistics"</li><li>cost-per-hire — funnel paragraph, anchor "hiring event benchmarks"</li><li>why-hospitals-struggle — speed section, anchor "virtual hiring event data"</li><li>virtual-hiring-events pillar — anchor "2026 virtual hiring event statistics"</li><li>ANCHOR RULE: vary anchors across referring pages.</li></ul></li>
 <li>GSC → URL Inspection → Request indexing.</li>
 <li>Confirm the post is in the sitemap with today's lastmod.</li>
 </ol>
@@ -1207,7 +1219,10 @@ function jfxCalc() {
     &quot;@type&quot;: &quot;Person&quot;,
     &quot;name&quot;: &quot;Scott Lobenberg&quot;,
     &quot;jobTitle&quot;: &quot;Founder&quot;,
-    &quot;url&quot;: &quot;https://jobfairx.com/about-us&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com/employer/resources/author&quot;,
+    &quot;sameAs&quot;: [
+      &quot;https://www.linkedin.com/in/scottlobenberg/&quot;
+    ],
     &quot;worksFor&quot;: {
       &quot;@type&quot;: &quot;Organization&quot;,
       &quot;name&quot;: &quot;JobFairX&quot;,
@@ -1384,7 +1399,7 @@ function jfxCalc() {
 <li><b>Title tag:</b> Healthcare Recruiting Strategies That Fill Shifts (2026 Guide)</li>
 <li><b>Meta description:</b> 8 healthcare recruiting strategies backed by 2026 data: compress time to interview, cut no-shows with self-scheduling, and stop refilling a leaking bucket.</li>
 <li><b>Images:</b><ul><li>No chart images in this post — the coded components carry the visuals (that's intentional; they're crawlable HTML).</li></ul></li>
-<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
+<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>. <span style="color:#DC2626; font-weight:800">&#9888; The date fields ship as the placeholder <code>2026-07-XX</code> — replace BOTH (datePublished + dateModified) with the real publish date in ISO format (e.g. 2026-07-28) BEFORE pasting. The placeholder is a hard validation error in Google's Rich Results Test.</span> Then validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
 <li><b>Verify outbound links resolve:</b> recruiting-metrics, virtual-hiring-event-statistics (flagship cite), why-hospitals-struggle, how-to-choose-a-nurse-job-fair, cost-per-hire, healthcare calendar CTA. Component: healthcare candidates widget (#6) — no screenshots, no chart.</li>
 <li><b>Landing page card</b> (for <code>/employer/resources</code>):<ul>
 <li><b>Section:</b> Healthcare Hiring (NEW section — see note)</li>
@@ -1396,7 +1411,7 @@ function jfxCalc() {
 </ol>
 <h3>After publish (same day, ~10 min)</h3>
 <ol>
-<li><b>Backlink pass — add links TO this post from:</b><ul><li>THIS IS THE HEALTHCARE HUB — as each healthcare spoke publishes, it links here and this hub links back the same day.</li><li>why-hospitals-struggle — intro or a what-works section, anchor "healthcare recruiting strategies"</li><li>how-to-choose-a-nurse-job-fair — hospital systems section, same anchor</li><li>virtual-hiring-events pillar — healthcare paragraph, same anchor</li></ul></li>
+<li><b>Backlink pass — add links TO this post from:</b><ul><li>THIS IS THE HEALTHCARE HUB — as each healthcare spoke publishes, it links here and this hub links back the same day.</li><li>why-hospitals-struggle — intro or a what-works section, anchor "healthcare recruiting strategies"</li><li>how-to-choose-a-nurse-job-fair — hospital systems section, anchor "a healthcare recruiting playbook"</li><li>virtual-hiring-events pillar — healthcare paragraph, anchor "recruiting strategies for healthcare"</li><li>ANCHOR RULE: vary anchors across referring pages.</li></ul></li>
 <li>GSC → URL Inspection → Request indexing.</li>
 <li>Confirm the post is in the sitemap with today's lastmod.</li>
 </ol>
@@ -1410,7 +1425,10 @@ function jfxCalc() {
     &quot;@type&quot;: &quot;Person&quot;,
     &quot;name&quot;: &quot;Scott Lobenberg&quot;,
     &quot;jobTitle&quot;: &quot;Founder&quot;,
-    &quot;url&quot;: &quot;https://jobfairx.com/about-us&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com/employer/resources/author&quot;,
+    &quot;sameAs&quot;: [
+      &quot;https://www.linkedin.com/in/scottlobenberg/&quot;
+    ],
     &quot;worksFor&quot;: {
       &quot;@type&quot;: &quot;Organization&quot;,
       &quot;name&quot;: &quot;JobFairX&quot;,
@@ -1549,7 +1567,7 @@ function jfxCalc() {
 <li><b>Title tag:</b> How to Host a Job Fair: Step-by-Step Guide (+ Checklist)</li>
 <li><b>Meta description:</b> Hosting a job fair takes 6-8 weeks and $800-$3,000+ in hard costs. The 10-step employer guide, a planning checklist, and the one decision that produces hires.</li>
 <li><b>Images:</b><ul><li>No chart images in this post — the coded components carry the visuals (that's intentional; they're crawlable HTML).</li></ul></li>
-<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
+<li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>. <span style="color:#DC2626; font-weight:800">&#9888; The date fields ship as the placeholder <code>2026-07-XX</code> — replace BOTH (datePublished + dateModified) with the real publish date in ISO format (e.g. 2026-07-28) BEFORE pasting. The placeholder is a hard validation error in Google's Rich Results Test.</span> Then validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
 <li><b>Verify outbound links resolve:</b> how-to-host-a-virtual-hiring-event (the fork), virtual-vs-in-person-hiring-event, virtual-hiring-event-statistics (flagship cite), cost-per-hire, recruiting-metrics, calendar CTA. Component: planning checklist (#8) — new, crawlable HTML. No chart, no screenshots.</li>
 <li><b>Landing page card</b> (for <code>/employer/resources</code>):<ul>
 <li><b>Section:</b> Virtual Hiring Events</li>
@@ -1561,7 +1579,7 @@ function jfxCalc() {
 </ol>
 <h3>After publish (same day, ~10 min)</h3>
 <ol>
-<li><b>Backlink pass — add links TO this post from:</b><ul><li>how-to-host-a-virtual-hiring-event — top of post ("planning an in-person or general fair instead?"), anchor "how to host a job fair"</li><li>virtual-vs-in-person-hiring-event — same anchor</li><li>high-volume-hiring — same anchor</li></ul></li>
+<li><b>Backlink pass — add links TO this post from:</b><ul><li>how-to-host-a-virtual-hiring-event — top of post ("planning an in-person or general fair instead?"), anchor "how to host a job fair"</li><li>virtual-vs-in-person-hiring-event — anchor "hosting your own job fair"</li><li>high-volume-hiring — anchor "running a job fair step by step"</li><li>ANCHOR RULE: vary anchors across referring pages.</li></ul></li>
 <li>GSC → URL Inspection → Request indexing.</li>
 <li>Confirm the post is in the sitemap with today's lastmod.</li>
 </ol>
@@ -1575,7 +1593,10 @@ function jfxCalc() {
     &quot;@type&quot;: &quot;Person&quot;,
     &quot;name&quot;: &quot;Scott Lobenberg&quot;,
     &quot;jobTitle&quot;: &quot;Founder&quot;,
-    &quot;url&quot;: &quot;https://jobfairx.com/about-us&quot;,
+    &quot;url&quot;: &quot;https://jobfairx.com/employer/resources/author&quot;,
+    &quot;sameAs&quot;: [
+      &quot;https://www.linkedin.com/in/scottlobenberg/&quot;
+    ],
     &quot;worksFor&quot;: {
       &quot;@type&quot;: &quot;Organization&quot;,
       &quot;name&quot;: &quot;JobFairX&quot;,

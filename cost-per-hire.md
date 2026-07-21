@@ -146,6 +146,6 @@ Under the SHRM standard, no. It stops at the accepted offer. Some teams track "c
 - **Once live, update the healthcare CTAs to this URL** in: why-hospitals-struggle, how-to-choose-a-nurse-job-fair, healthcare-recruiting-strategies (all currently point at the mixed calendar), plus this post. Add one link to it from the Healthcare Recruiting Strategies hub the same day.
 
 **Cross-links out (4 destinations):** time-to-fill (×2), recruiting-roi, high-volume-hiring, hiring-event-pricing (events section) + healthcare calendar CTA (new page above). Note: virtual-hiring-events link removed in the intent rewrite.
-**Backlinks to add after publish:** from time-to-fill, recruiting-roi, and high-volume-hiring — one sentence each citing the $5,475 average, anchor text "cost per hire."
+**Backlinks to add after publish:** from time-to-fill (anchor "cost per hire"), recruiting-roi (anchor "average cost per hire in 2026"), high-volume-hiring (anchor "what a hire actually costs") — one sentence each citing the $5,475 average. Vary anchors — never repeat one exact-match phrase from 3+ pages.
 
 **Sources cited in post:** SHRM 2025 Benchmarking Report ($5,475 / $35,879); Pin 2026 benchmarks (industry table); CIPD + RPOA (fully loaded costs); NSI 2026 Retention Report ($60,090 RN turnover, 56–102 day fills); Workable (49-day health services time to fill).

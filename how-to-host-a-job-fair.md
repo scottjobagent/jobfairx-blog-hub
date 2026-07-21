@@ -102,6 +102,6 @@ Only when they're built around interviews. NACE data shows just 45% of tradition
 **Schema:** FAQPage (4 questions) + Article, author Scott Lobenberg, visible dates. HowTo schema NOT recommended: Google deprecated HowTo rich results in 2023; FAQPage + BlogPosting is the right pair.
 
 **Cross-links out (5 + CTA):** how-to-host-a-virtual-hiring-event (the fork), virtual-vs-in-person-hiring-event, virtual-hiring-event-statistics (flagship), cost-per-hire, recruiting-metrics, calendar CTA.
-**Backlinks to add after publish:** from how-to-host-a-virtual-hiring-event (top of post: "planning an in-person or general fair instead? here's how to host a job fair"), virtual-vs-in-person-hiring-event, high-volume-hiring — anchor "how to host a job fair."
+**Backlinks to add after publish:** from how-to-host-a-virtual-hiring-event (top of post: "planning an in-person or general fair instead?", anchor "how to host a job fair"), virtual-vs-in-person-hiring-event (anchor "hosting your own job fair"), high-volume-hiring (anchor "running a job fair step by step"). Vary anchors — never repeat one exact-match phrase from 3+ pages.
 
 **Sources cited:** NACE (45% interview invitation / 24% offer); CareerPlug 2025 (~27% interview-to-hire); JobFairX published data (91% show rate via flagship page, $800-$3,000+ DIY hard costs per our host-your-own post); planning timeline (6-8 weeks) is a recommendation, not a cited statistic.
