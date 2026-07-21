@@ -60,7 +60,7 @@ Entry-level candidates accept offers within days of starting their search. A cha
 
 ## How many interviews and hires does one event produce?
 
-The 2026 averages across JobFairX healthcare events, published on our public event pages:
+The 2026 averages from JobFairX platform data across **582 healthcare hiring events held in calendar year 2025**, published on our public event pages:
 
 - **35 scheduled interviews** per employer, per event
 - **8 hires** per employer, per event
@@ -90,7 +90,7 @@ The full breakdown of why those numbers stay stuck, and what fixes each failure 
 
 ## Where these numbers come from
 
-**JobFairX data:** the 91% show rate, 35 scheduled interviews, and 8 hires per employer are averages across JobFairX healthcare events, published on our public event pages and updated as events complete. The registration figures (599-784 pre-registered per city event) and the 100+ upcoming events were checked live on our public calendar and event pages in July 2026. Anyone can verify them the same way.
+**JobFairX data:** the 91% show rate, 35 scheduled interviews, and 8 hires per employer are averages from JobFairX platform data across **582 healthcare hiring events held in calendar year 2025**, published on our public event pages and updated as events complete. The registration figures (599-784 pre-registered per city event) and the 100+ upcoming events were checked live on our public calendar and event pages in July 2026. Anyone can verify them the same way.
 
 **Third-party data**, each linked to the original report: [Indeed Hiring Events](https://www.indeed.com/employers/hiring-events) (~45% typical show rate, 4-day median), [NACE 2024-25 Career Services Benchmarks](https://www.naceweb.org/career-development/trends-and-predictions/employers-students-favor-in-person-career-fairs) (fair formats and attendance), [CareerPlug's 2025 Recruiting Metrics Report](https://www.careerplug.com/recruiting-metrics-and-kpis/) (10M+ applications: 3% app-to-interview, 1-in-180 hired), [SHRM 2025 Benchmarking Report](https://www.shrm.org/topics-tools/research) ($5,475 cost per hire), [NSI 2026 National Health Care Retention Report](https://www.nsinursingsolutions.com/documents/library/nsi_national_health_care_retention_report.pdf) ($60,090 RN turnover, 78-day RN recruiting), [Workable](https://resources.workable.com/stories-and-insights/time-to-hire-industry) (49-day health services time to fill), Employ (46.2-day average time to hire), and [Data Intelo](https://dataintelo.com/report/virtual-career-fair-platform-market) (market sizing).
 

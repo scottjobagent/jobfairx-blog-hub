@@ -89,6 +89,10 @@ Cost per hire is rising because job-board pricing keeps climbing, recruiter scre
 
 Flat-rate hiring events are one of the few channels where cost per hire falls as you hire more, because the spend is fixed while the hires aren't. Worth a straight answer, since we run them: that's the flat-rate effect from #2, and it's why events tend to win for multi-role, hourly, and clinical hiring, where interview volume is the bottleneck.
 
+[COMPONENT: stat callout — JOBFAIRX 2025 PLATFORM DATA / 582 events / "Healthcare hiring events held in 2025 — employers averaged 35 scheduled interviews and 8 hires per event"]
+
+Our own 2025 numbers, since this is the claim that matters: across **582 healthcare hiring events**, employers averaged **35 scheduled interviews and 8 hires per event**. Run that against the pricing above: even at the top flat-rate tier, the channel spend works out to under $200 per hire, before staff time — against the $9,000–$12,000 healthcare average through traditional channels.
+
 The honest caveat: an event is not the right tool for every role. A single specialized senior hire is still a sourcing-and-outreach game. If you want the actual event math against these benchmarks, we published it on our [hiring event pricing page](https://jobfairx.com/employer/hiring-event-pricing).
 
 > "Every hiring budget I look at pays for activity: clicks, posts, applications. Almost nobody pays for interviews. But interviews are the only thing in the funnel that predicts a hire. The moment you start pricing channels in cost per interview instead of cost per click, the decision makes itself."
@@ -151,4 +155,4 @@ Under the SHRM standard, no. It stops at the accepted offer. Some teams track "c
 **Cross-links out (4 destinations):** time-to-fill (×2), recruiting-roi, high-volume-hiring, hiring-event-pricing (events section) + healthcare calendar CTA (new page above). Note: virtual-hiring-events link removed in the intent rewrite.
 **Backlinks to add after publish:** from time-to-fill (anchor "cost per hire"), recruiting-roi (anchor "average cost per hire in 2026"), high-volume-hiring (anchor "what a hire actually costs") — one sentence each citing the $5,475 average. Vary anchors — never repeat one exact-match phrase from 3+ pages.
 
-**Sources cited in post:** SHRM 2025 Benchmarking Report ($5,475 / $35,879); Pin 2026 benchmarks (industry table); CIPD + RPOA (fully loaded costs); NSI 2026 Retention Report ($60,090 RN turnover, 56–102 day fills); Workable (49-day health services time to fill).
+**Sources cited in post:** SHRM 2025 Benchmarking Report ($5,475 / $35,879); Pin 2026 benchmarks (industry table); CIPD + RPOA (fully loaded costs); NSI 2026 Retention Report ($60,090 RN turnover, 56–102 day fills); Workable (49-day health services time to fill); JobFairX platform data, calendar year 2025 (582 healthcare events; 35 interviews and 8 hires per employer per event — FIRST-PARTY, provided by Scott Jul 21 2026; under-$200 figure is arithmetic: $1,495 top tier ÷ 8 hires = $187).
