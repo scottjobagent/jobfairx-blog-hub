@@ -105,3 +105,5 @@ Only when they're built around interviews. NACE data shows just 45% of tradition
 **Backlinks to add after publish:** from how-to-host-a-virtual-hiring-event (top of post: "planning an in-person or general fair instead?", anchor "how to host a job fair"), virtual-vs-in-person-hiring-event (anchor "hosting your own job fair"), high-volume-hiring (anchor "running a job fair step by step"). Vary anchors — never repeat one exact-match phrase from 3+ pages.
 
 **Sources cited:** NACE (45% interview invitation / 24% offer); CareerPlug 2025 (~27% interview-to-hire); JobFairX published data (91% show rate via flagship page, $800-$3,000+ DIY hard costs per our host-your-own post); planning timeline (6-8 weeks) is a recommendation, not a cited statistic.
+
+**Contents sidebar + About panel (added Jul 21 — match the live post template):** left "Contents" nav links to these section IDs (add the id to each matching H2): `#when-not-to-host` When you shouldn't host your own · `#faq` FAQ. Right "About this article" panel: Published = publish date, Updated = same at launch; bump Updated at every content refresh.
