@@ -36,6 +36,28 @@
   .cta { background:var(--soft); border-radius:12px; padding:22px 24px; margin-top:44px; font-size:16.5px; color:var(--ink); }
   footer { border-top:1px solid var(--line); color:var(--muted); font-size:13px; text-align:center; padding:24px; }
 
+.jfx-stat { border:1px solid #E5E7EB; border-left:6px solid #3457D5; border-radius:12px; padding:20px 26px; margin:22px 0; background:#F8FAFF; }
+.jfx-stat .jfx-stat-label { font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:#3457D5; }
+.jfx-stat .jfx-stat-num { font-size:44px; font-weight:800; color:#111827; line-height:1.1; margin:4px 0 2px; }
+.jfx-stat .jfx-stat-sub { font-size:13.5px; color:#6B7280; }
+.jfx-pull { border:none; margin:26px 0; padding:6px 0 6px 24px; border-left:4px solid #3457D5; background:none; font-size:21px; line-height:1.45; color:#111827; font-weight:600; }
+.jfx-calc { border:1px solid #E5E7EB; border-radius:14px; padding:24px 26px; margin:24px 0; background:#fff; }
+.jfx-calc h4 { font-size:17px; color:#111827; margin:0 0 4px; }
+.jfx-calc .jfx-calc-note { font-size:12.5px; color:#6B7280; margin-bottom:14px; }
+.jfx-calc .jfx-calc-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px 18px; }
+.jfx-calc label { font-size:13px; color:#374151; font-weight:600; display:block; margin-bottom:4px; }
+.jfx-calc input { width:100%; box-sizing:border-box; border:1px solid #D1D5DB; border-radius:8px; padding:9px 12px; font-size:15px; color:#111827; }
+.jfx-calc .jfx-calc-btn { grid-column:1 / -1; background:#3457D5; color:#fff; border:none; border-radius:999px; padding:11px 22px; font-size:14.5px; font-weight:700; cursor:pointer; justify-self:start; margin-top:4px; }
+.jfx-calc .jfx-calc-out { grid-column:1 / -1; display:none; margin-top:10px; border-top:1px solid #E5E7EB; padding-top:14px; }
+.jfx-calc .jfx-calc-out .jfx-stat-num { font-size:36px; }
+@media (max-width:560px){ .jfx-calc .jfx-calc-grid { grid-template-columns:1fr; } }
+.jfx-check { border:1px solid #E5E7EB; border-radius:14px; padding:22px 26px; background:#fff; }
+.jfx-check h4 { font-size:18px; color:#111827; margin:0 0 14px; }
+.jfx-check .jfx-phase { margin:0 0 14px; }
+.jfx-check .jfx-phase b { display:block; color:#3457D5; font-size:13px; text-transform:uppercase; letter-spacing:.05em; margin-bottom:6px; }
+.jfx-check ul { list-style:none; margin:0; padding:0; }
+.jfx-check li { padding:4px 0 4px 26px; position:relative; font-size:14.5px; color:#374151; }
+.jfx-check li::before { content:""; position:absolute; left:2px; top:8px; width:13px; height:13px; border:2px solid #94A3C8; border-radius:4px; }
 .jfx-wrap { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif; margin:26px 0; }
 .jfx-cap { font-size:13px; color:#6B7280; margin-top:8px; text-align:center; }
 /* comparison */
@@ -86,6 +108,21 @@
 .jfx-event .jfx-cta { display:inline-block; background:#3457D5; color:#fff; border-radius:999px; padding:11px 26px; font-weight:700; font-size:15px; text-decoration:none; }
 .jfx-event .jfx-note { font-size:12.5px; color:#6B7280; margin-top:10px; }
 
+.jfx-stat { border:1px solid #E5E7EB; border-left:6px solid #3457D5; border-radius:12px; padding:20px 26px; margin:22px 0; background:#F8FAFF; }
+.jfx-stat .jfx-stat-label { font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:#3457D5; }
+.jfx-stat .jfx-stat-num { font-size:44px; font-weight:800; color:#111827; line-height:1.1; margin:4px 0 2px; }
+.jfx-stat .jfx-stat-sub { font-size:13.5px; color:#6B7280; }
+.jfx-pull { border:none; margin:26px 0; padding:6px 0 6px 24px; border-left:4px solid #3457D5; background:none; font-size:21px; line-height:1.45; color:#111827; font-weight:600; }
+.jfx-calc { border:1px solid #E5E7EB; border-radius:14px; padding:24px 26px; margin:24px 0; background:#fff; }
+.jfx-calc h4 { font-size:17px; color:#111827; margin:0 0 4px; }
+.jfx-calc .jfx-calc-note { font-size:12.5px; color:#6B7280; margin-bottom:14px; }
+.jfx-calc .jfx-calc-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px 18px; }
+.jfx-calc label { font-size:13px; color:#374151; font-weight:600; display:block; margin-bottom:4px; }
+.jfx-calc input { width:100%; box-sizing:border-box; border:1px solid #D1D5DB; border-radius:8px; padding:9px 12px; font-size:15px; color:#111827; }
+.jfx-calc .jfx-calc-btn { grid-column:1 / -1; background:#3457D5; color:#fff; border:none; border-radius:999px; padding:11px 22px; font-size:14.5px; font-weight:700; cursor:pointer; justify-self:start; margin-top:4px; }
+.jfx-calc .jfx-calc-out { grid-column:1 / -1; display:none; margin-top:10px; border-top:1px solid #E5E7EB; padding-top:14px; }
+.jfx-calc .jfx-calc-out .jfx-stat-num { font-size:36px; }
+@media (max-width:560px){ .jfx-calc .jfx-calc-grid { grid-template-columns:1fr; } }
 .jfx-check { border:1px solid #E5E7EB; border-radius:14px; padding:22px 26px; background:#fff; }
 .jfx-check h4 { font-size:18px; color:#111827; margin:0 0 14px; }
 .jfx-check .jfx-phase { margin:0 0 14px; }
@@ -265,6 +302,7 @@
 </div>
 <details class="seo"><summary><span class="arrow">&#9654;</span><span class="t">SEO — before &amp; after publish (everything for this post)</span></summary>
 <div class="seonotes">
+<div style="border:2px solid #DC2626; background:#FEF2F2; color:#B91C1C; font-weight:800; border-radius:10px; padding:14px 18px; margin-bottom:14px">&#128308; DEV ALERT: BUILD BEFORE PUBLISH: the final CTA points to /employer/healthcare-hiring-event-calendar — a NEW healthcare-only calendar landing page that returns 404 today. Full spec (H1, title tag, meta description, content, canonical, rollout) is in this post&#x27;s publishing notes in the repo markdown. Verified via Chrome console Jul 21: the current calendar mixes all verticals (26 healthcare of 300 links) with no filter, so a dedicated page is required.</div>
 <h3>Before publish</h3>
 <ol>
 <li><b>Slug:</b> <code>/employer/resources/cost-per-hire</code></li>
@@ -272,7 +310,7 @@
 <li><b>Meta description:</b> Average cost per hire is $5,475 in 2026 (SHRM), and $9,000+ in healthcare. See benchmarks by industry, the SHRM formula, and 6 ways to bring your number down.</li>
 <li><b>Images:</b><ul><li><b>Rename to:</b> <code>cost-per-hire-by-industry-2026.webp</code><br><b>Alt text:</b> Bar chart of 2026 U.S. cost per hire by industry, from $2,700 in retail to $16,000-$20,000 in legal, with healthcare highlighted at $9,000-$12,000<br><b>Handling:</b> repo file: chart-cost-per-hire-by-industry.png — convert to WebP, set width/height, do NOT lazy-load (first image), set as og:image</li></ul></li>
 <li><b>Paste both schema blocks</b> (below) as <code>&lt;script type="application/ld+json"&gt;</code>; fill real datePublished/dateModified; validate in <a href="https://search.google.com/test/rich-results">Rich Results Test</a>.</li>
-<li><b>Verify outbound links resolve:</b> time-to-fill (x2), recruiting-roi, high-volume-hiring, hiring-event-pricing (x2: events section + CTA). Note: the virtual-hiring-events link was removed in the intent rewrite — do not look for it.</li>
+<li><b>Verify outbound links resolve:</b> time-to-fill (x2), recruiting-roi, high-volume-hiring, hiring-event-pricing (events section), healthcare-hiring-event-calendar (CTA — new page, see red note). Components: comparison (#1), candidates widget (#2), calculator (#9), stat callouts + pull quotes (#10). Note: the virtual-hiring-events link was removed in the intent rewrite — do not look for it.</li>
 <li><b>Landing page card</b> (for <code>/employer/resources</code>):<ul>
 <li><b>Section:</b> Recruiting Metrics & ROI</li>
 <li><b>Style:</b> PHOTO (final) — licensed iStock #1000963872 (calculator + hiring budget), downloaded on our plan Jul 21 2026. This file is the ready 1600x900 crop, uniform with every other card. Full-res original: iStock-1000963872.jpg in this repo.</li>
@@ -368,6 +406,7 @@
 
 <p>Hiring someone costs a third more than it did a decade ago. The average U.S. cost per hire is now <b>$5,475</b> for non-executive roles, up 33% since 2016, per SHRM's 2025 Benchmarking Report. In healthcare, expect $9,000–$12,000. Executives run $35,879.</p>
 <p>Most teams don't know their number, and the ones that do usually undercount it. This guide covers the formula, 2026 benchmarks by industry, and six ways to bring the number down.</p>
+<div class="jfx-stat"><div class="jfx-stat-label">U.S. Average Cost Per Hire</div><div class="jfx-stat-num">$5,475</div><div class="jfx-stat-sub">Non-executive roles, up 33% since 2016 (SHRM 2025 Benchmarking Report)</div></div>
 
 <h2>What is cost per hire?</h2>
 <p>Cost per hire is the total amount you spend on recruiting divided by the number of people you actually hire. It's the efficiency metric for a recruiting budget: one number that says what it costs you to land a new employee, and whether that cost is moving the right way.</p>
@@ -394,7 +433,9 @@
 </table>
 <p class="src">Sources: SHRM 2025 Benchmarking Report; Pin cost-per-hire benchmarks, 2026.</p>
 <p>Worth knowing: these are direct-cost figures. Research from the <a href="https://www.cipd.org/uk/knowledge/reports/resourcing-surveys/">Chartered Institute of Personnel and Development (CIPD)</a> and the <a href="https://www.rpoassociation.org/">Recruitment Process Outsourcing Association (RPOA)</a> puts the fully loaded number, with hiring-manager time and lost productivity counted, at roughly double the invoice total.</p>
-<p>And cost per hire isn't even the expensive part in some industries. In healthcare, the <i>vacancy</i> is. The 2026 NSI Retention Report puts the average cost of a single RN turnover at <b>$60,090</b>, with experienced RN roles taking 56–102 days to fill. When the empty seat costs 6x the recruiting spend, slow-and-cheap hiring is the most expensive strategy there is.</p>
+<p>And cost per hire isn't even the expensive part in some industries. In healthcare, the <i>vacancy</i> is. The 2026 NSI Retention Report puts the average cost of a single RN turnover at <b>$60,090</b>, with experienced RN roles taking 56–102 days to fill. When the empty seat costs 6x the recruiting spend, the conclusion writes itself.</p>
+<div class="jfx-stat"><div class="jfx-stat-label">RN Turnover</div><div class="jfx-stat-num">$60,090</div><div class="jfx-stat-sub">Average cost of a single RN turnover (NSI 2026 Retention Report)</div></div>
+<blockquote class="jfx-pull">Slow-and-cheap hiring is the most expensive strategy there is.</blockquote>
 
 <h2>Why is cost per hire going up?</h2>
 <p>Three reasons, mostly.</p>
@@ -403,6 +444,7 @@
 <p><b>Ghosting and no-shows.</b> Every interview that doesn't happen and every offer that gets ghosted pushes spend onto fewer hires. Same numerator, smaller denominator.</p>
 
 <h2>6 ways to lower cost per hire</h2>
+<blockquote class="jfx-pull">Applications are an input. Interviews are the first unit that predicts a hire.</blockquote>
 <ol class="tactics">
 <li><b>Measure cost per interview, not cost per application.</b> Applications are an input. Interviews are the first unit that predicts a hire. Re-run last quarter's numbers as spend ÷ interviews-that-happened and you'll find out which channels are actually expensive.</li>
 <li><b>Pay flat rates instead of per-click where you can.</b> Variable-cost channels punish volume hiring. Flat-rate channels, including hiring events, mean your cost per hire <i>drops</i> as you fill more roles from one spend.
@@ -453,6 +495,41 @@
 <li><b>Actually calculate channel ROI.</b> Most teams can't say what a hire from each channel costs because the spend is pooled. Separate the data per channel, per quarter. Our <a href="https://jobfairx.com/employer/resources/recruiting-roi">recruiting ROI guide</a> has the formulas and a business-case template.</li>
 </ol>
 
+
+<div class="jfx-calc">
+  <h4>What's your cost per hire?</h4>
+  <div class="jfx-calc-note">SHRM formula: (internal + external recruiting costs) &divide; total hires. Interviewer time uses a $75/hr loaded rate; edit anything.</div>
+  <div class="jfx-calc-grid">
+    <div><label for="jfxc-hires">Employees hired this year</label><input id="jfxc-hires" type="number" value="38" min="1"></div>
+    <div><label for="jfxc-ext">External spend: job boards, ads, agencies, software ($/yr)</label><input id="jfxc-ext" type="number" value="60000" min="0"></div>
+    <div><label for="jfxc-rec">Recruiter salary cost on hiring ($/yr)</label><input id="jfxc-rec" type="number" value="85000" min="0"></div>
+    <div><label for="jfxc-hrs">Interviewer hours per hire</label><input id="jfxc-hrs" type="number" value="2" min="0" step="0.5"></div>
+    <button class="jfx-calc-btn" onclick="jfxCalc()">Calculate</button>
+    <div class="jfx-calc-out" id="jfxc-out">
+      <div class="jfx-stat-label">Your cost per hire</div>
+      <div class="jfx-stat-num" id="jfxc-num">$0</div>
+      <div class="jfx-stat-sub" id="jfxc-sub"></div>
+    </div>
+  </div>
+</div>
+<script>
+function jfxCalc() {
+  var h = Math.max(1, +document.getElementById('jfxc-hires').value || 1);
+  var ext = +document.getElementById('jfxc-ext').value || 0;
+  var rec = +document.getElementById('jfxc-rec').value || 0;
+  var hrs = +document.getElementById('jfxc-hrs').value || 0;
+  var cph = (ext + rec + h * hrs * 75) / h;
+  var out = document.getElementById('jfxc-out');
+  out.style.display = 'block';
+  document.getElementById('jfxc-num').textContent = '$' + Math.round(cph).toLocaleString('en-US');
+  var avg = 5475; var diff = Math.round((cph - avg) / avg * 100);
+  document.getElementById('jfxc-sub').textContent = diff >= 0
+    ? diff + '% above the $5,475 U.S. average (SHRM 2025). The two biggest levers are tactics 2 and 3 above: flat-rate channels and batched interviews.'
+    : Math.abs(diff) + '% below the $5,475 U.S. average (SHRM 2025). Strong. Watch the interviewer-time line as you scale.';
+}
+</script>
+
+
 <h2>Where do hiring events fit?</h2>
 <p>Worth a straight answer, since we run them. Flat-rate hiring events are one of the few channels where cost per hire falls as you hire more, because the spend is fixed while the hires aren't. That's the flat-rate effect from #2, and it's why events tend to win for multi-role, hourly, and clinical hiring, where interview volume is the bottleneck.</p>
 <p>The honest caveat: an event is not the right tool for every role. A single specialized senior hire is still a sourcing-and-outreach game. If you want the actual event math against these benchmarks, we published it on our <a href="https://jobfairx.com/employer/hiring-event-pricing">hiring event pricing page</a>.</p>
@@ -469,7 +546,7 @@
 <p>Under the SHRM standard, no. It stops at the accepted offer. Some teams track "cost per productive hire" including onboarding and ramp; useful, but keep it separate so your benchmark comparisons stay apples-to-apples.</p>
 </div>
 
-<div class="cta">Hiring for multiple roles? See what a flat-rate event does to your cost per hire: <a href="https://jobfairx.com/employer/hiring-event-pricing">upcoming hiring events and pricing</a>.</div>
+<div class="cta">Hiring for multiple roles? See what a flat-rate event does to your cost per hire: <a href="https://jobfairx.com/employer/healthcare-hiring-event-calendar">healthcare hiring events calendar</a>.</div>
 </main></div>
 </details>
 
@@ -486,6 +563,7 @@
 </div>
 <details class="seo"><summary><span class="arrow">&#9654;</span><span class="t">SEO — before &amp; after publish (everything for this post)</span></summary>
 <div class="seonotes">
+
 <h3>Before publish</h3>
 <ol>
 <li><b>Slug:</b> <code>/employer/resources/why-hospitals-struggle-entry-level-clinical-hiring</code></li>
@@ -669,6 +747,7 @@
 </div>
 <details class="seo"><summary><span class="arrow">&#9654;</span><span class="t">SEO — before &amp; after publish (everything for this post)</span></summary>
 <div class="seonotes">
+
 <h3>Before publish</h3>
 <ol>
 <li><b>Slug:</b> <code>/employer/resources/how-to-choose-a-nurse-job-fair</code></li>
@@ -857,6 +936,7 @@
 </div>
 <details class="seo"><summary><span class="arrow">&#9654;</span><span class="t">SEO — before &amp; after publish (everything for this post)</span></summary>
 <div class="seonotes">
+
 <h3>Before publish</h3>
 <ol>
 <li><b>Slug:</b> <code>/employer/resources/recruiting-metrics</code></li>
@@ -1068,6 +1148,7 @@
 </div>
 <details class="seo"><summary><span class="arrow">&#9654;</span><span class="t">SEO — before &amp; after publish (everything for this post)</span></summary>
 <div class="seonotes">
+
 <h3>Before publish</h3>
 <ol>
 <li><b>Slug:</b> <code>/employer/resources/virtual-hiring-event-statistics</code></li>
@@ -1270,6 +1351,7 @@
 </div>
 <details class="seo"><summary><span class="arrow">&#9654;</span><span class="t">SEO — before &amp; after publish (everything for this post)</span></summary>
 <div class="seonotes">
+
 <h3>Before publish</h3>
 <ol>
 <li><b>Slug:</b> <code>/employer/resources/healthcare-recruiting-strategies</code></li>
@@ -1434,6 +1516,7 @@
 </div>
 <details class="seo"><summary><span class="arrow">&#9654;</span><span class="t">SEO — before &amp; after publish (everything for this post)</span></summary>
 <div class="seonotes">
+
 <h3>Before publish</h3>
 <ol>
 <li><b>Slug:</b> <code>/employer/resources/how-to-host-a-job-fair</code></li>

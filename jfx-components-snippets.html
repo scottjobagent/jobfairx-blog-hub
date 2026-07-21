@@ -1,5 +1,20 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><title>JobFairX Blog Components — copy-paste snippets</title>
 <style>body{font-family:-apple-system,sans-serif;max-width:820px;margin:0 auto;padding:40px 24px;color:#374151} h2{color:#111827;margin:40px 0 8px} .note{background:#FEF3C7;padding:12px 16px;border-radius:8px;font-size:14px} 
+.jfx-stat { border:1px solid #E5E7EB; border-left:6px solid #3457D5; border-radius:12px; padding:20px 26px; margin:22px 0; background:#F8FAFF; }
+.jfx-stat .jfx-stat-label { font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:#3457D5; }
+.jfx-stat .jfx-stat-num { font-size:44px; font-weight:800; color:#111827; line-height:1.1; margin:4px 0 2px; }
+.jfx-stat .jfx-stat-sub { font-size:13.5px; color:#6B7280; }
+.jfx-pull { border:none; margin:26px 0; padding:6px 0 6px 24px; border-left:4px solid #3457D5; background:none; font-size:21px; line-height:1.45; color:#111827; font-weight:600; }
+.jfx-calc { border:1px solid #E5E7EB; border-radius:14px; padding:24px 26px; margin:24px 0; background:#fff; }
+.jfx-calc h4 { font-size:17px; color:#111827; margin:0 0 4px; }
+.jfx-calc .jfx-calc-note { font-size:12.5px; color:#6B7280; margin-bottom:14px; }
+.jfx-calc .jfx-calc-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px 18px; }
+.jfx-calc label { font-size:13px; color:#374151; font-weight:600; display:block; margin-bottom:4px; }
+.jfx-calc input { width:100%; box-sizing:border-box; border:1px solid #D1D5DB; border-radius:8px; padding:9px 12px; font-size:15px; color:#111827; }
+.jfx-calc .jfx-calc-btn { grid-column:1 / -1; background:#3457D5; color:#fff; border:none; border-radius:999px; padding:11px 22px; font-size:14.5px; font-weight:700; cursor:pointer; justify-self:start; margin-top:4px; }
+.jfx-calc .jfx-calc-out { grid-column:1 / -1; display:none; margin-top:10px; border-top:1px solid #E5E7EB; padding-top:14px; }
+.jfx-calc .jfx-calc-out .jfx-stat-num { font-size:36px; }
+@media (max-width:560px){ .jfx-calc .jfx-calc-grid { grid-template-columns:1fr; } }
 .jfx-check { border:1px solid #E5E7EB; border-radius:14px; padding:22px 26px; background:#fff; }
 .jfx-check h4 { font-size:18px; color:#111827; margin:0 0 14px; }
 .jfx-check .jfx-phase { margin:0 0 14px; }
@@ -193,4 +208,41 @@
 </div>
 <p class="jfx-cap">The full 10-step guide behind this checklist is above. Steal it.</p>
 
+<h2>9. Cost per hire calculator (interactive — needs the script block, view source)</h2>
+<div class="jfx-calc">
+  <h4>What's your cost per hire?</h4>
+  <div class="jfx-calc-note">SHRM formula: (internal + external recruiting costs) &divide; total hires. Interviewer time uses a $75/hr loaded rate; edit anything.</div>
+  <div class="jfx-calc-grid">
+    <div><label for="jfxc-hires">Employees hired this year</label><input id="jfxc-hires" type="number" value="38" min="1"></div>
+    <div><label for="jfxc-ext">External spend: job boards, ads, agencies, software ($/yr)</label><input id="jfxc-ext" type="number" value="60000" min="0"></div>
+    <div><label for="jfxc-rec">Recruiter salary cost on hiring ($/yr)</label><input id="jfxc-rec" type="number" value="85000" min="0"></div>
+    <div><label for="jfxc-hrs">Interviewer hours per hire</label><input id="jfxc-hrs" type="number" value="2" min="0" step="0.5"></div>
+    <button class="jfx-calc-btn" onclick="jfxCalc()">Calculate</button>
+    <div class="jfx-calc-out" id="jfxc-out">
+      <div class="jfx-stat-label">Your cost per hire</div>
+      <div class="jfx-stat-num" id="jfxc-num">$0</div>
+      <div class="jfx-stat-sub" id="jfxc-sub"></div>
+    </div>
+  </div>
+</div>
+<script>
+function jfxCalc() {
+  var h = Math.max(1, +document.getElementById('jfxc-hires').value || 1);
+  var ext = +document.getElementById('jfxc-ext').value || 0;
+  var rec = +document.getElementById('jfxc-rec').value || 0;
+  var hrs = +document.getElementById('jfxc-hrs').value || 0;
+  var cph = (ext + rec + h * hrs * 75) / h;
+  var out = document.getElementById('jfxc-out');
+  out.style.display = 'block';
+  document.getElementById('jfxc-num').textContent = '$' + Math.round(cph).toLocaleString('en-US');
+  var avg = 5475; var diff = Math.round((cph - avg) / avg * 100);
+  document.getElementById('jfxc-sub').textContent = diff >= 0
+    ? diff + '% above the $5,475 U.S. average (SHRM 2025). The two biggest levers are tactics 2 and 3 above: flat-rate channels and batched interviews.'
+    : Math.abs(diff) + '% below the $5,475 U.S. average (SHRM 2025). Strong. Watch the interviewer-time line as you scale.';
+}
+</script>
+
+<h2>10. Stat callout + pull quote (styles only — copy the pattern)</h2>
+<div class="jfx-stat"><div class="jfx-stat-label">RN Turnover</div><div class="jfx-stat-num">$60,090</div><div class="jfx-stat-sub">Average cost of a single RN turnover (NSI 2026)</div></div>
+<blockquote class="jfx-pull">Applications are an input. Interviews are the first unit that predicts a hire.</blockquote>
 </body></html>

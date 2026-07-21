@@ -8,6 +8,8 @@ Hiring someone costs a third more than it did a decade ago. The average U.S. cos
 
 Most teams don't know their number, and the ones that do usually undercount it. This guide covers the formula, 2026 benchmarks by industry, and six ways to bring the number down.
 
+[STAT CALLOUT — component #10 style: label "U.S. AVERAGE COST PER HIRE" · number "$5,475" · sub "Non-executive roles, up 33% since 2016 (SHRM 2025 Benchmarking Report)"]
+
 ## What is cost per hire?
 
 Cost per hire is the total amount you spend on recruiting divided by the number of people you actually hire. It's the efficiency metric for a recruiting budget: one number that says what it costs you to land a new employee, and whether that cost is moving the right way.
@@ -43,7 +45,11 @@ Two things most teams get wrong when they run the formula. They forget interview
 
 Worth knowing: these are direct-cost figures. Research from the [Chartered Institute of Personnel and Development (CIPD)](https://www.cipd.org/uk/knowledge/reports/resourcing-surveys/) and the [Recruitment Process Outsourcing Association (RPOA)](https://www.rpoassociation.org/) puts the fully loaded number, with hiring-manager time and lost productivity counted, at roughly double the invoice total.
 
-And cost per hire isn't even the expensive part in some industries. In healthcare, the *vacancy* is. The 2026 NSI Retention Report puts the average cost of a single RN turnover at **$60,090**, with experienced RN roles taking 56–102 days to fill. When the empty seat costs 6x the recruiting spend, slow-and-cheap hiring is the most expensive strategy there is.
+And cost per hire isn't even the expensive part in some industries. In healthcare, the *vacancy* is. The 2026 NSI Retention Report puts the average cost of a single RN turnover at **$60,090**, with experienced RN roles taking 56–102 days to fill. When the empty seat costs 6x the recruiting spend, the conclusion writes itself.
+
+[STAT CALLOUT — component #10 style: label "RN TURNOVER" · number "$60,090" · sub "Average cost of a single RN turnover (NSI 2026 Retention Report)"]
+
+[PULL QUOTE — component #10 style: "Slow-and-cheap hiring is the most expensive strategy there is."]
 
 ## Why is cost per hire going up?
 
@@ -56,6 +62,8 @@ Three reasons, mostly.
 **Ghosting and no-shows.** Every interview that doesn't happen and every offer that gets ghosted pushes spend onto fewer hires. Same numerator, smaller denominator.
 
 ## 6 ways to lower cost per hire
+
+[PULL QUOTE — component #10 style: "Applications are an input. Interviews are the first unit that predicts a hire."]
 
 **1. Measure cost per interview, not cost per application.** Applications are an input. Interviews are the first unit that predicts a hire. Re-run last quarter's numbers as spend ÷ interviews-that-happened and you'll find out which channels are actually expensive.
 
@@ -72,6 +80,8 @@ Three reasons, mostly.
 **5. Cut your time to fill.** Cost per hire and [time to fill](https://jobfairx.com/employer/resources/time-to-fill) move together. Every extra week a role sits open adds recruiter hours, ad spend, and (in healthcare especially) vacancy cost that dwarfs the recruiting budget.
 
 **6. Actually calculate channel ROI.** Most teams can't say what a hire from each channel costs because the spend is pooled. Separate the data per channel, per quarter. Our [recruiting ROI guide](https://jobfairx.com/employer/resources/recruiting-roi) has the formulas and a business-case template.
+
+[COMPONENT: cost per hire CALCULATOR — interactive, jfx-components-snippets.html #9. SHRM formula; inputs: hires/yr, external spend, recruiter salary cost, interviewer hours per hire at $75/hr loaded; output compares against the $5,475 average.]
 
 ## Where do hiring events fit?
 
@@ -95,7 +105,7 @@ Under the SHRM standard, no. It stops at the accepted offer. Some teams track "c
 
 ---
 
-*Hiring for multiple roles? See what a flat-rate event does to your cost per hire: [upcoming hiring events and pricing](https://jobfairx.com/employer/hiring-event-pricing).*
+*Hiring for multiple roles? See what a flat-rate event does to your cost per hire: [healthcare hiring events calendar](https://jobfairx.com/employer/healthcare-hiring-event-calendar).*
 
 ---
 ---
@@ -115,7 +125,16 @@ Under the SHRM standard, no. It stops at the accepted offer. Some teams track "c
 
 **Schema:** add FAQPage schema for the 4 FAQ questions; Article schema with author = Scott Lobenberg, datePublished + dateModified visible on page.
 
-**Cross-links out (4 destinations):** time-to-fill (×2), recruiting-roi, high-volume-hiring, hiring-event-pricing (×2: events section + CTA). Note: virtual-hiring-events link removed in the intent rewrite.
+<span style="color:#DC2626; font-weight:800">🔴 DEV — BUILD BEFORE THIS POST PUBLISHES: healthcare-only calendar landing page.</span> The final CTA now points to **/employer/healthcare-hiring-event-calendar**, which returns 404 today. Verified via Chrome console (Jul 21): the current /employer/hiring-event-calendar mixes all five verticals (26 healthcare among 300 event links), has no filter UI and no query-param filtering, so a dedicated page is required. Spec:
+
+- **URL:** /employer/healthcare-hiring-event-calendar (confirmed unused)
+- **H1:** Healthcare Hiring Events Calendar
+- **Title tag:** Healthcare Hiring Events Calendar 2026 | JobFairX
+- **Meta description:** Upcoming virtual hiring events for healthcare employers — nurses, allied health, and clinical staff, credential-screened and interview-ready. Pick your city and date.
+- **Content:** same event-feed component as the main calendar, filtered to vertical = Healthcare (26 events today); one intro paragraph above the grid ("Standing healthcare hiring events in 40+ cities. Candidates are credential-screened at registration and self-schedule interviews with your team; employers average 35 scheduled interviews and 8 hires per event."); self-referencing canonical; add to sitemap.
+- **Once live, update the healthcare CTAs to this URL** in: why-hospitals-struggle, how-to-choose-a-nurse-job-fair, healthcare-recruiting-strategies (all currently point at the mixed calendar), plus this post. Add one link to it from the Healthcare Recruiting Strategies hub the same day.
+
+**Cross-links out (4 destinations):** time-to-fill (×2), recruiting-roi, high-volume-hiring, hiring-event-pricing (events section) + healthcare calendar CTA (new page above). Note: virtual-hiring-events link removed in the intent rewrite.
 **Backlinks to add after publish:** from time-to-fill, recruiting-roi, and high-volume-hiring — one sentence each citing the $5,475 average, anchor text "cost per hire."
 
 **Sources cited in post:** SHRM 2025 Benchmarking Report ($5,475 / $35,879); Pin 2026 benchmarks (industry table); CIPD + RPOA (fully loaded costs); NSI 2026 Retention Report ($60,090 RN turnover, 56–102 day fills); Workable (49-day health services time to fill).
