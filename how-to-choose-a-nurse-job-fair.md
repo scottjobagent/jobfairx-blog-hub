@@ -39,13 +39,15 @@ None of these is wrong; they answer different questions. Open houses build brand
 
 ## What do large hospital systems actually do?
 
-The pattern we see across systems hiring at scale: a standing cadence, not one-off events. Monthly or bi-monthly specialty events per region, entry-level and experienced tracks separated, and one recruiting team interviewing for multiple facilities per event day. The cadence matters because nurse hiring is continuous. A single spring job fair against a 16.4% annual RN turnover rate is a bucket against a tide. Systems also anchor events to predictable spikes: new grad graduation windows, seasonal census, new unit openings.
+Large hospital systems run a standing cadence of specialty hiring events per region — monthly or bi-monthly — rather than one-off fairs. Entry-level and experienced tracks run separately, and one recruiting team interviews for multiple facilities per event day. The cadence matters because nurse hiring is continuous. A single spring job fair against a 16.4% annual RN turnover rate is a bucket against a tide. Systems also anchor events to predictable spikes: new grad graduation windows, seasonal census, new unit openings.
 
 The other thing they do: they stopped treating events as marketing and started scoring them like a channel: cost per interview, show rate, offers per event, fills per event. If you're not scoring your current job fair vendor that way, start this quarter. Our [recruiting ROI guide](https://jobfairx.com/employer/resources/recruiting-roi) has the framework.
 
 ## Where JobFairX fits (and where it doesn't)
 
 Since it's our guide, here's our card on the table. JobFairX runs healthcare virtual hiring events built around the checklist above: candidates are matched and credential-screened at registration, they request and self-schedule interviews with your team, and pricing is a flat per-event rate with scheduled interviews included. That's the model: pre-qualified, self-scheduled interviews on event day.
+
+[COMPONENT: stat callout — JOBFAIRX 2025 PLATFORM DATA / 582 events / "Healthcare hiring events held in 2025 — employers averaged 35 scheduled interviews and 8 hires per event"]
 
 Where we're not the answer: if you need an on-site open house with facility tours, a campus relationship play, or a single executive-level clinical hire, different tools do that better. Events win when interview volume is the bottleneck.
 
@@ -67,7 +69,10 @@ Yes, when they're interview-structured: pre-screened clinical candidates, self-s
 
 ---
 
-*Hiring nurses? See the [healthcare hiring event calendar](https://jobfairx.com/employer/hiring-event-calendar): flat rate, credential-screened candidates, interviews included.*
+[COMPONENT: big CTA banner — .jfx-bigcta pattern, see jfx-components-snippets.html #11]
+
+**Hiring nurses? Skip the booth. Book the interviews.** Healthcare job fairs with credential-screened candidates and self-scheduled interviews. Flat rate, interviews included. ✓ 91% average show rate · ✓ 582 healthcare events in 2025
+→ **[See the Healthcare Job Fairs Calendar](https://jobfairx.com/employer/healthcare-hiring-event-calendar)**
 
 ---
 ---
@@ -86,4 +91,4 @@ Yes, when they're interview-structured: pre-screened clinical candidates, self-s
 
 **Cross-links out (6):** cost-per-hire, virtual-vs-in-person-hiring-event, recruiting-roi, why-hospitals-struggle-entry-level-clinical-hiring, healthcare calendar CTA. After publish, add backlinks from: why-hospitals-struggle (career fair section, anchor "how to choose a nurse job fair"), best-virtual-hiring-event-platforms (healthcare paragraph, anchor "evaluating nurse job fairs"), high-volume-hiring (anchor "picking the right nurse hiring event"). Vary anchors — never repeat one exact-match phrase from 3+ pages.
 
-**Sources:** NACE (45% interview invitation rate); NSI 2026 (16.4% RN turnover); Pin 2026 (healthcare cost per hire $9K–$12K); JobFairX published pricing.
+**Sources:** NACE (45% interview invitation rate); NSI 2026 (16.4% RN turnover); Pin 2026 (healthcare cost per hire $9K–$12K); JobFairX published pricing. JobFairX platform data, calendar year 2025 (582 healthcare events; 35 interviews, 8 hires per employer per event — FIRST-PARTY, provided by Scott Jul 21 2026).
