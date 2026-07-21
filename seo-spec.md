@@ -37,9 +37,9 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 **Landing page card** (for /employer/resources):
 
 - **Section:** Recruiting Metrics & ROI
-- **Style:** PHOTO (final) — licensed iStock #1000963872 (calculator + hiring budget), downloaded on our plan Jul 21 2026. Full-res original is this file; the ready 1600x900 crop (card-cost-per-hire.jpg) is in Scott's blog-landing-images folder.
-- **Download:** [iStock-1000963872.jpg](https://scottjobagent.github.io/jobfairx-blog-hub/iStock-1000963872.jpg)
-- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/iStock-1000963872.jpg)
+- **Style:** PHOTO (final) — licensed iStock #1000963872 (calculator + hiring budget), downloaded on our plan Jul 21 2026. This file is the ready 1600x900 crop, uniform with every other card. Full-res original: iStock-1000963872.jpg in this repo.
+- **Download:** [card-cost-per-hire.jpg](https://scottjobagent.github.io/jobfairx-blog-hub/card-cost-per-hire.jpg)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-cost-per-hire.jpg)
 
 **Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
 
@@ -130,9 +130,9 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 **Landing page card** (for /employer/resources):
 
 - **Section:** Healthcare Hiring (NEW section — see note)
-- **Style:** PHOTO (final) — licensed iStock #519923228 (nurse in corridor, candid), downloaded on our plan Jul 21 2026. Full-res original is this file; ready 1600x900 crops (card-*.jpg) are in Scott's blog-landing-images folder.
-- **Download:** [iStock-519923228.jpg](https://scottjobagent.github.io/jobfairx-blog-hub/iStock-519923228.jpg)
-- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/iStock-519923228.jpg)
+- **Style:** PHOTO (final) — licensed iStock #519923228 (nurse in corridor, candid), downloaded on our plan Jul 21 2026. This file is the ready 1600x900 crop, uniform with every other card. Full-res original: the matching iStock-*.jpg in this repo.
+- **Download:** [card-why-hospitals-struggle.jpg](https://scottjobagent.github.io/jobfairx-blog-hub/card-why-hospitals-struggle.jpg)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-why-hospitals-struggle.jpg)
 
 **Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
 
@@ -223,9 +223,9 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 **Landing page card** (for /employer/resources):
 
 - **Section:** Healthcare Hiring (NEW section — see note)
-- **Style:** PHOTO (final) — licensed iStock #1271023656 (nurse on video call from home), downloaded on our plan Jul 21 2026. Full-res original is this file; ready 1600x900 crops (card-*.jpg) are in Scott's blog-landing-images folder.
-- **Download:** [iStock-1271023656.jpg](https://scottjobagent.github.io/jobfairx-blog-hub/iStock-1271023656.jpg)
-- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/iStock-1271023656.jpg)
+- **Style:** PHOTO (final) — licensed iStock #1271023656 (nurse on video call from home), downloaded on our plan Jul 21 2026. This file is the ready 1600x900 crop, uniform with every other card. Full-res original: the matching iStock-*.jpg in this repo.
+- **Download:** [card-how-to-choose-a-nurse-job-fair.jpg](https://scottjobagent.github.io/jobfairx-blog-hub/card-how-to-choose-a-nurse-job-fair.jpg)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-how-to-choose-a-nurse-job-fair.jpg)
 
 **Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
 
@@ -501,9 +501,9 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 **Landing page card** (for /employer/resources):
 
 - **Section:** Healthcare Hiring (NEW section — see note)
-- **Style:** PHOTO (final) — licensed iStock #2153183376 (clinical team planning meeting), downloaded on our plan Jul 21 2026. Full-res original is this file; ready 1600x900 crops (card-*.jpg) are in Scott's blog-landing-images folder.
-- **Download:** [iStock-2153183376.jpg](https://scottjobagent.github.io/jobfairx-blog-hub/iStock-2153183376.jpg)
-- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/iStock-2153183376.jpg)
+- **Style:** PHOTO (final) — licensed iStock #2153183376 (clinical team planning meeting), downloaded on our plan Jul 21 2026. This file is the ready 1600x900 crop, uniform with every other card. Full-res original: the matching iStock-*.jpg in this repo.
+- **Download:** [card-healthcare-recruiting-strategies.jpg](https://scottjobagent.github.io/jobfairx-blog-hub/card-healthcare-recruiting-strategies.jpg)
+- **Preview:** ![card](https://scottjobagent.github.io/jobfairx-blog-hub/card-healthcare-recruiting-strategies.jpg)
 
 **Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
 
