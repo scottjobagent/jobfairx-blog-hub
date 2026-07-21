@@ -48,3 +48,49 @@ virtual-hiring-events,virtual-hiring-event-statistics,virtual hiring event stati
 why-hospitals-struggle-entry-level-clinical-hiring,healthcare-recruiting-strategies,healthcare recruiting strategies,backlink pass,TO ADD on publish
 how-to-choose-a-nurse-job-fair,healthcare-recruiting-strategies,healthcare recruiting strategies,backlink pass,TO ADD on publish
 virtual-hiring-events,healthcare-recruiting-strategies,healthcare recruiting strategies,backlink pass,TO ADD on publish
+virtual-hiring-events,how-does-a-virtual-job-fair-work,how a virtual job fair works on JobFairX,pillar->spoke,LIVE
+virtual-hiring-events,recruiting-roi,recruiting ROI on virtual events,pillar->spoke,LIVE
+virtual-hiring-events,recruiting-roi,measuring recruiting ROI on virtual hiring events,pillar->spoke,LIVE
+virtual-hiring-events,how-to-interview-candidates-at-a-virtual-hiring-event,how to interview candidates at a virtual hiring event,pillar->spoke,LIVE
+virtual-hiring-events,high-volume-hiring,high volume hiring events,pillar->spoke,LIVE
+virtual-hiring-events,time-to-fill,time to fill benchmarks and how to reduce it,pillar->spoke,LIVE
+virtual-hiring-events,best-virtual-hiring-event-platforms,comparison of the best virtual hiring event platforms,pillar->spoke,LIVE
+virtual-hiring-events,virtual-vs-in-person-hiring-event,virtual vs in-person career fairs,pillar->spoke,LIVE
+how-to-interview-candidates-at-a-virtual-hiring-event,how-to-host-a-virtual-hiring-event,hosting a virtual hiring event,sibling,LIVE
+how-to-interview-candidates-at-a-virtual-hiring-event,recruiting-roi,guide to recruiting ROI for virtual hiring events,sibling,LIVE
+how-to-interview-candidates-at-a-virtual-hiring-event,best-virtual-hiring-event-platforms,honest comparison of the best virtual hiring event platforms,sibling,LIVE
+how-does-a-virtual-job-fair-work,virtual-hiring-events,complete guide to virtual hiring events,spoke->pillar,LIVE
+how-does-a-virtual-job-fair-work,best-virtual-hiring-event-platforms,our platform comparison,sibling,LIVE
+how-does-a-virtual-job-fair-work,best-virtual-hiring-event-platforms,platform comparison post,sibling,LIVE
+how-does-a-virtual-job-fair-work,SITE:/employer/hiring-event-bundles,event bundles,commercial,LIVE
+how-to-host-a-virtual-hiring-event,best-virtual-hiring-event-platforms,our platform comparison post,sibling,LIVE
+how-to-host-a-virtual-hiring-event,how-does-a-virtual-job-fair-work,our complete guide to how a virtual job fair works on JobFairX,sibling,LIVE
+how-to-host-a-virtual-hiring-event,SITE:/employer/hiring-event-calendar,JobFairX's hiring event calendar,commercial,LIVE
+best-virtual-hiring-event-platforms,virtual-hiring-events,complete guide to virtual hiring events,spoke->pillar,LIVE
+best-virtual-hiring-event-platforms,how-to-host-a-virtual-hiring-event,whether to host your own virtual hiring event,sibling,LIVE
+virtual-vs-in-person-hiring-event,how-does-a-virtual-job-fair-work,walkthrough of how a virtual hiring event actually runs,sibling,LIVE
+virtual-vs-in-person-hiring-event,best-virtual-hiring-event-platforms,honest comparison of virtual hiring event platforms,sibling,LIVE
+virtual-vs-in-person-hiring-event,recruiting-roi,measuring recruiting ROI on virtual events,sibling,LIVE
+virtual-vs-in-person-hiring-event,recruiting-roi,measuring recruiting ROI for virtual hiring events,sibling,LIVE
+virtual-vs-in-person-hiring-event,how-to-interview-candidates-at-a-virtual-hiring-event,12-minute virtual interview playbook,sibling,LIVE
+virtual-vs-in-person-hiring-event,how-to-host-a-virtual-hiring-event,guide on whether to host your own virtual hiring event,sibling,LIVE
+recruiting-roi,SITE:/employer/job-fair,virtual career fairs,commercial,LIVE
+recruiting-roi,high-volume-hiring,high volume hiring,sibling,LIVE
+recruiting-roi,virtual-hiring-events,complete guide to virtual hiring events,spoke->pillar,LIVE
+recruiting-roi,how-to-host-a-virtual-hiring-event,step-by-step guide to hosting a virtual hiring event,sibling,LIVE
+recruiting-roi,SITE:/employer/hiring-event-pricing,JobFairX event packages,commercial,LIVE
+recruiting-roi,time-to-fill,Time to fill,sibling,LIVE
+recruiting-roi,SITE:/employer/hiring-event-calendar,events you'd attend,commercial,LIVE
+time-to-fill,recruiting-roi,recruiting ROI for virtual hiring events,sibling,LIVE
+time-to-fill,high-volume-hiring,high volume hiring,sibling,LIVE
+time-to-fill,SITE:/employer/hiring-event-calendar,virtual hiring events,commercial,LIVE
+time-to-fill,virtual-hiring-events,complete guide to virtual hiring events,spoke->pillar,LIVE
+time-to-fill,how-to-host-a-virtual-hiring-event,step-by-step guide to hosting a virtual hiring event,sibling,LIVE
+high-volume-hiring,virtual-hiring-events,virtual hiring events,spoke->pillar,LIVE
+high-volume-hiring,best-virtual-hiring-event-platforms,honest comparison of the best virtual hiring event platforms,sibling,LIVE
+high-volume-hiring,virtual-vs-in-person-hiring-event,virtual vs in-person hiring event comparison,sibling,LIVE
+high-volume-hiring,time-to-fill,Time to fill,sibling,LIVE
+high-volume-hiring,time-to-fill,full guide to time to fill,sibling,LIVE
+high-volume-hiring,SITE:/employer/hiring-event-calendar,Virtual hiring events,commercial,LIVE
+high-volume-hiring,recruiting-roi,recruiting ROI for virtual hiring events,sibling,LIVE
+high-volume-hiring,how-to-host-a-virtual-hiring-event,step-by-step guide to hosting a virtual hiring event,sibling,LIVE
