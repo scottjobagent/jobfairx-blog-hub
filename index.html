@@ -261,9 +261,10 @@
   .railabout .railhead { color:#9CA3AF; font-weight:500; border-bottom:1px solid #E5E7EB; padding-bottom:8px; }
   .railtoc nav a { display:block; color:#374151; text-decoration:none; padding:5px 0; line-height:1.4; border-left:2px solid transparent; padding-left:10px; margin-left:-12px; }
   .railtoc nav a:hover { color:#3457D5; border-left-color:#3457D5; }
-  .railabout .ab { border-bottom:1px solid #E5E7EB; padding:10px 0; }
-  .railabout .ab b { display:block; color:#111827; font-size:12.5px; }
-  .railabout .ab span { color:#9CA3AF; font-size:12.5px; }
+  .railabout { max-width:180px; }
+  .railabout .ab { border-bottom:1px solid #E5E7EB; padding:10px 0; overflow:hidden; }
+  .railabout .ab b { display:block; color:#111827; font-size:12.5px; margin-bottom:2px; }
+  .railabout .ab span { display:block; color:#9CA3AF; font-size:12px; line-height:1.45; overflow-wrap:break-word; }
   @media (max-width:1100px){ .withrails { grid-template-columns:1fr; } .railtoc, .railabout { position:static; } .railabout { display:none; } }
 </style></head>
 <body>
