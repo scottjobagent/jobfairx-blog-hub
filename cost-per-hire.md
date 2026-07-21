@@ -137,8 +137,9 @@ Under the SHRM standard, no. It stops at the accepted offer. Some teams track "c
 
 - **URL:** /employer/healthcare-hiring-event-calendar (confirmed unused)
 - **Keyword data (GSC, 6 months, pulled Jul 21):** "healthcare job fair" 205 clicks / 1,949 impressions · "healthcare job fairs near me" 185 / 1,285 · "healthcare job fairs" 98 / 986 · "healthcare virtual job fair" 91 / 241 · "healthcare job fair near me" 70 / 740 · "healthcare hiring events near me" 68 / 683 · "healthcare job fair 2026" 44 / 389. "Job fair" language outpulls "hiring events" ~5x — lead with it.
-- **Eyebrow:** FOR HEALTHCARE EMPLOYERS
-- **H1:** Healthcare Job Fairs &amp; Hiring Events Calendar
+- **Eyebrow:** For Healthcare Employers
+- **H1:** Healthcare Job Fairs &amp; Hiring Events Calendar (GSC-backed primary keyword phrase — Scott confirmed Jul 21)
+- **Subtext:** "Post your open positions and let our system handle the filtering. Registered nurses, allied health, and clinical staff are matched based on your specific job criteria and will request interviews directly with your team." (Scott's copy)
 - **Title tag:** Healthcare Job Fairs 2026 — Virtual Hiring Events Calendar | JobFairX
 - **Meta description:** Upcoming healthcare job fairs and virtual hiring events — nurses, allied health, and clinical staff, credential-screened and interview-ready. Pick your city and date.
 - **Full page design:** healthcare-calendar-design.html in this repo — coded mock with eyebrow, H1, intro, filters, event cards, employer + candidate CTAs, FAQ, and schema notes.
