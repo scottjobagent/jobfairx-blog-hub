@@ -69,10 +69,10 @@ Yes, when they're interview-structured: pre-screened clinical candidates, self-s
 
 ---
 
-[COMPONENT: big CTA banner — .jfx-bigcta pattern, see jfx-components-snippets.html #11]
+[COMPONENT: final CTA band — .jfx-bigcta (Rezi-style: flat band, two-tone headline left, single white button right), see jfx-components-snippets.html #11]
 
-**Hiring nurses? Skip the booth. Book the interviews.** Credential-screened candidates, self-scheduled interviews, flat rate. 91% average show rate across 582 healthcare events in 2025.
-→ **[See 2026 Healthcare Hiring Events](https://jobfairx.com/employer/healthcare-hiring-event-calendar)**
+**91% of scheduled candidates show up. Hiring nurses? Book the interviews.**
+→ **[See 2026 Hiring Events](https://jobfairx.com/employer/healthcare-hiring-event-calendar)**
 
 ---
 ---

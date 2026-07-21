@@ -84,10 +84,10 @@ Compress screening and interviewing into a single event day. Candidates matched 
 
 ---
 
-[COMPONENT: big CTA banner — .jfx-bigcta pattern, see jfx-components-snippets.html #11]
+[COMPONENT: final CTA band — .jfx-bigcta (Rezi-style: flat band, two-tone headline left, single white button right), see jfx-components-snippets.html #11]
 
-**Stop collecting applications. Start holding interviews.** Pre-qualified candidates, scheduled interviews, flat rate. 91% average show rate across 582 healthcare events in 2025.
-→ **[See 2026 Healthcare Hiring Events](https://jobfairx.com/employer/healthcare-hiring-event-calendar)**
+**Stop collecting applications. Start holding interviews.**
+→ **[See 2026 Hiring Events](https://jobfairx.com/employer/healthcare-hiring-event-calendar)**
 
 ---
 ---

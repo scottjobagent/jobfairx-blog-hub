@@ -116,10 +116,10 @@ Under the SHRM standard, no. It stops at the accepted offer. Some teams track "c
 
 ---
 
-[COMPONENT: big CTA banner — .jfx-bigcta pattern, see jfx-components-snippets.html #11]
+[COMPONENT: final CTA band — .jfx-bigcta (Rezi-style: flat band, two-tone headline left, single white button right), see jfx-components-snippets.html #11]
 
-**Cut your cost per hire at the source.** Pre-qualified candidates, scheduled interviews, flat rate. 91% average show rate across 582 healthcare events in 2025.
-→ **[See 2026 Healthcare Hiring Events](https://jobfairx.com/employer/healthcare-hiring-event-calendar)**
+**582 healthcare hiring events in 2025. Cut your cost per hire at the source.**
+→ **[See 2026 Hiring Events](https://jobfairx.com/employer/healthcare-hiring-event-calendar)**
 
 ---
 ---
