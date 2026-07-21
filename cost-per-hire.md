@@ -118,8 +118,8 @@ Under the SHRM standard, no. It stops at the accepted offer. Some teams track "c
 
 [COMPONENT: big CTA banner — .jfx-bigcta pattern, see jfx-components-snippets.html #11]
 
-**Cut your cost per hire at the source.** Healthcare job fairs with pre-qualified candidates and scheduled interviews. Flat rate. One day. ✓ 91% average show rate · ✓ 35 interviews per employer, average
-→ **[See the Healthcare Job Fairs Calendar](https://jobfairx.com/employer/healthcare-hiring-event-calendar)**
+**Cut your cost per hire at the source.** Pre-qualified candidates, scheduled interviews, flat rate. 91% average show rate across 582 healthcare events in 2025.
+→ **[See 2026 Healthcare Hiring Events](https://jobfairx.com/employer/healthcare-hiring-event-calendar)**
 
 ---
 ---
