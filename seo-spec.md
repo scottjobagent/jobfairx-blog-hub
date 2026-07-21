@@ -461,6 +461,91 @@ Numbers live in the alt text on purpose — that's the descriptive-not-stuffed p
 
 ---
 
+## /employer/resources/healthcare-recruiting-strategies
+
+**Article schema (paste in `<head>` or body as `<script type="application/ld+json">`, fill real dates):**
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Healthcare Recruiting Strategies That Fill Shifts in 2026",
+  "description": "8 healthcare recruiting strategies backed by 2026 data: compress time to interview, cut no-shows with self-scheduling, and stop refilling a leaking bucket.",
+  "author": {
+    "@type": "Person",
+    "name": "Scott Lobenberg",
+    "jobTitle": "Founder",
+    "url": "https://jobfairx.com/about-us",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "JobFairX",
+      "url": "https://jobfairx.com"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "JobFairX",
+    "url": "https://jobfairx.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jobfairx.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jobfairx.com/employer/resources/healthcare-recruiting-strategies"
+  },
+  "datePublished": "2026-07-XX",
+  "dateModified": "2026-07-XX"
+}
+```
+
+**FAQPage schema (answers match on-page FAQ copy):**
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the most effective healthcare recruiting strategies in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The ones that compress time to interview: credential-screening at registration, self-scheduled interviews, and specialty hiring events on a standing cadence. Health services roles average 49 days to fill while entry-level candidates decide in days, so speed to interview beats every branding tactic."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do hospitals reduce interview no-shows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Change who picks the slot. Typical virtual hiring events see roughly 45% show rates; self-scheduled formats where the candidate requests the employer and time average 91% (JobFairX healthcare events, 2026)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the biggest challenge in healthcare recruiting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Speed against turnover. The average hospital loses $5.19 million a year to nurse turnover (NSI 2026) while taking 49 days to fill roles. Recruiting that doesn't compress the interview timeline refills a leaking bucket slowly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does healthcare recruiting cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Healthcare cost per hire runs $9,000 to $12,000 through traditional channels, against a $5,475 all-industry average (SHRM 2025). The vacancy usually costs more than the recruiting: one RN turnover runs $60,090."
+      }
+    }
+  ]
+}
+```
+
+
+---
+
 ## Publish-day checklist (per post, ~10 min)
 
 1. Slug + meta title + meta description from the post's publishing notes.
